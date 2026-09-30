@@ -1,0 +1,182 @@
+# date|promotion|winner (prefix = for draw/no contest)|loser(s), comma-separated|title id or -
+2025-10-11|wwe|Bronson Reed|Roman Reigns|-
+2025-10-11|wwe|John Cena|AJ Styles|-
+2025-10-11|wwe|Seth Rollins|Cody Rhodes|-
+2025-10-11|wwe|Stephanie Vaquer|Tiffany Stratton|-
+2025-10-12|tna|=Leon Slater|Je'Von Evans|tna-x
+2025-10-12|tna|Kelani Jordan|Indi Hartwell|tna-ko
+2025-10-12|tna|Mike Santana|Trick Williams|tna-world
+2025-10-12|tna|Steve Maclin|Frankie Kazarian|tna-intl
+2025-10-12|tna|Tessa Blanchard|Gia Miller|-
+2025-11-01|wwe|Jade Cargill|Tiffany Stratton|wwe-women
+2025-11-22|aew|Kris Statlander|Mercedes Moné|aew-women
+2025-11-22|aew|Kyle O'Reilly|Jon Moxley|-
+2025-11-22|aew|Mark Briscoe|Kyle Fletcher|aew-tnt
+2025-11-22|aew|PAC|Darby Allin|-
+2025-11-22|aew|Samoa Joe|Hangman Adam Page|aew-world
+2025-11-29|wwe|Dominik Mysterio|John Cena|wwe-ic
+2025-11-29|wwe|Stephanie Vaquer|Nikki Bella|wwe-ww
+2025-12-27|aew|Darby Allin|Gabe Kidd|-
+2025-12-27|aew|Eddie Kingston|Zack Gibson|-
+2025-12-27|aew|Jon Moxley|Kazuchika Okada|aew-cont
+2025-12-27|aew|Jon Moxley|Kyle Fletcher|-
+2025-12-27|aew|Kazuchika Okada|Konosuke Takeshita|-
+2025-12-27|aew|Kris Statlander|Jamie Hayter|aew-women
+2025-12-27|aew|MJF|Samoa Joe, Swerve Strickland, Hangman Adam Page|aew-world
+2026-01-04|njpw|Aaron Wolf|Evil|njpw-never
+2026-01-04|njpw|El Desperado|Kosei Fujita, Taiji Ishimori, Sho|-
+2026-01-04|njpw|El Phantasmo|Chris Brookes|-
+2026-01-04|njpw|Kazuchika Okada|Hiroshi Tanahashi|-
+2026-01-04|njpw|Syuri|Saya Kamitani|njpw-women
+2026-01-04|njpw|Yota Tsuji|Konosuke Takeshita|njpw-iwgp
+2026-01-31|wwe|Drew McIntyre|Sami Zayn|wwe-wwe
+2026-01-31|wwe|Gunther|AJ Styles|-
+2026-01-31|wwe|Liv Morgan|Tiffany Stratton|-
+2026-01-31|wwe|Roman Reigns|Gunther|-
+2026-02-28|wwe|AJ Lee|Becky Lynch|wwe-wic
+2026-02-28|wwe|CM Punk|Finn Bálor|wwe-whc
+2026-02-28|wwe|Randy Orton|LA Knight, Cody Rhodes, Je'Von Evans, Trick Williams, Logan Paul|-
+2026-02-28|wwe|Rhea Ripley|Tiffany Stratton, Alexa Bliss, Asuka, Kiana James, Raquel Rodriguez|-
+2026-03-15|aew|Jon Moxley|Konosuke Takeshita|aew-cont
+2026-03-15|aew|MJF|Hangman Adam Page|aew-world
+2026-03-15|aew|Thekla|Kris Statlander|aew-women
+2026-04-04|nxt|Lola Vice|Jacy Jayne, Kendal Grey|nxt-women
+2026-04-04|nxt|Myles Borne|Johnny Gargano|nxt-na
+2026-04-04|nxt|Sol Ruca|Zaria|-
+2026-04-04|nxt|Tatum Paxley|Blake Monroe|nxt-wna
+2026-04-04|nxt|Tony D'Angelo|Joe Hendry, Ricky Saints, Ethan Page|nxt-nxt
+2026-04-04|nxt|Tony D'Angelo|Joe Hendry|nxt-nxt
+2026-04-11|tna|Arianna Grace|Léi Yǐng Lee|tna-ko
+2026-04-11|tna|Frankie Kazarian|Elijah|-
+2026-04-11|tna|Leon Slater|Cedric Alexander|tna-x
+2026-04-11|tna|Mike Santana|Eddie Edwards|tna-world
+2026-04-11|tna|Mustafa Ali|Trey Miguel|tna-intl
+2026-04-11|tna|Nic Nemeth|AJ Francis|-
+2026-04-11|tna|Ryan Nemeth|BDE|-
+2026-04-11|tna|Special Agent 0|Moose|-
+2026-04-12|aew|Alex Windsor|Marina Shafir|-
+2026-04-12|aew|Darby Allin|Andrade El Ídolo|-
+2026-04-12|aew|Jack Perry|Mark Davis|aew-natl
+2026-04-12|aew|Jon Moxley|Will Ospreay|aew-cont
+2026-04-12|aew|Kamille|Big Anne|-
+2026-04-12|aew|MJF|Kenny Omega|aew-world
+2026-04-12|aew|Ricochet|Chris Jericho|-
+2026-04-12|aew|Thekla|Jamie Hayter|aew-women
+2026-04-18|wwe|Becky Lynch|AJ Lee|wwe-wic
+2026-04-18|wwe|Cody Rhodes|Randy Orton|wwe-wwe
+2026-04-18|wwe|Gunther|Seth Rollins|-
+2026-04-18|wwe|Jacob Fatu|Drew McIntyre|-
+2026-04-18|wwe|Liv Morgan|Stephanie Vaquer|wwe-ww
+2026-04-19|wwe|Finn Bálor|Dominik Mysterio|-
+2026-04-19|wwe|Oba Femi|Brock Lesnar|-
+2026-04-19|wwe|Penta|Je'Von Evans, Dragon Lee, JD McDonagh, Rusev, Rey Mysterio|wwe-ic
+2026-04-19|wwe|Rhea Ripley|Jade Cargill|wwe-women
+2026-04-19|wwe|Roman Reigns|CM Punk|wwe-whc
+2026-04-19|wwe|Trick Williams|Sami Zayn|wwe-us
+2026-05-09|wwe|Bron Breakker|Seth Rollins|-
+2026-05-09|wwe|Iyo Sky|Asuka|-
+2026-05-09|wwe|Roman Reigns|Jacob Fatu|wwe-whc
+2026-05-09|wwe|Trick Williams|Sami Zayn|wwe-us
+2026-05-15|roh|AR Fox|Lio Rush|roh-tv
+2026-05-15|roh|Athena|Maya World, Trish Adora, Yuka Sakazaki, Billie Starkz, Zayda Steel|roh-women
+2026-05-15|roh|Bandido|Blake Christian|roh-world
+2026-05-15|roh|Deonna Purrazzo|Diamanté|roh-wpure
+2026-05-15|roh|Lee Moriarty|Ace Austin|roh-pure
+2026-05-15|roh|Mark Davis|Xelhua|aew-natl
+2026-05-15|roh|Nigel McGuinness|Josh Woods|-
+2026-05-15|roh|Red Velvet|Viva Van|roh-wtv
+2026-05-15|roh|Rush|LSG|-
+2026-05-15|roh|Sammy Guevara|Action Andretti|-
+2026-05-24|aew|Athena|Mina Shirakawa|-
+2026-05-24|aew|Jon Moxley|Kyle O'Reilly|aew-cont
+2026-05-24|aew|Konosuke Takeshita|Kazuchika Okada|aew-intl
+2026-05-24|aew|MJF|Darby Allin|aew-world
+2026-05-24|aew|Swerve Strickland|Bandido|-
+2026-05-24|aew|Thekla|Hikaru Shida, Jamie Hayter, Kris Statlander|aew-women
+2026-05-24|aew|Will Ospreay|Samoa Joe|-
+2026-06-27|wwe|Iyo Sky|Liv Morgan|-
+2026-06-27|wwe|Oba Femi|Jey Uso|-
+2026-06-27|wwe|Sami Zayn|Cody Rhodes, Gunther|wwe-wwe
+2026-06-27|wwe|Seth Rollins|Bron Breakker|-
+2026-06-27|wwe|Tiffany Stratton|Jade Cargill|wwe-wus
+2026-06-27|wwe|Trick Williams|Ricky Saints|wwe-us
+2026-06-28|aew|Drilla Moloney|Daniel Garcia|-
+2026-06-28|aew|Jon Moxley|Bandido|aew-cont
+2026-06-28|aew|Kenny Omega|Zack Sabre Jr.|-
+2026-06-28|aew|Maika|Skye Blue|-
+2026-06-28|aew|Mercedes Moné|Maya World|-
+2026-06-28|aew|Thekla|Starlight Kid|aew-women
+2026-06-28|aew|Will Ospreay|Swerve Strickland|-
+2026-06-28|njpw|Shota Umino|PAC|njpw-global
+2026-06-28|nxt|Kendal Grey|Lola Vice|nxt-women
+2026-06-28|tna|Cedric Alexander|Amazing Red, Fabian Aichner, Frankie Kazarian, KC Navarro, Leon Slater, Mr. Elegance|tna-x
+2026-06-28|tna|Elayna Black|Indi Hartwell, Mara Sadè|-
+2026-06-28|tna|Elijah|AJ Francis|-
+2026-06-28|tna|Moose|Eddie Edwards|-
+2026-06-28|tna|Mustafa Ali|Rich Swann, Uhaa Nation|tna-intl
+2026-06-28|tna|Nic Nemeth|Mike Santana|tna-world
+2026-06-28|tna|Ricky Sosa|Eric Young|-
+2026-06-28|tna|Xia Brookside|Léi Yǐng Lee|tna-ko
+2026-07-06|wwe|CM Punk|Sami Zayn|wwe-wwe
+2026-07-10|aiw|Alonzo Cruz|Dominic Garrini|-
+2026-07-10|aiw|Austin James|Mance Warner|-
+2026-07-10|aiw|Hazuki|Ranna Yagami|-
+2026-07-10|aiw|Joseline Navarro|Emersyn Jayne|-
+2026-07-10|aiw|Kaplan|Nick Gage, Isaiah Broner|aiw-intense
+2026-07-10|aiw|Marino Tenaglia|Philly Collins|-
+2026-07-10|aiw|Shimbashi|Joey Janela|-
+2026-07-10|aiw|Tyler Jordan|Rudy Ray Woods|-
+2026-07-10|aiw|Wes Barkley|Mikey Montgomery, Eric Taylor, Chuck Stone, Sam Holloway|aiw-absolute
+2026-07-26|aew|Willow Nightingale|Thekla|aew-women
+2026-07-27|wwe|Raquel Rodriguez|Sol Ruca|wwe-wic
+2026-08-01|wwe|CM Punk|Cody Rhodes|wwe-wwe
+2026-08-01|wwe|Gunther|Nick Aldis|-
+2026-08-01|wwe|Liv Morgan|Iyo Sky|wwe-ww
+2026-08-01|wwe|Oba Femi|Brock Lesnar|-
+2026-08-02|wwe|Baron Corbin|Trick Williams|wwe-us
+2026-08-02|wwe|Chad Gable|Penta|wwe-ic
+2026-08-02|wwe|Chelsea Green|Charlotte Flair, Jade Cargill, Lash Legend, Tiffany Stratton|-
+2026-08-02|wwe|Danhausen|Dominik Mysterio|-
+2026-08-02|wwe|Kevin Owens|Finn Bálor, Gunther, Sami Zayn|-
+2026-08-02|wwe|Roman Reigns|Seth Rollins|wwe-whc
+2026-08-14|wwe|Jacy Jayne|Tiffany Stratton|wwe-wus
+2026-08-16|gcw|Joseph Sawyer|Atticus Cogar|gcw-world
+2026-08-21|roh|Action Andretti|Lio Rush|roh-tv
+2026-08-21|roh|Athena|Hazuki|roh-women
+2026-08-21|roh|Bandido|Nick Wayne|roh-world
+2026-08-21|roh|Daniel Garcia|Adam Priest|-
+2026-08-21|roh|Deonna Purrazzo|Steph De Lander|roh-wpure
+2026-08-21|roh|Lee Moriarty|Katsuyori Shibata|roh-pure
+2026-08-21|roh|Red Velvet|Skye Blue, Marina Shafir, Zayda Steel|roh-wtv
+2026-08-30|aew|Andrade El Ídolo|Nick Wayne|-
+2026-08-30|aew|Darby Allin|Kevin Knight|aew-tnt
+2026-08-30|aew|Jon Moxley|Nigel McGuinness|aew-cont
+2026-08-30|aew|Kazuchika Okada|Kyle Fletcher, Konosuke Takeshita|aew-intl
+2026-08-30|aew|Mercedes Moné|Willow Nightingale|aew-women
+2026-08-30|aew|Persephone|Maya World|aew-tbs
+2026-08-30|aew|Will Ospreay|Kenny Omega|aew-world
+2026-08-30|nxt|Grayson Waller|Tony D'Angelo, Cruz Montana, Zilla Fatu|nxt-nxt
+2026-08-30|nxt|Jackson Drake|Myles Borne|nxt-na
+2026-08-30|nxt|Jaida Parker|Nattie|-
+2026-08-30|nxt|Kelani Jordan|Kendal Grey|nxt-women
+2026-08-30|nxt|Zaria|Wren Sinclair, Kali Armstrong|nxt-wna
+2026-09-06|wwe|Dominik Mysterio|Joe Hendry|-
+2026-09-06|wwe|Oba Femi|Bron Breakker|-
+2026-09-06|wwe|Randy Orton|Cody Rhodes|-
+2026-09-06|wwe|Trick Williams|Baron Corbin|wwe-us
+2026-09-07|wwe|Bron Breakker|Rey Mysterio, Ethan Page|-
+2026-09-07|wwe|Sol Ruca|Lyra Valkyria, Maxxine Dupri|-
+2026-09-11|wwe|Sami Zayn|CM Punk|wwe-wwe
+2026-09-12|wwe|Stephanie Vaquer|Liv Morgan|wwe-ww
+2026-09-13|aaa|El Carnicero|Psycho Clown|-
+2026-09-13|aaa|El Grande Americano|Dominik Mysterio|aaa-mega
+2026-09-13|aaa|La Catalina|Flammer|aaa-reina
+2026-09-13|aaa|Rey Fénix|Mini Vikingo, Jack Cartwheel, Nathan Frazer|aaa-cruiser
+2026-09-26|aew|Andrade El Ídolo|PAC|aew-natl
+2026-09-26|aew|Jack Perry|Katsuyori Shibata|-
+2026-09-26|aew|Kazuchika Okada|Tommaso Ciampa|aew-intl
+2026-09-26|aew|Persephone|Dani Luna|aew-tbs
+2026-09-26|aew|Thekla|Willow Nightingale|-
+2026-09-26|aew|Will Ospreay|Jon Moxley|aew-world
+2026-09-29|nxt|Grayson Waller|EK Prosper|nxt-nxt
+2026-09-29|nxt|Zaria|Thea Hail|nxt-wna

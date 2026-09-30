@@ -1,0 +1,117 @@
+# title	wrestler, or for tag titles "Team Name: Member + Member"	start	end (blank = current)	note
+# Indie start dates marked "asof" are the earliest date we confirmed the champion, not necessarily the day they won.
+wwe-wwe	Cody Rhodes	2026-04-18	2026-06-27	asof
+wwe-wwe	Sami Zayn	2026-06-27	2026-07-06
+wwe-wwe	CM Punk	2026-07-06	2026-09-11
+wwe-wwe	Sami Zayn	2026-09-11
+wwe-whc	CM Punk	2025-11-01	2026-04-19
+wwe-whc	Roman Reigns	2026-04-19
+wwe-ww	Stephanie Vaquer	2025-09-20	2026-04-18
+wwe-ww	Liv Morgan	2026-04-18	2026-09-12
+wwe-ww	Stephanie Vaquer	2026-09-12
+wwe-women	Jade Cargill	2025-11-01	2026-04-19
+wwe-women	Rhea Ripley	2026-04-19
+wwe-ic	Penta	2026-04-19	2026-08-02
+wwe-ic	Chad Gable	2026-08-02
+wwe-us	Trick Williams	2026-04-19	2026-08-02
+wwe-us	Baron Corbin	2026-08-02	2026-09-06
+wwe-us	Trick Williams	2026-09-06
+wwe-wic	AJ Lee	2026-02-28	2026-04-18
+wwe-wic	Raquel Rodriguez	2026-07-27
+wwe-wus	Tiffany Stratton	2026-06-27	2026-08-14	asof
+wwe-wus	Jacy Jayne	2026-08-14
+nxt-nxt	Tony D'Angelo	2026-04-04	2026-08-30
+nxt-nxt	Grayson Waller	2026-08-30
+nxt-women	Lola Vice	2026-04-04	2026-06-28
+nxt-women	Kendal Grey	2026-06-28	2026-08-30
+nxt-women	Kelani Jordan	2026-08-30
+nxt-na	Myles Borne	2026-04-04	2026-08-30
+nxt-na	Jackson Drake	2026-08-30
+nxt-wna	Tatum Paxley	2026-04-04	2026-06-09
+nxt-wna	Zaria	2026-06-09
+aew-world	Samoa Joe	2025-11-22	2025-12-27
+aew-world	MJF	2025-12-27	2026-04-15
+aew-world	Darby Allin	2026-04-15	2026-05-24
+aew-world	MJF	2026-05-24	2026-07-08
+aew-world	Kenny Omega	2026-07-08	2026-08-30
+aew-world	Will Ospreay	2026-08-30
+aew-women	Kris Statlander	2025-11-22	2026-03-15
+aew-women	Thekla	2026-03-15	2026-07-26
+aew-women	Willow Nightingale	2026-07-26	2026-08-30
+aew-women	Mercedes Moné	2026-08-30
+aew-intl	Konosuke Takeshita	2026-05-24	2026-07-08
+aew-intl	Kyle Fletcher	2026-07-08	2026-08-30
+aew-intl	Kazuchika Okada	2026-08-30
+aew-tnt	Kevin Knight	2026-04-12	2026-08-30
+aew-tnt	Darby Allin	2026-08-30
+aew-tbs	Maya World	2026-07-26	2026-08-30
+aew-tbs	Persephone	2026-08-30
+aew-cont	Jon Moxley	2025-12-27
+aew-natl	Mark Davis	2026-05-15	2026-07-26	asof
+aew-natl	Andrade El Ídolo	2026-07-26
+roh-world	Bandido	2025-04-06
+roh-women	Athena	2022-12-10
+roh-tv	Action Andretti	2026-08-21
+roh-pure	Lee Moriarty	2024-07-26
+roh-wtv	Red Velvet	2025-12-05
+roh-wpure	Deonna Purrazzo	2025-12-05
+tna-world	Mike Santana	2025-10-12	2026-06-28	asof
+tna-world	Nic Nemeth	2026-06-28
+tna-ko	Xia Brookside	2026-06-28
+tna-x	Leon Slater	2026-04-11	2026-05-14
+tna-x	Cedric Alexander	2026-05-14
+tna-intl	Mustafa Ali	2026-04-11
+aaa-mega	Dominik Mysterio	2025-09-12	2026-09-13
+aaa-mega	El Grande Americano	2026-09-13
+aaa-reina	La Catalina	2026-09-13
+aaa-latam	La Parka	2026-08-30
+aaa-cruiser	Rey Fénix	2026-05-30
+njpw-iwgp	Yota Tsuji	2026-01-04	2026-04-04
+njpw-iwgp	Callum Newman	2026-04-04	2026-06-14
+njpw-iwgp	Yota Tsuji	2026-06-14
+njpw-global	Shota Umino	2026-06-14
+njpw-jr	Yoh	2026-06-14
+njpw-never	Aaron Wolf	2026-06-14
+njpw-women	Syuri	2025-10-13
+cmll-hw	Hechicero	2026-03-20
+cmll-lhw	Místico	2025-09-19
+cmll-women	Persephone	2026-03-06
+gcw-world	Atticus Cogar	2025-11-23	2026-08-16
+gcw-world	Joseph Sawyer	2026-08-16
+mlw-world	Killer Kross	2026-01-29
+mlw-natl	Austin Aries	2026-02-07
+aiw-absolute	Wes Barkley	2026-07-10
+aiw-intense	Kaplan	2026-07-10
+xicw-xi	Tommy Vendetta	2026-03-15		asof
+xicw-midwest	Jimmy Jacobs	2026-03-15		asof
+xicw-light	Solo	2026-03-15		asof
+bcw-canam	Jake Something	2023-10-07
+ipw-gp	Big Jorge	2026-09-30		asof
+ipw-michiana	Brutus Dylan	2026-09-30		asof
+ipw-women	Stella Buho	2026-09-30		asof
+ncg-sovereign	Killer Kross	2026-09-30		asof
+ncg-na	Jason Hotch	2026-09-30		asof
+ncg-women	Tessa Blanchard	2026-09-30		asof
+wwe-tag-raw	The Vision: Bron Breakker + Austin Theory	2026-07-06
+wwe-tag-sd	The MFTs: Tama Tonga + Talla Tonga	2026-08-14
+wwe-wtag	Brie Bella & Paige: Brie Bella + Paige	2026-04-18	2026-07-18
+wwe-wtag	Fatal Influence: Fallon Henley + Lainey Reid	2026-07-18
+nxt-tag	The Vanity Project: Brad Baylor + Ricky Smokes	2026-08-30
+aew-tag	Cage and Cope: Christian Cage + Adam Copeland	2026-05-24	2026-09-26
+aew-tag	The Young Bucks: Matt Jackson + Nick Jackson	2026-09-26
+aew-wtag	Divine Dominion: Megan Bayne + Lena Kross	2026-03-15	2026-08-30
+aew-wtag	The Brawling Birds: Jamie Hayter + Alex Windsor	2026-08-30
+aew-trios	Hangman Page & Brodido: Hangman Adam Page + Brody King + Bandido	2026-08-05	2026-08-30
+aew-trios	Swerve Strickland & The New Level: Swerve Strickland + Kofi + Austin Creed	2026-08-30
+roh-tag	El Sky Team: Místico + Máscara Dorada	2026-06-26
+roh-6man	The Lethal Twist: Jay Lethal + Blake Christian + Lee Johnson	2026-08-21
+tna-tag	The Broken Hardys: Matt Hardy + Jeff Hardy	2026-06-28
+tna-kotag	DemonXBunny: Rosemary + Allie	2026-06-28
+aaa-tag	The Wagner Brothers: El Hijo de Dr. Wagner Jr. + Galeno	2026-09-13
+aaa-trios	Los Perros del Mal: Daga + Angel + Berto	2026-09-11
+njpw-tag	United Empire: Great-O-Khan + Henare	2026-06-14
+njpw-jrtag	El Desperado & Místico: El Desperado + Místico	2026-05-04
+mlw-tag	The Good Brothers: Doc Gallows + Karl Anderson	2026-05-09
+gcw-tag	KJ Orso & Sam Stackhouse: KJ Orso + Sam Stackhouse	2026-08-15
+aiw-tag	Swoggle & The Duke: Swoggle + The Duke	2026-07-10
+ncg-tag	The Headbangers: Mosh + Thrasher	2026-09-30		asof

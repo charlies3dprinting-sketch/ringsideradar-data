@@ -1,0 +1,76 @@
+# id	promotion	name	gender (m/f)	kind (blank = singles, tag = tag team / trios)
+wwe-wwe	wwe	Undisputed WWE Championship	m
+wwe-whc	wwe	World Heavyweight Championship	m
+wwe-ww	wwe	Women's World Championship	f
+wwe-women	wwe	WWE Women's Championship	f
+wwe-ic	wwe	Intercontinental Championship	m
+wwe-us	wwe	United States Championship	m
+wwe-wic	wwe	Women's Intercontinental Championship	f
+wwe-wus	wwe	Women's United States Championship	f
+nxt-nxt	nxt	NXT Championship	m
+nxt-women	nxt	NXT Women's Championship	f
+nxt-na	nxt	NXT North American Championship	m
+nxt-wna	nxt	NXT Women's North American Championship	f
+aew-world	aew	AEW World Championship	m
+aew-women	aew	AEW Women's World Championship	f
+aew-intl	aew	AEW International Championship	m
+aew-tnt	aew	AEW TNT Championship	m
+aew-tbs	aew	AEW TBS Championship	f
+aew-cont	aew	AEW Continental Championship	m
+aew-natl	aew	AEW National Championship	m
+roh-world	roh	ROH World Championship	m
+roh-women	roh	ROH Women's World Championship	f
+roh-tv	roh	ROH World Television Championship	m
+roh-pure	roh	ROH Pure Championship	m
+roh-wtv	roh	ROH Women's World Television Championship	f
+roh-wpure	roh	ROH Women's Pure Championship	f
+tna-world	tna	TNA World Championship	m
+tna-ko	tna	TNA Knockouts World Championship	f
+tna-x	tna	TNA X Division Championship	m
+tna-intl	tna	TNA International Championship	m
+aaa-mega	aaa	AAA Mega Championship	m
+aaa-reina	aaa	AAA Reina de Reinas Championship	f
+aaa-latam	aaa	AAA Latin American Championship	m
+aaa-cruiser	aaa	AAA World Cruiserweight Championship	m
+njpw-iwgp	njpw	IWGP World Heavyweight Championship	m
+njpw-global	njpw	IWGP Global Heavyweight Championship	m
+njpw-jr	njpw	IWGP Junior Heavyweight Championship	m
+njpw-never	njpw	NEVER Openweight Championship	m
+njpw-women	njpw	IWGP Women's Championship	f
+cmll-hw	cmll	CMLL World Heavyweight Championship	m
+cmll-lhw	cmll	CMLL World Light Heavyweight Championship	m
+cmll-women	cmll	CMLL World Women's Championship	f
+gcw-world	gcw	GCW World Championship	m
+mlw-world	mlw	MLW World Heavyweight Championship	m
+mlw-natl	mlw	MLW National Openweight Championship	m
+aiw-absolute	aiw	AIW Absolute Championship	m
+aiw-intense	aiw	AIW Intense Championship	m
+xicw-xi	xicw	XICW Xtreme Intense Championship	m
+xicw-midwest	xicw	XICW Midwest Heavyweight Championship	m
+xicw-light	xicw	XICW Lightweight Championship	m
+bcw-canam	bcw	BCW Can-Am Heavyweight Championship	m
+ipw-gp	ipw	IPW Grand Prix Heavyweight Championship	m
+ipw-michiana	ipw	IPW Michiana Championship	m
+ipw-women	ipw	IPW Women's Championship	f
+ncg-sovereign	ncg	NCG Sovereign States Championship	m
+ncg-na	ncg	NCG North American Championship	m
+ncg-women	ncg	NCG Women's Championship	f
+wwe-tag-raw	wwe	World Tag Team Championship	m	tag
+wwe-tag-sd	wwe	WWE Tag Team Championship	m	tag
+wwe-wtag	wwe	WWE Women's Tag Team Championship	f	tag
+nxt-tag	nxt	NXT Tag Team Championship	m	tag
+aew-tag	aew	AEW World Tag Team Championship	m	tag
+aew-wtag	aew	AEW Women's World Tag Team Championship	f	tag
+aew-trios	aew	AEW World Trios Championship	m	tag
+roh-tag	roh	ROH World Tag Team Championship	m	tag
+roh-6man	roh	ROH World Six-Man Tag Team Championship	m	tag
+tna-tag	tna	TNA World Tag Team Championship	m	tag
+tna-kotag	tna	TNA Knockouts World Tag Team Championship	f	tag
+aaa-tag	aaa	AAA World Tag Team Championship	m	tag
+aaa-trios	aaa	AAA World Trios Championship	m	tag
+njpw-tag	njpw	IWGP Tag Team Championship	m	tag
+njpw-jrtag	njpw	IWGP Junior Heavyweight Tag Team Championship	m	tag
+mlw-tag	mlw	MLW World Tag Team Championship	m	tag
+gcw-tag	gcw	GCW Tag Team Championship	m	tag
+aiw-tag	aiw	AIW Tag Team Championship	m	tag
+ncg-tag	ncg	NCG Tag Team Championship	m	tag
