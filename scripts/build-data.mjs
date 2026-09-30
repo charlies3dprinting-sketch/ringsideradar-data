@@ -161,7 +161,8 @@ const today = new Date().toISOString().slice(0, 10);
 const meta = {
   source: 'curated',
   generatedAt: today,
-  note: 'Real promotions, champions, results and shows researched from public sources (promotion sites, ticket pages, Wikipedia, news). Follower counts and viewership/attendance scores are rough estimates. Indie cards are posted by promotions close to show day.',
+  builtAt: new Date().toISOString(), // lets phones tell apart two builds from the same day
+  note: 'Real promotions, champions, results and shows researched from public sources (promotion sites, ticket pages, Wikipedia, news). Rankings start from the latest PWI 500 / Women\'s 250. Follower counts and viewership/attendance scores are rough estimates.',
 };
 const pwi = pwiLists.map(({ id, gender, cutoff, source, names }) => ({ id, gender, cutoff, source, size: names.length }));
 const files = { cities, promotions, wrestlers, titles, reigns, results, shows, meta };
