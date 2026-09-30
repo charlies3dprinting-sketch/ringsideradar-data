@@ -140,7 +140,6 @@
 2026-08-02|wwe|Kevin Owens|Finn Bálor, Gunther, Sami Zayn|-
 2026-08-02|wwe|Roman Reigns|Seth Rollins|wwe-whc
 2026-08-14|wwe|Jacy Jayne|Tiffany Stratton|wwe-wus
-2026-08-16|gcw|Joseph Sawyer|Atticus Cogar|gcw-world
 2026-08-21|roh|Action Andretti|Lio Rush|roh-tv
 2026-08-21|roh|Athena|Hazuki|roh-women
 2026-08-21|roh|Bandido|Nick Wayne|roh-world
@@ -180,3 +179,27 @@
 2026-09-26|aew|Will Ospreay|Jon Moxley|aew-world
 2026-09-29|nxt|Grayson Waller|EK Prosper|nxt-nxt
 2026-09-29|nxt|Zaria|Thea Hail|nxt-wna
+2026-08-15|gcw|Joseph Sawyer|Atticus Cogar|gcw-world
+2026-08-15|gcw|Otis Cogar|Anakin Murphy|-
+2026-08-15|gcw|Joey Janela|Marko Stunt|-
+2026-08-15|gcw|Vipress|Christian Napier|-
+2026-08-16|gcw|Otis Cogar|Drake Younger|-
+2026-08-16|gcw|Dr. Redacted|Beastman|-
+2026-08-16|gcw|Corinne Joy|Jimmy Lloyd|-
+2026-08-16|gcw|Sicko The Clown|Nino Extremo|-
+2026-09-26|gcw|Juni Underwood|Logan Cavazos, Hunter Drake, Blizzy Blake, MM3, Jay Lucas|-
+2026-09-26|gcw|Terry Yaki|Corinne Joy|-
+2026-09-26|gcw|Brick Savage|Isaiah Broner|-
+2026-09-26|gcw|Marko Stunt|Shotzi Blackheart|-
+2026-09-26|gcw|Vipress|Marti Belle|-
+2026-09-26|gcw|Joseph Sawyer|Jazzy Yang|gcw-world
+2026-09-26|gcw|=Joseph Sawyer|Jeffrey John|gcw-world
+2026-09-05|mlw|Templario|Diego Hill|-
+2026-09-05|mlw|Lady Frost|Corinne Joy|-
+2026-09-05|mlw|Big Damo|Andrew Everett|-
+2026-09-05|mlw|Killer Kross|Joshua Bishop|mlw-world
+2026-09-12|mlw|LaBron Kozone|Joe Coffey|-
+2026-09-12|mlw|Diego Hill|Anthony Greene|-
+2026-09-12|mlw|Brick Savage|Matt Riddle|-
+2026-09-17|mlw|Austin Aries|Tracy Williams|-
+2026-09-17|mlw|Trevor Lee|Místico|-

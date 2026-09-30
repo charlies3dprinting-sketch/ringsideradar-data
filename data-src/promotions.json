@@ -21,5 +21,6 @@
   {"id": "tsw", "name": "Thunderstruck Wrestling", "short": "Thunderstruck", "tier": 1, "country": "USA", "area": "Michigan", "cities": ["rouge"], "viewership": 2, "attendance": 5, "watch": [], "website": "https://www.thunderstruckprowrestling.com"},
   {"id": "exo", "name": "Exodus Pro Wrestling", "short": "Exodus Pro", "tier": 1, "country": "USA", "area": "Ohio", "cities": ["euclid", "cle"], "viewership": 3, "attendance": 5, "watch": [], "website": "https://exoprowrestling.com"},
   {"id": "aswa", "name": "ASWA Pro Wrestling", "short": "ASWA", "tier": 1, "country": "USA", "area": "Ohio", "cities": ["mans"], "viewership": 2, "attendance": 6, "watch": [], "website": "https://aswalive.com"},
-  {"id": "ascend", "name": "Ascend Pro Wrestling", "short": "Ascend", "tier": 1, "country": "USA", "area": "Ohio", "cities": ["cin"], "viewership": 2, "attendance": 5, "watch": [], "website": "https://www.facebook.com/ascendprowrestling"}
+  {"id": "ascend", "name": "Ascend Pro Wrestling", "short": "Ascend", "tier": 1, "country": "USA", "area": "Ohio", "cities": ["cin"], "viewership": 2, "attendance": 5, "watch": [], "website": "https://www.facebook.com/ascendprowrestling"},
+  {"id": "other", "name": "Other promotions", "short": "Other", "tier": 3, "country": "", "area": "Worldwide", "cities": [], "viewership": 0, "attendance": 0, "watch": [], "hidden": true}
 ]

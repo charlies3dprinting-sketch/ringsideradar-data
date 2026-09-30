@@ -1,0 +1,756 @@
+# PWI rankings used as a ranking stat (see src/lib/ranking.ts).
+# One name per line, in rank order, under a header line: "## list-id | gender | evaluation period end (YYYY-MM-DD) | source".
+# Names are matched to wrestlers.tsv (accents, quotes and case ignored; see ALIASES in scripts/build-data.mjs).
+# Anyone not in wrestlers.tsv is added automatically under the "Other promotions" group.
+## pwi500-2026 | m | 2026-07-31 | https://www.wrestleops.com/full-pwi-500-list-for-2026-officially-confirmed/
+MJF
+Cody Rhodes
+CM Punk
+Místico
+Konosuke Takeshita
+Hangman Adam Page
+Yota Tsuji
+Trick Williams
+Oba Femi
+Gunther
+Bandido
+Darby Allin
+Cruz Montana
+Callum Newman
+Kenny Omega
+Will Ospreay
+Kazuchika Okada
+Dominik Mysterio
+Jon Moxley
+Seth Rollins
+Kyle Fletcher
+Sami Zayn
+Penta
+Kevin Knight
+Swerve Strickland
+Zack Sabre Jr.
+Drew McIntyre
+Samoa Joe
+Leon Slater
+Killer Kross
+Yoshiki Inamura
+Silas Mason
+Kento Miyahara
+Claudio Castagnoli
+Lee Moriarty
+El Hijo del Vikingo
+Andrade El Ídolo
+Atticus Cogar
+Ricky Saints
+Nic Nemeth
+Je'Von Evans
+LA Knight
+El Grande Americano
+Frankie Kazarian
+Jey Uso
+Mark Briscoe
+Tony D'Angelo
+Carmelo Hayes
+Hechicero
+Jacob Fatu
+Yoh
+Mance Warner
+Bron Breakker
+Máscara Dorada
+Mustafa Ali
+Michael Oku
+Ricochet
+Rey Fénix
+Shane Haste
+Man Like DeReiss
+Hirooki Goto
+Ilja Dragunov
+Brody King
+Damian Priest
+Tommaso Ciampa
+Jack Perry
+KENTA
+Templario
+Danhausen
+Charles Mason
+Gabe Kidd
+EFFY
+El Desperado
+Mark Davis
+Cedric Alexander
+Joe Hendry
+Laredo Kid
+Madoka Kikuta
+Neón
+Yuki Ueno
+Mike Bailey
+Ethan Page
+Ren Narita
+Soberano Jr.
+Steve Maclin
+Chad Gable
+Bear Bronson
+Blue Panther
+Shota Umino
+El Hijo de Dr. Wagner Jr.
+Boltin Oleg
+Trey Miguel
+Masa Kitamiya
+Moose
+Jay Joshua
+Krule
+Yuya Uemura
+Ryan Clancy
+Allie Katch
+Myles Borne
+Marcus Mathers
+Jun Saito
+Shingo Takagi
+Nick Wayne
+1 Called Manders
+Matt Riddle
+Darius Carter
+Hideki Suzuki
+Joey Janela
+Naraku
+Thom Latimer
+Averno
+Elijah Blum
+Shun Skywalker
+Otis Cogar
+Shinya Aoki
+Luke Jacobs
+Bryan Idol
+Ahura
+Go Shiozaki
+Suge D
+Joshua Bishop
+Billie Starkz
+Orange Cassidy
+Peter Tihanyi
+Myron Reed
+Adam Brooks
+Solo Sikoa
+Jason Hotch
+Royce Keys
+Aaron Rourke
+Isaiah Broner
+AR Fox
+Atlantis Jr.
+Kosei Fujita
+Darian Bengston
+Titán
+PAC
+Tyler Stevens
+Adam Priest
+Kyoki
+Lio Rush
+Finn Bálor
+Devon Monroe
+Richard Holliday
+Ryoya Tanaka
+Sha Samuels
+El Phantasmo
+Volador Jr.
+Bronson Reed
+KUSHIDA
+Naomichi Marufuji
+Spencer Slade
+Último Guerrero
+Matt Cardona
+Kenoh
+Komander
+Eita
+Drilla Moloney
+Ace Austin
+Aleister Black
+Alec Price
+Mao
+Yamato
+Daniel Garcia
+Kaito Kiyomiya
+Jackson Drake
+Katsuyori Shibata
+Kerry Morton
+Chris Brookes
+Lexis King
+Rey Mysterio
+Carson Drake
+Robbie Eagles
+Sheamus
+Jordan Oliver
+Mike Mondo
+Mad Dog Connelly
+Jake Doyle
+Channing Lorenzo
+Alex Taylor
+Ryohei Oiwa
+Sean Legacy
+Wheeler Yuta
+KC Navarro
+Stu Grayson
+Shuji Ishikawa
+Dragon Lee
+Rush
+Donovan Dijak
+Daisuke Sasaki
+Tim Bosby
+John Wayne Murdoch
+Psycho Mike
+Jasper Troy
+Eddie Kingston
+Akira
+Junior Benito
+Austin Aries
+AJ Francis
+Chaz Hall
+Elio LeFleur
+Robbie Thorpe
+Rhio
+Trevor Lee
+EK Prosper
+Rohan Raja
+Jun Kasai
+Hammerstone
+Robbie X
+Drew Parker
+Roderick Strong
+TJP
+Kazuki Hirata
+Nino Bryant
+Psycho Clown
+Kzy
+Kuro
+Galeno
+Big Fudge
+Talos
+Eddie Edwards
+Amakusa
+El Clon
+Kristara
+Will Kiedis
+Caleb Conley
+Brick Savage
+Royce Isaacs
+Sho
+Vipress
+Eric Young
+Master Wato
+LaBron Kozone
+Zilla Fatu
+The Tuckman
+Channing Thomas
+Francesco Akira
+El Lindaman
+Jay Lethal
+Kody Lane
+The Beast Mortos
+Ozawa
+Titus Alexander
+La Parka
+Jimmy Uso
+Rei Saito
+Gringo Loco
+Sammy Diaz
+Minoru Suzuki
+Blake Christian
+Esfinge
+Dorian Van Dux
+Flip Gordon
+So Daimonji
+Sanada
+Ben Braxton
+Pretty Boy Smooth
+Dustin Jackson
+2 Tuff Tony
+Bryan Keith
+Mason Rook
+Ren Ayabe
+Megan Bayne
+Kosuke Sato
+BRG
+Vaughn Vertigo
+Talla Tonga
+KJ Orso
+Xelhua
+Lee Johnson
+Big Damo
+Ricky Knight Jr.
+Octagón Jr.
+Katsuhiko Nakajima
+Josh Woods
+Wes Barkley
+Gianni Valletta
+Taiji Ishimori
+Kazuma Sumi
+Davey Boy Smith Jr.
+Elijah
+Kuma Arashi
+Ricky South
+Rafael Quintero
+Hook
+Alex Kane
+Axiom
+Shiloh Hill
+Bárbaro Cavernario
+Shotzi Blackheart
+Scott Green
+Keanu Carver
+Rusev
+Seigo Tachibana
+Charles Crowley
+Jonathan Gresham
+Tetsuya Endo
+Dustin Waller
+Charli Evans
+Ichiban
+Michel Plante
+Trevor Outlaw
+Mr. Danger
+Ishin
+Brian Cage
+Travis Williams
+Dr. Redacted
+Jack Morris
+John Hawking
+Cara Noir
+Ricky Sosa
+Violento Jack
+Brian Myers
+Charlie Dempsey
+DMT Azul
+Alex Misery
+Camaro Jackson
+Cokane
+Hell Boy
+EC Brownie
+Joe Alonzo
+Sam Holloway
+Kanji
+PCO
+Jimmy Lloyd
+Baron Corbin
+Judas Icarus
+Sam Stackhouse
+Ryuki Honda
+Axel Tischer
+Carlie Bravo
+Rich Swann
+Yuma Aoyagi
+Josh Crane
+Leyton Buzzard
+Danny Orion
+Zcion RT1
+Masashi Takeda
+Bryce Donovan
+Niko Vance
+Alan Angels
+Dennis Dullnig
+Oddyssey
+Cody Deaner
+Gene Munny
+Bobby Orlando
+Big Dave
+Hayata
+Tavion Heights
+Michael Allen Richard Clark
+Kuroshio Tokyo Japan
+Renzo Rose
+Joe Lando
+Amira
+Ikuro Kwon
+Hektor Invictus
+Dan Tamura
+Toru Sugiura
+Laurance Roman
+Josh Briggs
+Cappuccino Jones
+Daisuke Sekimoto
+Tate Mayfairs
+Yuma Anzai
+Facade
+Saxon Huxley
+Jordan Cruz
+Ryan O'Neill
+Terry Yaki
+O'Shay Edwards
+Harlem Lewis
+Connor Mills
+Paul Walter Hauser
+Daichi Hashimoto
+Manu
+Brooks Jensen
+Lance Archer
+Anakin Murphy
+Shotaro Ashino
+Dezmond Cole
+Jake Crist
+Mini Vikingo
+Manabu Soya
+Zoltan
+Kazumasa Yoshida
+Rachel Armstrong
+Alexander Lev
+Noah Veil
+LJ Cleary
+Izzy James
+Diego Hill
+Gabby Forza
+Kenny Williams
+Dominic Garrini
+Jack Cartwheel
+Ben Bishop
+J Boujii
+Aaron Solo
+Daga
+Christian Napier
+Ninja Mack
+Toxin
+Dark Sheik
+Danny Limelight
+Casey Ferreira
+Hoodfoot
+Bad Dude Tito
+Grayson Waller
+Action Andretti
+Pedro Portillo III
+Vinnie Massaro
+Eran Ashe
+Tyler Bateman
+Calvin Tankman
+Daron Richardson
+Katsuya Murashima
+MV Young
+Marshe Rockett
+Jake Parnell
+Max Abrams
+To-y
+Rhino
+Matt Mako
+Duke Davis
+Andrew Cass
+Hideki Okatani
+Hunter James
+London Lightning
+Steven Borden
+Jamesen Shook
+Vito Fratelli
+Steve Corino
+Kazuyuki Fujita
+JD McDonagh
+Mikey Montgomery
+Gangrel
+Trent Seven
+Scotty Rawk
+G. Sharpe
+Ashton Adonis
+Masato Tanaka
+Tre' Lamar
+Alpha Zo
+Kouga
+QT Marshall
+Xay Garcia
+Erik Surge
+Abdullah Kobayashi
+Leo Sparrow
+Charlie Sterling
+Mat Fitchett
+Mark Coffey
+Flamita
+David Ali
+August Artois
+Michael Richards
+Dani Luna
+Evan Daniels
+Andino
+Hayden Backlund
+Bill Collier
+Dante Casanova
+Lou Nixon
+Anthony Greene
+Shaq Jordan
+Beastman
+Solomon Tupu
+Bam Bam Quaade
+Domino
+Gary Jay
+Horus
+CPA
+Mike Skyros
+Shane Mercer
+Mecca
+Sam Adonis
+Johnny TV
+Jesse Funaki
+Jeffrey John
+Colby Carter
+Chad Daniels
+Juni Underwood
+Thomas DuBois
+Sam Beale
+Jay
+Hunter Drake
+Johnnie Robbie
+Kristian Robinson
+Steven Crowe
+Kaitlyn Marie
+Gaia Hox
+Joe Black
+Joseph Keys
+Mr. Elegance
+Oldman Youngboy
+Rhys Maddox
+Mullet Man
+Matt Griffin
+Sidney Bakabella
+## pwi250-2025 | f | 2025-09-30 | https://aiptcomics.com/2025/11/11/full-2025-pwi-womens-250-list-revealed/
+Mercedes Moné
+Toni Storm
+Saya Kamitani
+Tiffany Stratton
+Stephanie Vaquer
+Iyo Sky
+Athena
+Sareee
+Naomi
+Rhea Ripley
+Jacy Jayne
+Liv Morgan
+Nia Jax
+Starlight Kid
+Lyra Valkyria
+Kris Statlander
+Jordynne Grace
+Mayu Iwatani
+Mizuki
+Blake Monroe
+Giulia
+Roxanne Perez
+Sol Ruca
+Momo Watanabe
+Nina Samuels
+Mina Shirakawa
+Willow Nightingale
+Chelsea Green
+Charlotte Flair
+Zeuxis
+AZM
+Alex Windsor
+Megan Bayne
+Rhio
+Kenzie Paige
+Takumi Iroha
+Utami Hayashishita
+Zelina Vega
+Syuri
+Kelani Jordan
+Fallon Henley
+Miu Watanabe
+Jody Threat
+Natsupoi
+Dani Luna
+Thekla
+Queen Aminata
+Lola Vice
+Flammer
+Kristara
+Persephone
+Red Velvet
+Jade Cargill
+Jamie Hayter
+Suzume
+Bianca Belair
+Jade Stone
+Vertvixen
+Miku Aono
+Natalia Markova
+Shoko Nakajima
+Rina
+Jaida Parker
+Janai Kai
+Mei Seira
+Johnnie Robbie
+Kanji
+Marina Shafir
+Tiffany Nieves
+Bayley
+Gisele Shaw
+Miyu Yamashita
+Lash Legend
+Nattie
+Chihiro Hashimoto
+Aliss Ink
+Lana Austin
+Bozilla
+Sayaka Kurara
+Delmi Exo
+Nightshade
+La Catalina
+Hazuki
+Maya World
+Victoria Yuzuki
+Charity King
+Trish Adora
+Lena Kross
+Maggie Lee
+Mika Iwata
+Indi Hartwell
+Tessa Blanchard
+Hina
+Lluvia
+Natsumi Showzuki
+Thunder Rosa
+Alexa Bliss
+Billie Starkz
+Deonna Purrazzo
+Hanan
+Mai Sakurai
+Kacey Diamond
+Kali Armstrong
+Chi Chi
+Piper Niven
+Jane Nero
+Kylie Rae
+Shazza McKenzie
+Izzi Dame
+Koguma
+Léi Yǐng Lee
+Arisu Endo
+Emersyn Jayne
+Rita Stone
+Kairi Sane
+Eugenie
+Zayda Steel
+Miyu Amasaki
+Rayne Leverkusen
+Miyuki Takase
+Mila Smidt
+Hiroyo Matsumoto
+Mila Moore
+Saori Anou
+Erika Reid
+Manami Katsu
+Anita Vaughan
+Zaria
+Tomoka Inaba
+Azusa Inaba
+Big Mama
+Dash Chisako
+Mirai
+Nyla Rose
+Julia Hart
+Kouki Amarei
+Gypsy Mac
+Harley Cameron
+Haruka Umesaki
+Kylie Paige
+Misa Matsui
+Natsuko Tora
+Suzu Suzuki
+Anna Jay
+Keyra
+Serena Deeb
+Yuki Arai
+Priscilla Kelly
+Safire Reed
+Senka Akatsuki
+Aya Sakura
+Hija de Gatubela
+Mei Suruga
+Alexxis Falcon
+Ava Lawless
+Seri Yamaoka
+Dani Mo
+Ivy Nile
+Moka Miyamoto
+Michin
+Olympia
+Shayna Baszler
+Yuu
+Saki
+Javistar
+Laynie Luck
+Karmen Petrovic
+Makoto
+Risa Sera
+Candice LeRae
+Unagi Sayaka
+Raven Creed
+Veny
+Shay Kassidy
+Rosemary
+Lainey Reid
+Alejandra Quintanilla
+Shotzi Blackheart
+J-Rod
+Yuki Kamifuku
+Bea Priestley
+Session Moth Martina
+Rina Yamashita
+Mercedes Martinez
+Tatum Paxley
+Myla Grace
+Haley J
+Wendy Choo
+Zara Zakher
+Yuuki Mashiro
+Wren Sinclair
+Xia Brookside
+Rika Tatsumi
+Freya the Slaya
+Wakana Uehara
+Aja Kong
+B3cca
+Hanako
+Alice Crowley
+Kaia McKenna
+Thea Hail
+Cohaku
+Brooke Havok
+Jazmin Allure
+Diana Strong
+Brittnie Brooks
+Kidd Bandit
+Ryo Mizunami
+Nicole Matthews
+Kelsey Raegan
+Ruthie Jay
+Kiah Dream
+Lady Frost
+Lizzy Evo
+Amale
+Abadon
+Rebecca J. Scott
+Kendal Grey
+Alex Gracia
+Mylo
+Sammi Chaos
+Ivelisse
+Gabby Forza
+Calypso
+Nixixs
+India Sioux
+Nahir Robles
+Vicky Venuto
+Reyna Isis
+Viva Van
+Matcha
+Harley Hudson
+Lauriana
+Aminah Belmont
+Lucia Lee
+Mara Sadè
+Dreya Mitchell
+Taya Valkyrie
+Ray Lyn
+Harleen Lopez
+Maki Itoh
+Leila Grey
+Nikki Blackheart
+Izzy Moreno
+Alexis Littlefot
+Heather Monroe
+Alexis Lee
+Madison Marley
+Journey Burke
+Manami

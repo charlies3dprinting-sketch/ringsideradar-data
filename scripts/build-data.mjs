@@ -53,6 +53,44 @@ const wid = (name, where) => {
   return w.id;
 };
 
+// PWI rankings (data-src/pwi.txt): each wrestler keeps their best placing as a ranking stat.
+// Anyone ranked by PWI but not in wrestlers.tsv is added under the hidden "other" promotion.
+const norm = (n) => n.normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/["“”']/g, '').replace(/\./g, '').toLowerCase().replace(/\s+/g, ' ').trim();
+const ALIASES = { 'gunther': 'Gunther', 'iyo sky': 'Iyo Sky', 'natalya': 'Nattie', 'oleg boltin': 'Boltin Oleg', 'isiah broner': 'Isaiah Broner', 'drill moloney': 'Drilla Moloney' };
+const byNorm = new Map(wrestlers.map((w) => [norm(w.name), w]));
+const pwiLists = [];
+if (fs.existsSync(src('pwi.txt'))) {
+  let cur = null;
+  for (const line of fs.readFileSync(src('pwi.txt'), 'utf8').split('\n').map((l) => l.replace(/\r$/, '').trim())) {
+    if (!line || (line.startsWith('#') && !line.startsWith('##'))) continue;
+    if (line.startsWith('##')) {
+      const [id, gender, cutoff, source] = line.slice(2).split('|').map((x) => x.trim());
+      if (!isDate(cutoff)) err(`pwi.txt: bad cutoff date in "${line}"`);
+      cur = { id, gender, cutoff, source, names: [] };
+      pwiLists.push(cur);
+    } else if (cur) cur.names.push(line);
+  }
+}
+if (pwiLists.length && !PROMO.has('other')) err('pwi.txt needs a promotion with id "other" in promotions.json');
+for (const L of pwiLists) {
+  const seen = new Set();
+  L.names.forEach((name, i) => {
+    const key = norm(name);
+    if (seen.has(key)) return;
+    seen.add(key);
+    let w = byNorm.get(key) ?? (ALIASES[key] ? byName.get(ALIASES[key]) : undefined);
+    if (!w) {
+      const gender = L.gender === 'f' || pwiLists.some((o) => o.gender === 'f' && o.names.some((n) => norm(n) === key)) ? 'f' : 'm';
+      w = { id: slug(name), name, gender, promotions: ['other'], followersK: 0 };
+      if (wrestlers.some((x) => x.id === w.id)) { err(`pwi.txt: "${name}" clashes with an existing wrestler id; add an alias`); return; }
+      wrestlers.push(w); byName.set(name, w); byNorm.set(key, w);
+    }
+    const rank = i + 1, of = L.names.length;
+    const score = 1 - (rank - 1) / of; // 1 = top of the list
+    if (!w.pwi || score > 1 - (w.pwi.rank - 1) / w.pwi.of) w.pwi = { list: L.id, rank, of, cutoff: L.cutoff };
+  });
+}
+
 // Titles and reigns
 const titles = readRows('titles.tsv').map((row) => {
   const [id, promotion, name, gender, kind = ''] = row.split('\t');
@@ -125,6 +163,7 @@ const meta = {
   generatedAt: today,
   note: 'Real promotions, champions, results and shows researched from public sources (promotion sites, ticket pages, Wikipedia, news). Follower counts and viewership/attendance scores are rough estimates. Indie cards are posted by promotions close to show day.',
 };
+const pwi = pwiLists.map(({ id, gender, cutoff, source, names }) => ({ id, gender, cutoff, source, size: names.length }));
 const files = { cities, promotions, wrestlers, titles, reigns, results, shows, meta };
 // Inside the app project, refresh the bundled copy. In the standalone data repo there is no src/data.
 const out = path.join(root, 'src', 'data');
@@ -134,6 +173,7 @@ const bundleDir = path.join(root, 'data-bundle');
 fs.mkdirSync(bundleDir, { recursive: true });
 fs.writeFileSync(path.join(bundleDir, 'ringsideradar-data.json'), JSON.stringify({ version: 1, ...files }));
 
+console.log(`✓ PWI lists: ${pwi.map((l) => `${l.id} (${l.size})`).join(', ') || 'none'}; ${wrestlers.filter((w) => w.pwi).length} wrestlers ranked by PWI`);
 console.log(`✓ ${promotions.length} promotions, ${wrestlers.length} wrestlers, ${titles.length} titles, ${reigns.length} reigns, ${results.length} results, ${shows.length} shows, ${cities.length} cities`);
-const unused = wrestlers.filter((w) => !results.some((r) => r.a === w.id || r.b === w.id) && !reigns.some((r) => r.wrestler === w.id) && !shows.some((s) => s.featuring.includes(w.id)));
+const unused = wrestlers.filter((w) => !w.pwi && !results.some((r) => r.a === w.id || r.b === w.id) && !reigns.some((r) => r.wrestler === w.id) && !shows.some((s) => s.featuring.includes(w.id)));
 if (unused.length) console.log(`  note: ${unused.length} wrestler(s) have no results, titles or bookings yet: ${unused.map((w) => w.name).join(', ')}`);
