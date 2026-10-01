@@ -32,6 +32,18 @@ for (const p of promotions) {
   if (![1, 2, 3, 4].includes(p.tier)) err(`promotion ${p.id}: tier must be 1-4`);
 }
 
+// Promotion logos (data-src/logos.tsv): free-licensed / public-domain logos from Wikimedia Commons, hosted in docs/logos/.
+if (fs.existsSync(src('logos.tsv'))) {
+  for (const row of readRows('logos.tsv')) {
+    const [id, url, file, by, license] = row.split('\t');
+    const p = promotions.find((x) => x.id === id);
+    if (!p) { err(`logos.tsv: unknown promotion "${id}"`); continue; }
+    if (!/^https:\/\/charlies3dprinting-sketch\.github\.io\/ringsideradar-data\/logos\/[a-z0-9-]+\.png$/.test(url)) { err(`logos.tsv: ${id} logo must be a hosted copy in docs/logos/`); continue; }
+    if (fs.existsSync(path.join(root, 'docs')) && !fs.existsSync(path.join(root, 'docs', 'logos', url.split('/').pop()))) err(`logos.tsv: docs/logos/${url.split('/').pop()} is missing`);
+    p.logo = { url, file, by: by || 'Unknown', license: license || '' };
+  }
+}
+
 // Wrestlers (keyed by display name in the sources, by slug in the app)
 const wrestlers = [];
 const byName = new Map();
