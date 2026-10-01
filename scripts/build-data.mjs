@@ -3,7 +3,7 @@
 //   npm run build-data
 //
 // Works in the app project and in the standalone data repo (which has no src/data).
-// Reads:  data-src/cities.json, promotions.json, wrestlers.tsv, titles.tsv, reigns.tsv, results.txt, shows.json
+// Reads:  data-src/cities.json, promotions.json, wrestlers.tsv, photos.tsv, titles.tsv, reigns.tsv, results.txt, shows.json
 // Writes: src/data/*.json (bundled into the app) and data-bundle/ringsideradar-data.json
 //         (one file to host online so the app can pick up new shows without a rebuild).
 // Fails loudly if anything points at a wrestler, title, city or promotion that doesn't exist.
@@ -89,6 +89,17 @@ for (const L of pwiLists) {
     const score = 1 - (rank - 1) / of; // 1 = top of the list
     if (!w.pwi || score > 1 - (w.pwi.rank - 1) / w.pwi.of) w.pwi = { list: L.id, rank, of, cutoff: L.cutoff };
   });
+}
+
+// Photos (data-src/photos.tsv): free-licensed Wikimedia Commons images, credited on the wrestler page.
+if (fs.existsSync(src('photos.tsv'))) {
+  for (const row of readRows('photos.tsv')) {
+    const [name, url, file, by, license] = row.split('\t');
+    const w = byName.get(name) ?? byNorm.get(norm(name));
+    if (!w) { err(`photos.tsv: "${name}" is not a wrestler`); continue; }
+    if (!/^https:\/\/[a-z.]*wikimedia\.org\//.test(url)) { err(`photos.tsv: ${name} photo must be a wikimedia.org link`); continue; }
+    w.photo = { url: url.split('?')[0], file, by: by || 'Unknown', license: license || '' };
+  }
 }
 
 // Titles and reigns

@@ -2,5 +2,6 @@
   "name": "ringsideradar-data",
   "private": true,
   "type": "module",
-  "scripts": { "build": "node scripts/build-data.mjs" }
+  "scripts": { "build": "node scripts/build-data.mjs", "add-shows": "node scripts/add-shows.mjs" },
+  "devDependencies": { "cities.json": "^1.1.0" }
 }
