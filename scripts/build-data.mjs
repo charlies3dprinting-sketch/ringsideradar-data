@@ -112,7 +112,11 @@ if (fs.existsSync(src('career.json'))) {
     const w = byId.get(id);
     if (!w) { err(`career.json: unknown wrestler id "${id}"`); continue; }
     if (!v.page || !Array.isArray(v.c)) { err(`career.json: ${id} needs page and c`); continue; }
-    w.career = v;
+    // Biggest promotions first, then wherever they held the most titles.
+    const MAJOR = /\b(WWE|WWF|World Wrestling (Entertainment|Federation)|NXT|All Elite|AEW|New Japan|NJPW|Ring of Honor|ROH|TNA|Impact|Total Nonstop|AAA|CMLL|Consejo|WCW|World Championship Wrestling|ECW|Extreme Championship)\b/i;
+    const reignsIn = (t) => t.reduce((a, x) => a + (Number((x.match(/\((\d+) times?\)/) ?? [])[1]) || 1), 0);
+    const c = v.c.slice().sort((a, b) => Number(MAJOR.test(b[0])) - Number(MAJOR.test(a[0])) || reignsIn(b[1]) - reignsIn(a[1]));
+    w.career = { page: v.page, c };
   }
 }
 
