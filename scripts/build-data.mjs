@@ -3,7 +3,7 @@
 //   npm run build-data
 //
 // Works in the app project and in the standalone data repo (which has no src/data).
-// Reads:  data-src/cities.json, promotions.json, wrestlers.tsv, photos.tsv, titles.tsv, reigns.tsv, results.txt, shows.json
+// Reads:  data-src/cities.json, promotions.json, wrestlers.tsv, photos.tsv, career.json, titles.tsv, reigns.tsv, results.txt, shows.json
 // Writes: src/data/*.json (bundled into the app) and data-bundle/ringsideradar-data.json
 //         (one file to host online so the app can pick up new shows without a rebuild).
 // Fails loudly if anything points at a wrestler, title, city or promotion that doesn't exist.
@@ -97,8 +97,22 @@ if (fs.existsSync(src('photos.tsv'))) {
     const [name, url, file, by, license] = row.split('\t');
     const w = byName.get(name) ?? byNorm.get(norm(name));
     if (!w) { err(`photos.tsv: "${name}" is not a wrestler`); continue; }
-    if (!/^https:\/\/[a-z.]*wikimedia\.org\//.test(url)) { err(`photos.tsv: ${name} photo must be a wikimedia.org link`); continue; }
+    if (!/^https:\/\/charlies3dprinting-sketch\.github\.io\/ringsideradar-data\/photos\/[a-z0-9-]+\.jpg$/.test(url)) { err(`photos.tsv: ${name} photo must be a hosted copy in docs/photos/`); continue; }
+    if (!fs.existsSync(path.join(root, 'docs', 'photos', url.split('/').pop())) && fs.existsSync(path.join(root, 'docs'))) err(`photos.tsv: ${name}: docs/photos/${url.split('/').pop()} is missing`);
     w.photo = { url: url.split('?')[0], file, by: by || 'Unknown', license: license || '' };
+  }
+}
+
+// Career championships (data-src/career.json): { wrestlerId: { page, c: [[promotion, ["Title (n times)", ...]], ...] } }
+// from each wrestler's Wikipedia "Championships and accomplishments" section. Shown on wrestler pages only.
+if (fs.existsSync(src('career.json'))) {
+  const career = readJson('career.json');
+  const byId = new Map(wrestlers.map((w) => [w.id, w]));
+  for (const [id, v] of Object.entries(career)) {
+    const w = byId.get(id);
+    if (!w) { err(`career.json: unknown wrestler id "${id}"`); continue; }
+    if (!v.page || !Array.isArray(v.c)) { err(`career.json: ${id} needs page and c`); continue; }
+    w.career = v;
   }
 }
 

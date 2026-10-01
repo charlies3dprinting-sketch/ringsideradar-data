@@ -56,11 +56,10 @@ Limitless, IWC, F1RST, ICW MKE, and so on) plus any Michigan/Ohio promotion.
 Add singles results (skip tag and multi-team matches unless it's a title change for a tag title we track).
 Fans also report results from shows they attend in the app; those live in the app's database, not here.
 
-## 5. New wrestlers and photos
+## 5. New wrestlers
 New wrestler: add a line to `wrestlers.tsv` (name, m/f, promotions home first, rough follower estimate in thousands).
-If they have an English Wikipedia article with a free-licensed lead photo, you may add a line to `photos.tsv`
-(name, 250px thumbnail URL from upload.wikimedia.org or thumb.wikimedia.org, Commons file name, author, license).
-Only use images hosted on Wikimedia Commons; never copy photos from promotion sites or social media.
+Photos (`photos.tsv` + `docs/photos/`) and career championships (`career.json`, from Wikipedia) are refreshed in
+occasional manual sessions, not by this weekly run. Don't edit them here.
 
 ## 6. PWI lists (once a year)
 `data-src/pwi.txt` holds the PWI 500 (published each September) and PWI Women's 250 (published each November)
