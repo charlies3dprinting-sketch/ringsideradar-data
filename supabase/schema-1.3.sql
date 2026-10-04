@@ -63,3 +63,8 @@ end $$;
 -- Anything indie wrestlers already sent that is still waiting goes live now.
 update public.wrestler_submissions set status = 'live', reviewed_at = now()
  where status = 'pending' and not public.is_major_wrestler(wrestler_id);
+
+-- Photo uploads: Storage checks you can read back your own file when it saves it, so allow reading your own folder.
+drop policy if exists "media read own" on storage.objects;
+create policy "media read own" on storage.objects for select to authenticated
+  using (bucket_id = 'media' and (storage.foldername(name))[1] = auth.uid()::text);
