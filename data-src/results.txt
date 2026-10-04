@@ -203,3 +203,28 @@
 2026-09-12|mlw|Brick Savage|Matt Riddle|-
 2026-09-17|mlw|Austin Aries|Tracy Williams|-
 2026-09-17|mlw|Trevor Lee|Místico|-
+2026-09-25|wwe|Trick Williams|Baron Corbin|wwe-us
+2026-09-25|wwe|CM Punk|Gunther, Finn Bálor|-
+2026-09-28|wwe|Lola Vice|Roxanne Perez|-
+2026-09-28|wwe|Dragon Lee|Big Cass|-
+2026-09-28|wwe|Iyo Sky|Lyra Valkyria|-
+2026-09-30|aew|Jon Moxley|Orange Cassidy|aew-cont
+2026-09-30|aew|Will Ospreay|Ricochet|-
+2026-10-01|tna|BDE|Mr. Elegance|-
+2026-10-01|tna|Indi Hartwell|Zoey Serrano|-
+2026-10-01|tna|AJ Francis|Moose|-
+2026-10-01|tna|Leon Slater|Joe Alonzo|-
+2026-10-01|tna|Cedric Alexander|Ricky Sosa|-
+2026-10-02|wwe|Tiffany Stratton|Tatum Paxley, Candice LeRae|-
+2026-10-02|wwe|Blake Monroe|Giulia|-
+2026-10-02|wwe|Kevin Owens|Johnny Gargano, Cody Rhodes|-
+2026-10-03|aew|Kofi|Lee Moriarty|-
+2026-10-03|aew|Myron Reed|Dante Martin|-
+2026-10-03|aew|Mark Davis|Adam Priest|-
+2026-10-03|aew|Queen Aminata|Julia Hart|-
+2026-10-03|aew|Jon Moxley|Jake Doyle|-
+2026-09-25|hog|Lio Rush|Gringo Loco|-
+2026-09-25|hog|Hook|Aaron Rourke|-
+2026-09-25|hog|Killer Kross|Charles Mason|-
+2026-09-25|stla|Laynie Luck|Mat Fitchett|-
+2026-10-01|defy|Bryan Keith|Joshua Bishop|-
