@@ -4,7 +4,7 @@
 //
 // Works in the app project and in the standalone data repo (which has no src/data).
 // Reads:  data-src/cities.json, promotions.json, wrestlers.tsv, photos.tsv, career.json, titles.tsv, reigns.tsv, results.txt, shows.json,
-//         watch.json (TV/streaming listings) and past.json (shows already held; past shows in shows.json are moved there automatically)
+//         brands.tsv, watch.json (TV/streaming listings) and past.json (shows already held; past shows in shows.json are moved there automatically)
 // Writes: src/data/*.json (bundled into the app) and data-bundle/ringsideradar-data.json
 //         (one file to host online so the app can pick up new shows without a rebuild).
 // Fails loudly if anything points at a wrestler, title, city or promotion that doesn't exist.
@@ -116,6 +116,18 @@ if (fs.existsSync(src('photos.tsv'))) {
   }
 }
 
+// WWE brands (data-src/brands.tsv): Raw or SmackDown, so the rankings can split them.
+if (fs.existsSync(src('brands.tsv'))) {
+  for (const row of readRows('brands.tsv')) {
+    const [name, brand] = row.split('\t');
+    const w = byName.get(name) ?? byNorm.get(norm(name));
+    if (!w) { err(`brands.tsv: "${name}" is not a wrestler`); continue; }
+    if (!['raw', 'smackdown'].includes(brand)) { err(`brands.tsv: ${name}: brand must be raw or smackdown`); continue; }
+    if (!w.promotions.includes('wwe')) err(`brands.tsv: ${name} isn't listed with WWE`);
+    w.brand = brand;
+  }
+}
+
 // Career championships (data-src/career.json): { wrestlerId: { page, c: [[promotion, ["Title (n times)", ...]], ...] } }
 // from each wrestler's Wikipedia "Championships and accomplishments" section. Shown on wrestler pages only.
 if (fs.existsSync(src('career.json'))) {
@@ -170,9 +182,13 @@ for (const row of readRows('results.txt')) {
   if (title !== '-' && !TITLE.has(title)) err(`result ${date}: unknown title "${title}"`);
   const draw = winnerRaw.startsWith('=');
   const a = wid(winnerRaw.replace(/^=/, ''), `result ${date}`);
-  for (const l of losers.split(',')) {
+  const ls = losers.split(',');
+  // One row = one match. Multi-person matches become one pairing per loser that share a match id, so the app
+  // counts the win once.
+  const m = ls.length > 1 ? `${date}-${promotion}-${results.length}` : undefined;
+  for (const l of ls) {
     const b = wid(l, `result ${date}`);
-    results.push({ date, promotion, a, b, winner: draw ? null : a, title: title === '-' ? null : title });
+    results.push({ date, promotion, a, b, winner: draw ? null : a, title: title === '-' ? null : title, ...(m ? { m } : {}) });
   }
 }
 
