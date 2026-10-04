@@ -2,12 +2,14 @@
 
 This repo feeds the Ringside Radar app. The app downloads `data-bundle/ringsideradar-data.json`
 from GitHub whenever it opens. Each week: keep shows (nationwide), champions and results current, rebuild, push.
-Budget: **about 45 web fetches per run.** Skip anything that hasn't changed. Leave `docs/` alone.
+Budget: **about 45 web fetches per run.** Skip anything that hasn't changed. Don't hand-edit `docs/`; the build
+regenerates `docs/p/` (share pages) itself, and those changes are committed with the data.
 
 Setup once per run: `npm install` (pulls the offline city list `scripts/add-shows.mjs` uses for map pins).
 
 ## 1. Clean up
-Delete shows in `data-src/shows.json` whose date is before today.
+Nothing to do by hand: `node scripts/build-data.mjs` moves shows dated before today from `shows.json` to `past.json`
+(kept a year for promotion show history) and drops past Watch specials.
 
 ## 2. New shows → `incoming.txt` → `node scripts/add-shows.mjs incoming.txt`
 Write every new show you find as one line in a scratch file `incoming.txt` (format is at the top of
@@ -56,6 +58,16 @@ Limitless, IWC, F1RST, ICW MKE, and so on) plus any Michigan/Ohio promotion.
 Add singles results (skip tag and multi-team matches unless it's a title change for a tag title we track).
 Fans also report results from shows they attend in the app; those live in the app's database, not here.
 
+## 4b. Watch tab (`data-src/watch.json`, about 3 fetches)
+- `series`: weekly TV (Raw, NXT, Dynamite, TNA, SmackDown, Collision, AAA). Only change one when a source says its
+  network, day or time changed.
+- `specials`: add newly announced WWE PLEs, AEW/TNA PPVs and big streaming specials for the next ~3 months from
+  https://www.wweschedule.com/wwe-schedule/2026 and the AEW/TNA event pages you already open in step 2. Include date,
+  start time (24h, America/New_York) only when a source gives it, where to watch, and access (free / sub / ppv).
+- `changes`: date-specific moves or pre-emptions you see in news (e.g. "Dynamite moves to Tuesday this week"):
+  `{ "series": "dynamite", "date": "<normal date>", "to": "<new date>", "time": "HH:MM or empty", "note": "...", "source": "..." }`,
+  or `"off": true` when an episode isn't airing. Never guess.
+
 ## 5. New wrestlers
 New wrestler: add a line to `wrestlers.tsv` (name, m/f, promotions home first, rough follower estimate in thousands).
 Photos (`photos.tsv` + `docs/photos/`) and career championships (`career.json`, from Wikipedia) are refreshed in
@@ -78,7 +90,7 @@ not display them.
 ## Finish
 ```bash
 node scripts/build-data.mjs     # must print ✓ — fix every listed problem first
-git add -A
+git add -A        # includes data-src/past.json and docs/p/
 git commit -m "Weekly data update YYYY-MM-DD: <one line on what changed>"
 git push
 ```

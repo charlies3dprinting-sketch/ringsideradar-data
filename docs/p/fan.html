@@ -1,0 +1,13 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>A fan on Ringside Radar · Ringside Radar</title><meta property="og:title" content="A fan on Ringside Radar on Ringside Radar">
+<meta property="og:description" content="Wrestling shows near you, live rankings and a fan passport."><meta property="og:image" content="https://charlies3dprinting-sketch.github.io/ringsideradar-data/icon-180.png">
+<link rel="stylesheet" href="https://charlies3dprinting-sketch.github.io/ringsideradar-data/p/share.css"></head><body><main>
+<p class="kicker">Ringside Radar</p><h1 id="h">A fan on Ringside Radar</h1>
+<a class="btn" id="open" href="#">Open in Ringside Radar</a><a class="btn ghost" href="https://play.google.com/store/apps/details?id=com.ringsideradar.app">Get the app on Google Play</a>
+</main><script>
+var q=new URLSearchParams(location.search),id=q.get('id')||q.get('w')||'';
+var route="fan/"+encodeURIComponent(id);
+if("fan"==='fan'&&id)document.getElementById('h').textContent='@'+id;
+document.getElementById('open').href=/Android/i.test(navigator.userAgent)?'intent://'+route+'#Intent;scheme=ringsideradar;package=com.ringsideradar.app;S.browser_fallback_url='+encodeURIComponent("https://play.google.com/store/apps/details?id=com.ringsideradar.app")+';end':'ringsideradar://'+route;
+</script></body></html>

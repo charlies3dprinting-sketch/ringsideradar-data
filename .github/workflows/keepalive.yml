@@ -1,0 +1,22 @@
+# Keeps the free Supabase project from pausing (it pauses after 7 days without activity).
+# Runs every 3 days. Uses only the publishable (public) key, which is already inside the app.
+name: Supabase keep-alive
+on:
+  schedule:
+    - cron: '17 13 */3 * *'
+  workflow_dispatch:
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Ping the database
+        env:
+          URL: https://abxnxyvforcihfphdfxs.supabase.co
+          KEY: sb_publishable_Tzhox25_r3S_z6YY2jtkDg__O_jThba
+        run: |
+          code=$(curl -s -o /dev/null -w '%{http_code}' -X POST "$URL/rest/v1/rpc/ping" -H "apikey: $KEY" -H "Content-Type: application/json" -d '{}')
+          if [ "$code" != "200" ]; then
+            code=$(curl -s -o /dev/null -w '%{http_code}' "$URL/rest/v1/profiles?select=id&limit=1" -H "apikey: $KEY")
+          fi
+          echo "HTTP $code"
+          test "$code" = "200"

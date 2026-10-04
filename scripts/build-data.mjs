@@ -3,7 +3,8 @@
 //   npm run build-data
 //
 // Works in the app project and in the standalone data repo (which has no src/data).
-// Reads:  data-src/cities.json, promotions.json, wrestlers.tsv, photos.tsv, career.json, titles.tsv, reigns.tsv, results.txt, shows.json
+// Reads:  data-src/cities.json, promotions.json, wrestlers.tsv, photos.tsv, career.json, titles.tsv, reigns.tsv, results.txt, shows.json,
+//         watch.json (TV/streaming listings) and past.json (shows already held; past shows in shows.json are moved there automatically)
 // Writes: src/data/*.json (bundled into the app) and data-bundle/ringsideradar-data.json
 //         (one file to host online so the app can pick up new shows without a rebuild).
 // Fails loudly if anything points at a wrestler, title, city or promotion that doesn't exist.
@@ -175,8 +176,48 @@ for (const row of readRows('results.txt')) {
   }
 }
 
-// Shows
-const rawShows = readJson('shows.json');
+// Shows. Anything dated before today moves from shows.json to past.json (kept for a year for promotion show history).
+const todayIso = new Date().toLocaleDateString('en-CA', { timeZone: 'America/New_York' });
+const allShows = readJson('shows.json');
+const pastFile = src('past.json');
+const pastRaw = fs.existsSync(pastFile) ? JSON.parse(fs.readFileSync(pastFile, 'utf8')) : [];
+const rawShows = allShows.filter((s) => !(isDate(s.date) && s.date < todayIso));
+const moved = allShows.filter((s) => isDate(s.date) && s.date < todayIso);
+const showId = (s, i, list) => s.id ?? `${s.promotion}-${s.date}${list.filter((x) => x.promotion === s.promotion && x.date === s.date).length > 1 ? `-${i}` : ''}`;
+if (moved.length) {
+  const have = new Set(pastRaw.map((s) => s.id));
+  for (const [i, s] of allShows.entries()) {
+    if (!moved.includes(s)) continue;
+    const id = showId(s, i, allShows);
+    if (have.has(id)) continue;
+    pastRaw.push({ id, promotion: s.promotion, name: s.name, date: s.date, time: s.time || 'TBA', city: s.city, venue: s.venue, lat: s.lat, lng: s.lng, featuring: s.featuring ?? [] });
+  }
+  fs.writeFileSync(src('shows.json'), JSON.stringify(rawShows, null, 1) + '\n');
+}
+const yearAgo = new Date(Date.now() - 365 * 864e5).toISOString().slice(0, 10);
+const past = pastRaw.filter((s) => s.date >= yearAgo && PROMO.has(s.promotion) && CITY.has(s.city)).sort((a, b) => a.date.localeCompare(b.date));
+fs.writeFileSync(pastFile, JSON.stringify(past, null, 1) + '\n');
+
+// Watch tab listings
+const watch = fs.existsSync(src('watch.json')) ? readJson('watch.json') : { series: [], specials: [], changes: [] };
+delete watch._help;
+const SERIES = new Set(watch.series.map((x) => x.id));
+for (const x of watch.series) {
+  if (!PROMO.has(x.promotion)) err(`watch series ${x.id}: unknown promotion "${x.promotion}"`);
+  if (!(x.day >= 0 && x.day <= 6)) err(`watch series ${x.id}: day must be 0-6`);
+  if (x.time && !/^\d{2}:\d{2}$/.test(x.time)) err(`watch series ${x.id}: time must be HH:MM or ""`);
+  if (!['free', 'sub', 'ppv'].includes(x.access)) err(`watch series ${x.id}: access must be free, sub or ppv`);
+}
+for (const x of watch.specials) {
+  if (!PROMO.has(x.promotion)) err(`watch special ${x.id}: unknown promotion "${x.promotion}"`);
+  if (!isDate(x.date)) err(`watch special ${x.id}: bad date`);
+  if (x.time && !/^\d{2}:\d{2}$/.test(x.time)) err(`watch special ${x.id}: time must be HH:MM or ""`);
+  if (!['free', 'sub', 'ppv'].includes(x.access)) err(`watch special ${x.id}: access must be free, sub or ppv`);
+}
+for (const c of watch.changes) if (!SERIES.has(c.series)) err(`watch change ${c.date}: unknown series "${c.series}"`);
+watch.specials = watch.specials.filter((x) => x.date >= todayIso);
+watch.changes = watch.changes.filter((x) => x.date >= todayIso || (x.to ?? '') >= todayIso);
+
 const shows = rawShows.map((s, i) => {
   const where = `show ${s.date} ${s.name}`;
   if (!PROMO.has(s.promotion)) err(`${where}: unknown promotion "${s.promotion}"`);
@@ -184,7 +225,7 @@ const shows = rawShows.map((s, i) => {
   if (!isDate(s.date)) err(`${where}: bad date`);
   if (typeof s.lat !== 'number' || typeof s.lng !== 'number') err(`${where}: needs lat/lng`);
   if (s.card) err(`${where}: "card" is no longer used; list advertised names in "featuring"`);
-  const id = s.id ?? `${s.promotion}-${s.date}${rawShows.filter((x) => x.promotion === s.promotion && x.date === s.date).length > 1 ? `-${i}` : ''}`;
+  const id = showId(s, i, rawShows);
   const out = { id, promotion: s.promotion, name: s.name, date: s.date, time: s.time || 'TBA', city: s.city, venue: s.venue, lat: s.lat, lng: s.lng };
   for (const k of ['price', 'ticketUrl', 'promoted', 'approx', 'note', 'source']) if (s[k] !== undefined) out[k] = s[k];
   // Advertised names. Wrestlers we track link to their profiles; anyone else (legends, guests) shows as plain text.
@@ -206,7 +247,7 @@ const meta = {
   note: 'Real promotions, champions, results and shows researched from public sources (promotion sites, ticket pages, Wikipedia, news). Rankings start from the latest PWI 500 / Women\'s 250. Follower counts and viewership/attendance scores are rough estimates.',
 };
 const pwi = pwiLists.map(({ id, gender, cutoff, source, names }) => ({ id, gender, cutoff, source, size: names.length }));
-const files = { cities, promotions, wrestlers, titles, reigns, results, shows, meta };
+const files = { cities, promotions, wrestlers, titles, reigns, results, shows, meta, watch, past };
 // Inside the app project, refresh the bundled copy. In the standalone data repo there is no src/data.
 const out = path.join(root, 'src', 'data');
 if (fs.existsSync(out)) for (const [k, v] of Object.entries(files)) fs.writeFileSync(path.join(out, `${k}.json`), JSON.stringify(v, null, 1) + '\n');
@@ -216,6 +257,10 @@ fs.mkdirSync(bundleDir, { recursive: true });
 fs.writeFileSync(path.join(bundleDir, 'ringsideradar-data.json'), JSON.stringify({ version: 1, ...files }));
 
 console.log(`✓ PWI lists: ${pwi.map((l) => `${l.id} (${l.size})`).join(', ') || 'none'}; ${wrestlers.filter((w) => w.pwi).length} wrestlers ranked by PWI`);
-console.log(`✓ ${promotions.length} promotions, ${wrestlers.length} wrestlers, ${titles.length} titles, ${reigns.length} reigns, ${results.length} results, ${shows.length} shows, ${cities.length} cities`);
+console.log(`✓ ${promotions.length} promotions, ${wrestlers.length} wrestlers, ${titles.length} titles, ${reigns.length} reigns, ${results.length} results, ${shows.length} shows (${past.length} past, ${moved.length} archived now), ${cities.length} cities`);
+console.log(`✓ Watch: ${watch.series.length} weekly series, ${watch.specials.length} upcoming specials, ${watch.changes.length} schedule changes`);
+
+// Share pages (link previews for wrestlers, promotions, shows and championships) in docs/p/.
+await import('./build-share.mjs').then((m) => m.buildShare({ root, promotions, wrestlers, titles, shows, past, cities, reigns })).catch((e) => console.error('share pages failed:', e.message));
 const unused = wrestlers.filter((w) => !w.pwi && !results.some((r) => r.a === w.id || r.b === w.id) && !reigns.some((r) => r.wrestler === w.id) && !shows.some((s) => s.featuring.includes(w.id)));
 if (unused.length) console.log(`  note: ${unused.length} wrestler(s) have no results, titles or bookings yet: ${unused.map((w) => w.name).join(', ')}`);

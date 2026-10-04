@@ -1,0 +1,248 @@
+{
+ "updated": "2026-10-04",
+ "_help": "Watch tab. series = weekly shows (day 0=Sun..6=Sat, time in tz, access free|sub|ppv). specials = one-off PLEs/PPVs/streaming specials. changes = date-specific moves or pre-emptions for a series (off: true, or to: new date / time). Only list what a source confirms. Times are local to tz.",
+ "series": [
+  {
+   "id": "raw",
+   "promotion": "wwe",
+   "name": "WWE Raw",
+   "day": 1,
+   "time": "20:00",
+   "tz": "America/New_York",
+   "minutes": 180,
+   "where": [
+    "Netflix"
+   ],
+   "access": "sub",
+   "url": "https://www.netflix.com/",
+   "source": "https://scorpiondeathtalk.substack.com/p/how-to-watch-professional-wrestling"
+  },
+  {
+   "id": "nxt",
+   "promotion": "nxt",
+   "name": "WWE NXT",
+   "day": 2,
+   "time": "20:00",
+   "tz": "America/New_York",
+   "minutes": 120,
+   "where": [
+    "The CW"
+   ],
+   "access": "free",
+   "note": "Free over the air on The CW with an antenna.",
+   "url": "https://www.cwtv.com/shows/wwe-nxt/",
+   "source": "https://scorpiondeathtalk.substack.com/p/how-to-watch-professional-wrestling"
+  },
+  {
+   "id": "dynamite",
+   "promotion": "aew",
+   "name": "AEW Dynamite",
+   "day": 3,
+   "time": "20:00",
+   "tz": "America/New_York",
+   "minutes": 120,
+   "where": [
+    "TBS",
+    "HBO Max"
+   ],
+   "access": "sub",
+   "url": "https://www.hbomax.com/",
+   "source": "https://www.f4wonline.com/news/aew/aew-tnt-tbs-hbo-max-schedule-updates-october-2026/"
+  },
+  {
+   "id": "tna-impact",
+   "promotion": "tna",
+   "name": "TNA Thursday Night iMPACT!",
+   "day": 4,
+   "time": "21:00",
+   "tz": "America/New_York",
+   "minutes": 120,
+   "where": [
+    "AMC",
+    "AMC+"
+   ],
+   "access": "sub",
+   "url": "https://www.amc.com/",
+   "note": "TNA+ outside the US.",
+   "source": "https://en.wikipedia.org/wiki/TNA_Impact!"
+  },
+  {
+   "id": "smackdown",
+   "promotion": "wwe",
+   "name": "WWE SmackDown",
+   "day": 5,
+   "time": "20:00",
+   "tz": "America/New_York",
+   "minutes": 120,
+   "where": [
+    "USA Network"
+   ],
+   "access": "sub",
+   "url": "https://www.usanetwork.com/wwe-smackdown",
+   "source": "https://scorpiondeathtalk.substack.com/p/how-to-watch-professional-wrestling"
+  },
+  {
+   "id": "collision",
+   "promotion": "aew",
+   "name": "AEW Collision",
+   "day": 6,
+   "time": "20:00",
+   "tz": "America/New_York",
+   "minutes": 120,
+   "where": [
+    "TNT",
+    "HBO Max"
+   ],
+   "access": "sub",
+   "url": "https://www.hbomax.com/",
+   "source": "https://en.wikipedia.org/wiki/AEW_Collision"
+  },
+  {
+   "id": "aaa-weekly",
+   "promotion": "aaa",
+   "name": "Lucha Libre AAA",
+   "day": 6,
+   "time": "",
+   "tz": "America/Mexico_City",
+   "minutes": 60,
+   "where": [
+    "YouTube"
+   ],
+   "access": "free",
+   "note": "Full episodes posted free on YouTube.",
+   "url": "https://www.youtube.com/results?search_query=Lucha+Libre+AAA+full+episode",
+   "source": "https://www.fightful.com/wrestling-news/watch-full-episode-lucha-libre-aaa-oct-3-2026"
+  }
+ ],
+ "specials": [
+  {
+   "id": "wwe-mitb-2026",
+   "promotion": "wwe",
+   "name": "WWE Money in the Bank",
+   "date": "2026-10-10",
+   "time": "18:00",
+   "tz": "America/New_York",
+   "where": [
+    "ESPN app (ESPN Unlimited)"
+   ],
+   "access": "sub",
+   "venue": "Smoothie King Center, New Orleans",
+   "note": "Netflix outside the US.",
+   "source": "https://sports.yahoo.com/articles/wwe-money-bank-ple-2026-172445174.html"
+  },
+  {
+   "id": "aew-wrestledream-2026",
+   "promotion": "aew",
+   "name": "AEW WrestleDream",
+   "date": "2026-10-17",
+   "time": "",
+   "tz": "America/New_York",
+   "where": [
+    "PPV.com",
+    "HBO Max",
+    "Amazon Prime",
+    "YouTube",
+    "MyAEW"
+   ],
+   "access": "ppv",
+   "venue": "Addition Financial Arena, Orlando",
+   "note": "Tailgate Brawl pre-show free on TNT and HBO Max.",
+   "source": "https://www.f4wonline.com/event-guides/aew-2026-ppv-schedule/"
+  },
+  {
+   "id": "wwe-crown-jewel-2026",
+   "promotion": "wwe",
+   "name": "WWE Crown Jewel",
+   "date": "2026-11-07",
+   "time": "13:00",
+   "tz": "America/New_York",
+   "where": [
+    "ESPN app (ESPN Unlimited)"
+   ],
+   "access": "sub",
+   "venue": "Riyadh, Saudi Arabia",
+   "source": "https://en.wikipedia.org/wiki/Crown_Jewel_(2026)"
+  },
+  {
+   "id": "aew-full-gear-2026",
+   "promotion": "aew",
+   "name": "AEW Full Gear",
+   "date": "2026-11-14",
+   "time": "",
+   "tz": "America/New_York",
+   "where": [
+    "PPV.com",
+    "HBO Max",
+    "Amazon Prime",
+    "YouTube",
+    "MyAEW"
+   ],
+   "access": "ppv",
+   "venue": "Mortgage Matchup Center, Phoenix",
+   "source": "https://www.f4wonline.com/event-guides/aew-2026-ppv-schedule/"
+  },
+  {
+   "id": "wwe-survivor-series-2026",
+   "promotion": "wwe",
+   "name": "WWE Survivor Series: WarGames",
+   "date": "2026-11-28",
+   "time": "18:00",
+   "tz": "America/New_York",
+   "where": [
+    "ESPN app (ESPN Unlimited)"
+   ],
+   "access": "sub",
+   "venue": "Daikin Park, Houston",
+   "source": "https://corporate.wwe.com/about/news/2026/07-13-2026"
+  },
+  {
+   "id": "wwe-wrestlepalooza-2026",
+   "promotion": "wwe",
+   "name": "WWE Wrestlepalooza",
+   "date": "2026-12-13",
+   "time": "06:00",
+   "tz": "America/New_York",
+   "where": [
+    "ESPN app (ESPN Unlimited)"
+   ],
+   "access": "sub",
+   "venue": "Australia",
+   "note": "Early-morning start in the US.",
+   "source": "https://www.pwmania.com/wwe-premium-live-event-start-times-for-remainder-of-2026-revealed"
+  },
+  {
+   "id": "aew-worlds-end-2026",
+   "promotion": "aew",
+   "name": "AEW Worlds End",
+   "date": "2026-12-19",
+   "time": "",
+   "tz": "America/New_York",
+   "where": [
+    "PPV.com",
+    "HBO Max",
+    "Amazon Prime",
+    "YouTube",
+    "MyAEW"
+   ],
+   "access": "ppv",
+   "venue": "Target Center, Minneapolis",
+   "source": "https://www.f4wonline.com/event-guides/aew-2026-ppv-schedule/"
+  }
+ ],
+ "changes": [
+  {
+   "series": "dynamite",
+   "date": "2026-10-07",
+   "to": "2026-10-06",
+   "time": "",
+   "note": "Grand Slam from Paris airs Tuesday this week (MLB playoffs on TBS).",
+   "source": "https://www.f4wonline.com/news/aew/aew-tnt-tbs-hbo-max-schedule-updates-october-2026/"
+  },
+  {
+   "series": "dynamite",
+   "date": "2026-10-14",
+   "note": "Combined Dynamite/Collision episode, followed by the WrestleDream countdown show.",
+   "source": "https://www.f4wonline.com/news/aew/aew-tnt-tbs-hbo-max-schedule-updates-october-2026/"
+  }
+ ]
+}

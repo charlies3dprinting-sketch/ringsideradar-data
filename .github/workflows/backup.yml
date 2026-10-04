@@ -1,0 +1,41 @@
+# Weekly encrypted database backup, kept as a workflow artifact for 30 days.
+# Needs two repository secrets (Settings → Secrets and variables → Actions):
+#   SUPABASE_DB_URL     Supabase → Connect → Session pooler connection string (with your database password)
+#   BACKUP_PASSPHRASE   any long passphrase; you need it to decrypt a backup
+# The repo is public, so the dump is encrypted before upload. Without the secrets this job does nothing.
+# To restore: download the artifact, then  gpg -d backup.sql.gz.gpg | gunzip > backup.sql  and run it in the SQL editor / psql.
+name: Supabase backup
+on:
+  schedule:
+    - cron: '41 9 * * 0'
+  workflow_dispatch:
+jobs:
+  backup:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check secrets
+        id: check
+        env:
+          DB: ${{ secrets.SUPABASE_DB_URL }}
+          PASS: ${{ secrets.BACKUP_PASSPHRASE }}
+        run: |
+          if [ -z "$DB" ] || [ -z "$PASS" ]; then echo "Secrets not set; skipping backup."; echo "run=no" >> "$GITHUB_OUTPUT"; else echo "run=yes" >> "$GITHUB_OUTPUT"; fi
+      - name: Dump and encrypt
+        if: steps.check.outputs.run == 'yes'
+        env:
+          DB: ${{ secrets.SUPABASE_DB_URL }}
+          PASS: ${{ secrets.BACKUP_PASSPHRASE }}
+        run: |
+          # pg_dump must be at least the server's version; Supabase runs Postgres 15 or 17.
+          docker run --rm -e DB postgres:17 sh -c 'pg_dump "$DB" --no-owner --no-privileges --schema=public --schema=auth --schema=storage' | gzip > backup.sql.gz
+          test $(stat -c %s backup.sql.gz) -gt 1000
+          gpg --batch --yes --pinentry-mode loopback --passphrase "$PASS" -c -o backup.sql.gz.gpg backup.sql.gz
+          rm backup.sql.gz
+          ls -lh backup.sql.gz.gpg
+      - name: Upload
+        if: steps.check.outputs.run == 'yes'
+        uses: actions/upload-artifact@v4
+        with:
+          name: supabase-backup-${{ github.run_number }}
+          path: backup.sql.gz.gpg
+          retention-days: 30
