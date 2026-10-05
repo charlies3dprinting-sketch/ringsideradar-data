@@ -1,6 +1,38 @@
 {
+ "_help": "Watch tab. series = weekly shows (day 0=Sun..6=Sat, time in tz, access free|sub|ppv). specials = one-off PLEs/PPVs/streaming specials. changes = date-specific moves or pre-emptions for a series (off: true, or to: new date / time). Only list what a source confirms. Times are local to tz. platforms = streaming services indie promotions use (from promotions.json `watch`): access free|sub, null = not a stream. Every upcoming indie show (tier 1-3) whose promotion lists one of these is added to specials automatically for the next indieDays days, sorted by date, majors first.",
  "updated": "2026-10-04",
- "_help": "Watch tab. series = weekly shows (day 0=Sun..6=Sat, time in tz, access free|sub|ppv). specials = one-off PLEs/PPVs/streaming specials. changes = date-specific moves or pre-emptions for a series (off: true, or to: new date / time). Only list what a source confirms. Times are local to tz.",
+ "platforms": {
+  "IWTV": {
+   "access": "sub",
+   "url": "https://www.iwtv.live/"
+  },
+  "TrillerTV+": {
+   "access": "sub",
+   "url": "https://www.trillertv.com/"
+  },
+  "TrillerTV": {
+   "access": "sub",
+   "url": "https://www.trillertv.com/"
+  },
+  "YouTube": {
+   "access": "free",
+   "url": "https://www.youtube.com/"
+  },
+  "Facebook": {
+   "access": "free",
+   "url": "https://www.facebook.com/"
+  },
+  "beIN Sports": {
+   "access": "sub",
+   "url": "https://www.beinsports.com/us/"
+  },
+  "Roku Channel": {
+   "access": "free",
+   "url": "https://therokuchannel.roku.com/"
+  },
+  "Instagram": null
+ },
+ "indieDays": 60,
  "series": [
   {
    "id": "raw",

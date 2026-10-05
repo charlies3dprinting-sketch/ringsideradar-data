@@ -250,6 +250,41 @@ const shows = rawShows.map((s, i) => {
 });
 if (new Set(shows.map((s) => s.id)).size !== shows.length) err('two shows share an id');
 
+// Watch tab: every upcoming show from a non-major promotion that streams (promotions.json `watch`) is listed
+// automatically, free or not. Platform → access/link comes from watch.json `platforms`. A hand-written special for
+// the same promotion and date wins. Majors (tier 4) only appear through hand-written specials and weekly series.
+{
+  const PLAT = watch.platforms ?? {};
+  const horizon = new Date(Date.now() + (watch.indieDays ?? 60) * 864e5).toISOString().slice(0, 10);
+  const PROMOS = new Map(promotions.map((p) => [p.id, p]));
+  const CITIES = new Map(cities.map((c) => [c.id, c]));
+  const manual = new Set(watch.specials.map((x) => `${x.promotion}|${x.date}`));
+  const platsOf = (p) => [...new Set((p.watch ?? []).flatMap((w) => {
+    const hit = Object.keys(PLAT).filter((k) => PLAT[k] && w.toLowerCase().includes(k.toLowerCase()));
+    return hit.filter((k) => !hit.some((o) => o !== k && o.toLowerCase().includes(k.toLowerCase()))); // "TrillerTV+" beats "TrillerTV"
+  }))];
+  for (const s of shows) {
+    const p = PROMOS.get(s.promotion);
+    if (!p || p.tier >= 4 || p.hidden || s.date > horizon || manual.has(`${s.promotion}|${s.date}`)) continue;
+    const plats = platsOf(p);
+    if (!plats.length) continue;
+    const c = CITIES.get(s.city);
+    const name = s.name === p.name || s.name.toLowerCase().includes((p.short ?? p.name).toLowerCase()) ? s.name : `${p.short ?? p.name}: ${s.name}`;
+    const paid = plats.find((k) => PLAT[k].access !== 'free'); // full shows usually sit behind the paid platform
+    watch.specials.push({
+      id: `auto-${s.id}`, promotion: s.promotion, name, date: s.date, time: '', tz: 'America/New_York',
+      where: plats, access: paid ? PLAT[paid].access : 'free', url: PLAT[paid ?? plats[0]].url,
+      venue: [s.venue, c ? `${c.name}${c.state ? ', ' + c.state : ''}` : ''].filter(Boolean).join(', '),
+      note: `Bell time ${s.time && s.time !== 'TBA' ? s.time + ' local' : 'TBA'}. ${p.name} posts its shows on ${plats.join(' / ')} (live or replay); check there for the stream.`,
+      tier: p.tier, auto: true, show: s.id, ...(s.source ? { source: s.source } : {}),
+    });
+  }
+  // Order: by date, then majors before indies (tier high → low), hand-written before automatic, then by time.
+  for (const x of watch.specials) if (x.tier === undefined) x.tier = PROMOS.get(x.promotion)?.tier ?? 1;
+  watch.specials.sort((a, b) => a.date.localeCompare(b.date) || b.tier - a.tier || (a.auto ? 1 : 0) - (b.auto ? 1 : 0) || (a.time || '99').localeCompare(b.time || '99'));
+  delete watch.platforms; delete watch.indieDays;
+}
+
 if (errors.length) {
   console.error(`\n✗ ${errors.length} problem(s) in data-src/:\n  - ` + errors.join('\n  - '));
   process.exit(1);

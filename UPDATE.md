@@ -2,7 +2,7 @@
 
 This repo feeds the Ringside Radar app. The app downloads `data-bundle/ringsideradar-data.json`
 from GitHub whenever it opens. Each week: keep shows (nationwide), champions and results current, rebuild, push.
-Budget: **about 45 web fetches per run.** Skip anything that hasn't changed. Don't hand-edit `docs/`; the build
+Budget: **about 50 web fetches per run.** Skip anything that hasn't changed. Don't hand-edit `docs/`; the build
 regenerates `docs/p/` (share pages) itself, and those changes are committed with the data.
 
 Setup once per run: `npm install` (pulls the offline city list `scripts/add-shows.mjs` uses for map pins).
@@ -58,12 +58,26 @@ Limitless, IWC, F1RST, ICW MKE, and so on) plus any Michigan/Ohio promotion.
 Add singles results (skip tag and multi-team matches unless it's a title change for a tag title we track).
 Fans also report results from shows they attend in the app; those live in the app's database, not here.
 
-## 4b. Watch tab (`data-src/watch.json`, about 3 fetches)
+## 4b. Watch tab (`data-src/watch.json`, about 6 fetches)
+The Watch tab lists every watchable event, free or paid: weekly TV, major PLEs/PPVs, and indie shows that stream.
+The build sorts specials by date, then majors first (tier 4 → 1), then by time, so today's events and the majors
+come first.
 - `series`: weekly TV (Raw, NXT, Dynamite, TNA, SmackDown, Collision, AAA). Only change one when a source says its
   network, day or time changed.
-- `specials`: add newly announced WWE PLEs, AEW/TNA PPVs and big streaming specials for the next ~3 months from
-  https://www.wweschedule.com/wwe-schedule/2026 and the AEW/TNA event pages you already open in step 2. Include date,
-  start time (24h, America/New_York) only when a source gives it, where to watch, and access (free / sub / ppv).
+- `specials` (hand-written, majors): every big event for the next ~3 months: WWE PLEs, NXT PLEs (e.g. Halloween
+  Havoc), AEW PPVs, TNA PPVs (Bound for Glory, Destination X …), AAA PLEs (Héroes Inmortales, Guerra de Titanes),
+  NJPW majors (King of Pro-Wrestling, Power Struggle, Wrestle Kingdom), plus big streaming specials. Check that every
+  such event already in `shows.json` has a special; use the event's Wikipedia page or promotion page for date, start
+  time (24h, America/New_York, only when a source gives it), where to watch and access (free / sub / ppv). Never guess
+  a platform: if no source says where it airs, leave it out and mention it in the summary.
+- Indie streams are automatic: `build-data.mjs` adds every upcoming show (next `indieDays` days) from a tier 1–3
+  promotion whose `watch` field in `promotions.json` names a platform listed in watch.json `platforms`
+  (IWTV, TrillerTV, YouTube, Facebook …). To grow this list, each week fill in `watch` for 3–5 promotions that have
+  upcoming shows but an empty `watch`, from their own website/socials or IWTV/TrillerTV pages (biggest tiers first).
+  A new platform goes into `platforms` with its access (free / sub) and link.
+- Indie events with a confirmed live stream time (IWTV live schedule https://www.iwtv.live/schedule, TrillerTV
+  event pages, or a big indie's own announcement) can be added as a hand-written special for that promotion and date
+  with the exact start time; it replaces the automatic entry.
 - `changes`: date-specific moves or pre-emptions you see in news (e.g. "Dynamite moves to Tuesday this week"):
   `{ "series": "dynamite", "date": "<normal date>", "to": "<new date>", "time": "HH:MM or empty", "note": "...", "source": "..." }`,
   or `"off": true` when an episode isn't airing. Never guess.
