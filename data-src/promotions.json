@@ -270,7 +270,7 @@
   {"id":"comptonmania","name":"Comptonmania","short":"Comptonmania","tier":1,"country":"USA","area":"California","cities":["compton-ca"],"viewership":1,"attendance":3,"watch":[]},
   {"id":"best-of-the-west","name":"Best of the West","short":"Best of the West","tier":1,"country":"USA","area":"California","cities":["lompoc-ca"],"viewership":1,"attendance":3,"watch":[]},
   {"id":"next-level-pro","name":"Next Level Pro Wrestling","short":"Next Level Pro","tier":1,"country":"USA","area":"California","cities":["sacramento-ca"],"viewership":1,"attendance":3,"watch":[]},
-  {"id":"dreamslam","name":"DreamSlam Wrestling","short":"DreamSlam","tier":1,"country":"USA","area":"California","cities":["anaheim-ca"],"viewership":1,"attendance":3,"watch":[]},
+  {"id":"dreamslam","name":"DreamSlam Wrestling","short":"DreamSlam","tier":1,"country":"USA","area":"California","cities":["anaheim-ca","santa-ana-ca"],"viewership":1,"attendance":3,"watch":[]},
   {"id":"one-ring-circus","name":"One Ring Circus","short":"One Ring Circus","tier":1,"country":"USA","area":"California","cities":["san-diego-ca"],"viewership":1,"attendance":3,"watch":[]},
   {"id":"action-coast","name":"Action Coast Wrestling","short":"Action Coast","tier":1,"country":"USA","area":"California","cities":["rancho-cordova-ca"],"viewership":1,"attendance":3,"watch":[]},
   {"id":"for-charity","name":"Wrestling For Charity","short":"For Charity","tier":1,"country":"USA","area":"California","cities":["san-francisco-ca"],"viewership":1,"attendance":3,"watch":[]},

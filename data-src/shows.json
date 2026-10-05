@@ -59,6 +59,28 @@
   "source": "https://www.allelitewrestling.com/aew-events"
  },
  {
+  "promotion": "cmll",
+  "name": "Martes de Arena México",
+  "date": "2026-10-06",
+  "time": "7:30 PM",
+  "city": "mex",
+  "venue": "Arena México",
+  "lat": 19.4326,
+  "lng": -99.1332,
+  "approx": true
+ },
+ {
+  "promotion": "cmll",
+  "name": "Martes de Glamour",
+  "date": "2026-10-06",
+  "time": "8:30 PM",
+  "city": "gdl",
+  "venue": "Arena Coliseo de Occidente",
+  "lat": 20.6597,
+  "lng": -103.3496,
+  "approx": true
+ },
+ {
   "promotion": "cw",
   "name": "Championship Wrestling",
   "date": "2026-10-06",
@@ -3866,6 +3888,17 @@
   "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-0b0"
  },
  {
+  "promotion": "aew",
+  "name": "Collision: Chris Jericho's Rock N' Wrestling Rager",
+  "date": "2026-11-07",
+  "time": "TBA",
+  "city": "miami-fl",
+  "venue": "Norwegian Jewel",
+  "lat": 25.7743,
+  "lng": -80.1937,
+  "approx": true
+ },
+ {
   "promotion": "central-empire",
   "name": "Central Empire Wrestling",
   "date": "2026-11-07",
@@ -4949,6 +4982,18 @@
   "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-0b0"
  },
  {
+  "promotion": "dreamslam",
+  "name": "SoCal Royale",
+  "date": "2026-11-20",
+  "time": "8:00 PM",
+  "city": "santa-ana-ca",
+  "venue": "505 E Central Ave",
+  "lat": 33.7456,
+  "lng": -117.8678,
+  "approx": true,
+  "source": "https://www.indydependent.com/full-list-of-events"
+ },
+ {
   "promotion": "ewf",
   "name": "Empire Wrestling Federation",
   "date": "2026-11-20",
@@ -5489,6 +5534,17 @@
   "lat": 33.75724,
   "lng": -84.54058,
   "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-0b0"
+ },
+ {
+  "promotion": "aaa",
+  "name": "AAA Live Tour",
+  "date": "2026-11-27",
+  "time": "TBA",
+  "city": "hou",
+  "venue": "713 Music Hall",
+  "lat": 29.7604,
+  "lng": -95.3698,
+  "approx": true
  },
  {
   "promotion": "aiw",

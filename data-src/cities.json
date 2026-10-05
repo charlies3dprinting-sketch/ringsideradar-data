@@ -319,5 +319,6 @@
   {"id":"bowling-green-oh","name":"Bowling Green","state":"OH","lat":41.3748,"lng":-83.6513},
   {"id":"jacksboro-tn","name":"Jacksboro","state":"TN","lat":36.3301,"lng":-84.1838},
   {"id":"paris-france","name":"Paris","state":"France","lat":48.8534,"lng":2.3488},
-  {"id":"liverpool-uk","name":"Liverpool","state":"UK","lat":53.4106,"lng":-2.9779}
+  {"id":"liverpool-uk","name":"Liverpool","state":"UK","lat":53.4106,"lng":-2.9779},
+  {"id":"santa-ana-ca","name":"Santa Ana","state":"CA","lat":33.7456,"lng":-117.8678}
 ]

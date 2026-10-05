@@ -228,3 +228,6 @@
 2026-09-25|hog|Killer Kross|Charles Mason|-
 2026-09-25|stla|Laynie Luck|Mat Fitchett|-
 2026-10-01|defy|Bryan Keith|Joshua Bishop|-
+2026-10-03|gcw|Anakin Murphy|Parrow|-
+2026-10-03|gcw|1 Called Manders|Nick Gage|-
+2026-10-03|gcw|Atticus Cogar|Vipress|-
