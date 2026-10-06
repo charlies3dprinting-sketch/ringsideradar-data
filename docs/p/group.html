@@ -9,5 +9,6 @@
 var q=new URLSearchParams(location.search),id=q.get('id')||q.get('w')||'';
 var route="group/"+encodeURIComponent(id);
 if("group"==='fan'&&id)document.getElementById('h').textContent='@'+id;
+if(!/Android/i.test(navigator.userAgent))location.replace("https://ringsideradar.com"+'/'+(route==='rankings'||route.indexOf('rankings')===0?'rankings':route));
 document.getElementById('open').href=/Android/i.test(navigator.userAgent)?'intent://'+route+'#Intent;scheme=ringsideradar;package=com.ringsideradar.app;S.browser_fallback_url='+encodeURIComponent("https://play.google.com/store/apps/details?id=com.ringsideradar.app")+';end':'ringsideradar://'+route;
 </script></body></html>

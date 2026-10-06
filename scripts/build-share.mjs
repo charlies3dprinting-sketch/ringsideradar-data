@@ -13,6 +13,8 @@ const DAYS = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
 const fmt = (d) => { const [y, m, dd] = d.split('-').map(Number); const dt = new Date(Date.UTC(y, m - 1, dd)); return `${DAYS[dt.getUTCDay()]}, ${MONTHS[m - 1]} ${dd}, ${y}`; };
 
 /** App deep link: ringsideradar://<route>. On Android an intent link falls back to the Play Store when the app isn't installed. */
+/** The website. Anyone not on Android goes straight to the same page there (it has the full details). */
+const WEB = 'https://ringsideradar.com';
 const intent = (route) => `intent://${route}#Intent;scheme=ringsideradar;package=com.ringsideradar.app;S.browser_fallback_url=${encodeURIComponent(PLAY)};end`;
 
 function page({ title, description, image, route, heading, lines = [], kicker = '' }) {
@@ -24,14 +26,16 @@ function page({ title, description, image, route, heading, lines = [], kicker = 
 <meta property="og:title" content="${esc(title)}"><meta property="og:description" content="${esc(description)}">
 <meta property="og:image" content="${esc(image || ICON)}"><meta name="twitter:card" content="summary">
 <link rel="icon" href="${SITE}/icon-180.png"><link rel="stylesheet" href="${SITE}/p/share.css">
+<link rel="canonical" href="${WEB}/${esc(route)}">
 </head><body><main>
 ${image ? `<img class="hero" src="${esc(image)}" alt="">` : ''}
 ${kicker ? `<p class="kicker">${esc(kicker)}</p>` : ''}<h1>${esc(heading || title)}</h1>
 ${lines.map((l) => `<p>${esc(l)}</p>`).join('\n')}
+<a class="btn ghost" href="${WEB}/${esc(route)}">See it on ringsideradar.com</a>
 <a class="btn" id="open" href="ringsideradar://${esc(route)}">Open in Ringside Radar</a>
 <a class="btn ghost" href="${PLAY}">Get the app on Google Play</a>
 <p class="small">Ringside Radar: find wrestling shows near you, live rankings and a passport for every show you attend.</p>
-</main><script>if(/Android/i.test(navigator.userAgent))document.getElementById('open').href=${JSON.stringify(intent(route))};</script></body></html>
+</main><script>if(/Android/i.test(navigator.userAgent))document.getElementById('open').href=${JSON.stringify(intent(route))};else location.replace(${JSON.stringify(`${WEB}/${route}`)});</script></body></html>
 `;
 }
 
@@ -48,6 +52,7 @@ function dynamicPage(kind, routePrefix, label) {
 var q=new URLSearchParams(location.search),id=q.get('id')||q.get('w')||'';
 var route=${JSON.stringify(routePrefix)}+encodeURIComponent(id);
 if(${JSON.stringify(kind)}==='fan'&&id)document.getElementById('h').textContent='@'+id;
+if(!/Android/i.test(navigator.userAgent))location.replace(${JSON.stringify(WEB)}+'/'+(route==='rankings'||route.indexOf('rankings')===0?'rankings':route));
 document.getElementById('open').href=/Android/i.test(navigator.userAgent)?'intent://'+route+'#Intent;scheme=ringsideradar;package=com.ringsideradar.app;S.browser_fallback_url='+encodeURIComponent(${JSON.stringify(PLAY)})+';end':'ringsideradar://'+route;
 </script></body></html>
 `;
