@@ -74,6 +74,11 @@ come first.
   promotion whose `watch` field in `promotions.json` names a platform listed in watch.json `platforms`
   (IWTV, TrillerTV, YouTube, Facebook …). To grow this list, each week fill in `watch` for 3–5 promotions that have
   upcoming shows but an empty `watch`, from their own website/socials or IWTV/TrillerTV pages (biggest tiers first).
+  Whenever you set `watch`, also set `watchLinks` to the promotion's OWN page on each platform, never a platform home
+  page: IWTV → `https://independentwrestling.tv/promotions/<slug>` (find the slug on
+  https://independentwrestling.tv/promotions), YouTube → the channel (`https://www.youtube.com/@handle`, taken from the
+  promotion's own website), Facebook → its page. The app's "Watch on …" buttons use these links; without one it falls
+  back to the promotion's website.
   A new platform goes into `platforms` with its access (free / sub) and link.
 - Indie events with a confirmed live stream time (IWTV live schedule https://www.iwtv.live/schedule, TrillerTV
   event pages, or a big indie's own announcement) can be added as a hand-written special for that promotion and date

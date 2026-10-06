@@ -31,6 +31,10 @@ const PROMO = new Set(promotions.map((p) => p.id));
 for (const p of promotions) {
   for (const c of p.cities) if (!CITY.has(c)) err(`promotion ${p.id}: unknown city "${c}"`);
   if (![1, 2, 3, 4].includes(p.tier)) err(`promotion ${p.id}: tier must be 1-4`);
+  // watchLinks: the promotion's own page on each platform, e.g. {"IWTV": "https://independentwrestling.tv/promotions/aaw"}.
+  for (const [k, u] of Object.entries(p.watchLinks ?? {})) {
+    if (!/^https:\/\/[^/]+\/./.test(u)) err(`promotion ${p.id}: watchLinks.${k} must be a full https link to the promotion's own page, not a site's home page`);
+  }
 }
 
 // Promotion logos (data-src/logos.tsv): free-licensed / public-domain logos from Wikimedia Commons, hosted in docs/logos/.
@@ -271,9 +275,14 @@ if (new Set(shows.map((s) => s.id)).size !== shows.length) err('two shows share 
     const c = CITIES.get(s.city);
     const name = s.name === p.name || s.name.toLowerCase().includes((p.short ?? p.name).toLowerCase()) ? s.name : `${p.short ?? p.name}: ${s.name}`;
     const paid = plats.find((k) => PLAT[k].access !== 'free'); // full shows usually sit behind the paid platform
+    // Link straight to the promotion's page on each platform (promotions.json `watchLinks`). Without one, use the
+    // promotion's own website (it links to its streams) rather than the platform's generic home page.
+    const linkFor = (k) => p.watchLinks?.[k] ?? p.website ?? PLAT[k].url;
+    const order = [paid ?? plats[0], ...plats.filter((k) => k !== (paid ?? plats[0]))];
+    const links = order.map((k) => ({ label: k, url: linkFor(k) }));
     watch.specials.push({
       id: `auto-${s.id}`, promotion: s.promotion, name, date: s.date, time: '', tz: 'America/New_York',
-      where: plats, access: paid ? PLAT[paid].access : 'free', url: PLAT[paid ?? plats[0]].url,
+      where: order, access: paid ? PLAT[paid].access : 'free', url: links[0].url, links,
       venue: [s.venue, c ? `${c.name}${c.state ? ', ' + c.state : ''}` : ''].filter(Boolean).join(', '),
       note: `Bell time ${s.time && s.time !== 'TBA' ? s.time + ' local' : 'TBA'}. ${p.name} posts its shows on ${plats.join(' / ')} (live or replay); check there for the stream.`,
       tier: p.tier, auto: true, show: s.id, ...(s.source ? { source: s.source } : {}),
