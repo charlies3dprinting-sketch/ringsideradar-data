@@ -79,6 +79,10 @@ come first.
   https://independentwrestling.tv/promotions), YouTube → the channel (`https://www.youtube.com/@handle`, taken from the
   promotion's own website), Facebook → its page. The app's "Watch on …" buttons use these links; without one it falls
   back to the promotion's website.
+  Facebook links: always write `https://www.facebook.com/...` (never `fb.com`), and only add one after opening it and
+  seeing the promotion's page with recent posts. Indie promotions often abandon a page and start a new one (look for a
+  "follow our new page" post) or let it go dark; a dead page shows "This content isn't available right now". If a
+  promotion has no working Facebook page, use its YouTube channel or website instead.
   A new platform goes into `platforms` with its access (free / sub) and link.
 - Indie events with a confirmed live stream time (IWTV live schedule https://www.iwtv.live/schedule, TrillerTV
   event pages, or a big indie's own announcement) can be added as a hand-written special for that promotion and date
