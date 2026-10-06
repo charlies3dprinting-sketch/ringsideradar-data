@@ -1,0 +1,13 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.ringsideradar.app",
+      "sha256_cert_fingerprints": [
+        "0E:7D:8B:C3:42:12:DC:39:FE:CF:03:FD:C5:33:6C:53:FE:A9:DA:EC:D1:CB:C4:98:39:B9:82:35:FA:AB:95:90",
+        "1C:85:9D:4F:F9:86:79:25:A9:BC:F6:9C:C9:AF:D1:02:72:1A:9F:F3:D9:5E:BF:86:3F:C9:AF:3C:A6:05:35:CC"
+      ]
+    }
+  }
+]
