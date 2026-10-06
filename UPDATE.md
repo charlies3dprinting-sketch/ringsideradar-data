@@ -31,6 +31,8 @@ lists ~800 US shows with venue, street, city, state, time and website. The post 
 fetch it several times, asking each time only for the events in one group of states, as pipe lines:
   1. AL AK AZ AR CA CO CT DE   2. FL GA HI ID IL   3. IN IA KS KY LA ME MD   4. MA MI MN MS MO MT NE NV
   5. NH NJ NM NY NC ND OH   6. OK OR PA RI SC SD   7. TN TX UT VT VA WA WV WI WY
+A promotion with a `dormant` note in promotions.json has stopped running: its shows are skipped. Only remove the
+note (and add shows) when the promotion itself announces a return.
 Skip micro/little-person touring shows (Little Mania, MicroMania, Micro Wrestling Federation, Midgets with Attitude,
 Dwarfanators) and anything outside the US/Canada. Use the promotion's full name as it appears (the script matches it to
 our existing promotions; check `promotions.json` for spelling first so you don't create duplicates).

@@ -78,6 +78,7 @@ for (const line of fs.readFileSync(file, 'utf8').split('\n').map((l) => l.trim()
   const c = cityFor(cityName, state);
   if (!c) continue;
   const p = promotionFor(promo, state, website);
+  if (p.dormant) { skipped++; continue; } // stopped running; see promotions.json `dormant`
   if (shows.some((s) => s.promotion === p.id && s.date === date && s.city === c.id)) { skipped++; continue; }
   const s = { promotion: p.id, name: name || p.name, date, time: time || 'TBA', city: c.id, venue: venue || 'Venue on ticket page' };
   if (lat && lng) Object.assign(s, { lat: +lat, lng: +lng }); else Object.assign(s, { lat: c.lat, lng: c.lng, approx: true });

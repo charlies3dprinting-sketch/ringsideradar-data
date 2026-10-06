@@ -201,7 +201,9 @@ const todayIso = new Date().toLocaleDateString('en-CA', { timeZone: 'America/New
 const allShows = readJson('shows.json');
 const pastFile = src('past.json');
 const pastRaw = fs.existsSync(pastFile) ? JSON.parse(fs.readFileSync(pastFile, 'utf8')) : [];
-const rawShows = allShows.filter((s) => !(isDate(s.date) && s.date < todayIso));
+// A promotion marked `dormant` in promotions.json (stopped running) gets no upcoming shows, even if a listing site still repeats them.
+const DORMANT = new Set(promotions.filter((p) => p.dormant).map((p) => p.id));
+const rawShows = allShows.filter((s) => !(isDate(s.date) && s.date < todayIso) && !DORMANT.has(s.promotion));
 const moved = allShows.filter((s) => isDate(s.date) && s.date < todayIso);
 const showId = (s, i, list) => s.id ?? `${s.promotion}-${s.date}${list.filter((x) => x.promotion === s.promotion && x.date === s.date).length > 1 ? `-${i}` : ''}`;
 if (moved.length) {

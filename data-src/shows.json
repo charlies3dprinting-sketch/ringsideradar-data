@@ -200,19 +200,6 @@
   "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-d7f"
  },
  {
-  "promotion": "ccw",
-  "name": "Thursday Night Wrestling",
-  "date": "2026-10-08",
-  "time": "7:00 PM",
-  "city": "nbalt",
-  "venue": "New Baltimore Trade Center, 23 Mile Rd",
-  "lat": 42.676,
-  "lng": -82.75188,
-  "approx": true,
-  "note": "Weekly Thursday show.",
-  "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-d7f"
- },
- {
   "promotion": "ovw",
   "name": "Ohio Valley Wrestling",
   "date": "2026-10-08",
@@ -1350,19 +1337,6 @@
   "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-d7f"
  },
  {
-  "promotion": "ccw",
-  "name": "Thursday Night Wrestling",
-  "date": "2026-10-15",
-  "time": "7:00 PM",
-  "city": "nbalt",
-  "venue": "New Baltimore Trade Center, 23 Mile Rd",
-  "lat": 42.676,
-  "lng": -82.75188,
-  "approx": true,
-  "note": "Weekly Thursday show.",
-  "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-d7f"
- },
- {
   "promotion": "coastalcw",
   "name": "Coastal Championship Wrestling",
   "date": "2026-10-15",
@@ -2238,19 +2212,6 @@
   "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-d7f"
  },
  {
-  "promotion": "ccw",
-  "name": "Thursday Night Wrestling",
-  "date": "2026-10-22",
-  "time": "7:00 PM",
-  "city": "nbalt",
-  "venue": "New Baltimore Trade Center, 23 Mile Rd",
-  "lat": 42.676,
-  "lng": -82.75188,
-  "approx": true,
-  "note": "Weekly Thursday show.",
-  "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-d7f"
- },
- {
   "promotion": "ovw",
   "name": "Ohio Valley Wrestling",
   "date": "2026-10-22",
@@ -3064,18 +3025,6 @@
   "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-0b0"
  },
  {
-  "promotion": "ccw",
-  "name": "City Championship Wrestling",
-  "date": "2026-10-29",
-  "time": "7:00 PM",
-  "city": "nbalt",
-  "venue": "New Baltimore Trade Ctr, 36206 23 Mile RD",
-  "lat": 42.6811,
-  "lng": -82.7369,
-  "approx": true,
-  "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-0b0"
- },
- {
   "promotion": "ovw",
   "name": "Ohio Valley Wrestling",
   "date": "2026-10-29",
@@ -3646,18 +3595,6 @@
   "venue": "1010 Freyburg ST",
   "lat": 40.42654,
   "lng": -79.9883,
-  "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-0b0"
- },
- {
-  "promotion": "ccw",
-  "name": "City Championship Wrestling",
-  "date": "2026-11-05",
-  "time": "7:00 PM",
-  "city": "nbalt",
-  "venue": "New Baltimore Trade Ctr, 36206 23 Mile RD",
-  "lat": 42.6811,
-  "lng": -82.7369,
-  "approx": true,
   "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-0b0"
  },
  {
@@ -4300,18 +4237,6 @@
   "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-0b0"
  },
  {
-  "promotion": "ccw",
-  "name": "City Championship Wrestling",
-  "date": "2026-11-12",
-  "time": "7:00 PM",
-  "city": "nbalt",
-  "venue": "New Baltimore Trade Ctr, 36206 23 Mile RD",
-  "lat": 42.6811,
-  "lng": -82.7369,
-  "approx": true,
-  "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-0b0"
- },
- {
   "promotion": "ovw",
   "name": "Ohio Valley Wrestling",
   "date": "2026-11-12",
@@ -4874,18 +4799,6 @@
   "venue": "Williwaw Social, 609 F ST",
   "lat": 61.21646,
   "lng": -149.89336,
-  "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-0b0"
- },
- {
-  "promotion": "ccw",
-  "name": "City Championship Wrestling",
-  "date": "2026-11-19",
-  "time": "7:00 PM",
-  "city": "nbalt",
-  "venue": "New Baltimore Trade Ctr, 36206 23 Mile RD",
-  "lat": 42.6811,
-  "lng": -82.7369,
-  "approx": true,
   "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-0b0"
  },
  {
@@ -5478,18 +5391,6 @@
   "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-0b0"
  },
  {
-  "promotion": "ccw",
-  "name": "City Championship Wrestling",
-  "date": "2026-11-26",
-  "time": "7:00 PM",
-  "city": "nbalt",
-  "venue": "New Baltimore Trade Ctr, 36206 23 Mile RD",
-  "lat": 42.6811,
-  "lng": -82.7369,
-  "approx": true,
-  "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-0b0"
- },
- {
   "promotion": "ovw",
   "name": "Ohio Valley Wrestling",
   "date": "2026-11-26",
@@ -5908,18 +5809,6 @@
   "venue": "1010 Freyburg ST",
   "lat": 40.42654,
   "lng": -79.9883,
-  "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-0b0"
- },
- {
-  "promotion": "ccw",
-  "name": "City Championship Wrestling",
-  "date": "2026-12-03",
-  "time": "7:00 PM",
-  "city": "nbalt",
-  "venue": "New Baltimore Trade Ctr, 36206 23 Mile RD",
-  "lat": 42.6811,
-  "lng": -82.7369,
-  "approx": true,
   "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-0b0"
  },
  {
@@ -6452,18 +6341,6 @@
   "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-0b0"
  },
  {
-  "promotion": "ccw",
-  "name": "City Championship Wrestling",
-  "date": "2026-12-10",
-  "time": "7:00 PM",
-  "city": "nbalt",
-  "venue": "New Baltimore Trade Ctr, 36206 23 Mile RD",
-  "lat": 42.6811,
-  "lng": -82.7369,
-  "approx": true,
-  "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-0b0"
- },
- {
   "promotion": "ovw",
   "name": "Ohio Valley Wrestling",
   "date": "2026-12-10",
@@ -6920,18 +6797,6 @@
   "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-0b0"
  },
  {
-  "promotion": "ccw",
-  "name": "City Championship Wrestling",
-  "date": "2026-12-17",
-  "time": "7:00 PM",
-  "city": "nbalt",
-  "venue": "New Baltimore Trade Ctr, 36206 23 Mile RD",
-  "lat": 42.6811,
-  "lng": -82.7369,
-  "approx": true,
-  "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-0b0"
- },
- {
   "promotion": "coastalcw",
   "name": "Coastal Championship Wrestling",
   "date": "2026-12-17",
@@ -7343,18 +7208,6 @@
   "venue": "1010 Freyburg ST",
   "lat": 40.42654,
   "lng": -79.9883,
-  "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-0b0"
- },
- {
-  "promotion": "ccw",
-  "name": "City Championship Wrestling",
-  "date": "2026-12-24",
-  "time": "7:00 PM",
-  "city": "nbalt",
-  "venue": "New Baltimore Trade Ctr, 36206 23 Mile RD",
-  "lat": 42.6811,
-  "lng": -82.7369,
-  "approx": true,
   "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-0b0"
  },
  {
@@ -7791,18 +7644,6 @@
   "venue": "1010 Freyburg ST",
   "lat": 40.42654,
   "lng": -79.9883,
-  "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-0b0"
- },
- {
-  "promotion": "ccw",
-  "name": "City Championship Wrestling",
-  "date": "2026-12-31",
-  "time": "7:00 PM",
-  "city": "nbalt",
-  "venue": "New Baltimore Trade Ctr, 36206 23 Mile RD",
-  "lat": 42.6811,
-  "lng": -82.7369,
-  "approx": true,
   "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-0b0"
  },
  {
