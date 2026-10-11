@@ -1,0 +1,31 @@
+name: Ticketmaster wrestling events
+# Every Monday before the weekly data update (6:50 AM ET), refresh sources/ticketmaster.txt from the Ticketmaster
+# Discovery API. Needs the repo secret TM_API_KEY (free key from developer.ticketmaster.com). Skips quietly without it.
+on:
+  schedule:
+    - cron: '0 10 * * 1'   # 6:00 AM ET (EDT) / 5:00 AM ET (EST)
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Fetch
+        env:
+          TM_API_KEY: ${{ secrets.TM_API_KEY }}
+        run: |
+          if [ -z "$TM_API_KEY" ]; then echo "TM_API_KEY secret not set; skipping."; exit 0; fi
+          node scripts/fetch-ticketmaster.mjs 90
+      - name: Commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898769+github-actions[bot]@users.noreply.github.com"
+          git add sources/ticketmaster.txt 2>/dev/null || exit 0
+          git diff --cached --quiet && exit 0
+          git commit -m "Ticketmaster wrestling candidates $(date -u +%F)"
+          git push

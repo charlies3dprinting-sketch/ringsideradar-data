@@ -33,8 +33,25 @@ fetch it several times, asking each time only for the events in one group of sta
   5. NH NJ NM NY NC ND OH   6. OK OR PA RI SC SD   7. TN TX UT VT VA WA WV WI WY
 A promotion with a `dormant` note in promotions.json has stopped running: its shows are skipped. Only remove the
 note (and add shows) when the promotion itself announces a return.
-If a post can't be fetched because the site's robots.txt disallows it (the 10.9.26 post did on 2026-10-11), don't work
-around it: use the newest post that loads plus step 2b, and say so in the summary.
+If the newest post can't be fetched (robots.txt disallowed the 10.9.26 post on 2026-10-11), don't work around it and
+don't re-read an older post's shows as new. Use the replacements below instead and say so in the summary.
+
+**Indie sources when Wrestle Reality is missing, and every week in addition to it** (checked 2026-10-11):
+- `sources/ticketmaster.txt`: refreshed every Monday 6 AM ET by the GitHub Action `ticketmaster.yml` from the
+  Ticketmaster Discovery API (Ticketmaster + Universe listings, with exact venue coordinates). Read it, drop amateur or
+  non-wrestling lines, fix promotion names against promotions.json, and copy the good lines into incoming.txt (they are
+  already in add-shows format, lat|lng included). If the file is missing or old, the TM_API_KEY secret isn't set yet.
+- https://independentwrestling.tv/schedule?lang=en : IWTV live events (Watch tab, and a lead for the show itself).
+- https://www.trillertv.com/live/wrestling/ : TrillerTV live wrestling streams (Watch tab; the /schedule page is
+  robots-blocked, don't use it).
+- Regional calendars: California https://www.indydependent.com/full-list-of-events ; Chicago, Wisconsin and NW
+  Indiana https://www.windycityslam.com/calendar-of-events (check each date on the promotion's own page; the calendar
+  mixes old and undated rows).
+- Big indies' own event pages, e.g. NWA https://www.nationalwrestlingalliance.com/nwaliveevents (stale when checked;
+  only use dates in the future).
+- Step 2b (state-by-state search of promotions' own and ticket pages, weekly series, IWTV promotions directory).
+Not usable: dmvprowrestling.com (DMV weekend list) and trillertv.com/schedule are robots-blocked; allevents.in has no
+pro wrestling listings; wrestlemap.com's event lists stopped in 2024; cagematch.net is off limits.
 Skip micro/little-person touring shows (Little Mania, MicroMania, Micro Wrestling Federation, Midgets with Attitude,
 Dwarfanators) and anything outside the US/Canada. Use the promotion's full name as it appears (the script matches it to
 our existing promotions; check `promotions.json` for spelling first so you don't create duplicates).
@@ -53,6 +70,8 @@ Listing sites only carry part of the indie scene. Each week, also:
 - **Weekly series.** When a promotion's own site or page states a regular schedule ("every Thursday at Pinballz"), add
   a rule to `data-src/recurring.json` instead of single dates; the build keeps 12 weeks of dates filled in. Add `until`
   or `skip` when they announce a break, and remove the rule if they stop.
+- **Promotion directories** for leads: https://en.wikipedia.org/wiki/List_of_independent_wrestling_promotions_in_the_United_States
+  (125 promotions by region) and TrillerTV channel pages.
 - **IWTV directory.** https://independentwrestling.tv/promotions lists promotions that stream; any US one we don't track
   is a lead: add it (tier 1, `watch` ["IWTV"], `watchLinks`) and look for its upcoming shows.
 - Competitor apps and sites (Hot Tag etc.) are never a source: don't copy their listings or scrape them. A show goes in
@@ -76,6 +95,9 @@ NWA, DEFY, Wrestling Revolver, HOG, JCW, West Coast Pro, GCW, MLW, AIW, NCG, Zer
 Limitless, IWC, F1RST, ICW MKE, and so on) plus any Michigan/Ohio promotion.
 Add singles results (skip tag and multi-team matches unless it's a title change for a tag title we track).
 Fans also report results from shows they attend in the app; those live in the app's database, not here.
+
+**Also:** Voices of Wrestling's weekly column "The U.S. Independent" (voicesofwrestling.com, search "The U.S. Independent")
+reports indie title changes and notable results; confirm each on the promotion's page or a results post before recording.
 
 ## 4b. Watch tab (`data-src/watch.json`, about 6 fetches)
 The Watch tab lists every watchable event, free or paid: weekly TV, major PLEs/PPVs, and indie shows that stream.
