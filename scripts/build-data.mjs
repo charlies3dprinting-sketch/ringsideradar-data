@@ -199,6 +199,35 @@ for (const row of readRows('results.txt')) {
 // Shows. Anything dated before today moves from shows.json to past.json (kept for a year for promotion show history).
 const todayIso = new Date().toLocaleDateString('en-CA', { timeZone: 'America/New_York' });
 const allShows = readJson('shows.json');
+// Recurring shows (data-src/recurring.json): promotions that run the same show every week (e.g. a Thursday-night
+// series at the same bar). Each rule is expanded into shows.json for the next `weeks` weeks (default 12), skipping
+// dates already listed for that promotion. Only add a rule when the promotion's own site/socials state the schedule.
+let addedRecurring = 0;
+if (fs.existsSync(src('recurring.json'))) {
+  const rec = readJson('recurring.json');
+  for (const r of rec.rules ?? []) {
+    const where = `recurring ${r.promotion} ${r.name}`;
+    if (!PROMO.has(r.promotion)) { err(`${where}: unknown promotion`); continue; }
+    if (!CITY.has(r.city)) { err(`${where}: unknown city "${r.city}"`); continue; }
+    if (!(r.weekday >= 0 && r.weekday <= 6)) { err(`${where}: weekday must be 0-6 (0 = Sunday)`); continue; }
+    if (!r.source) err(`${where}: needs a source`);
+    const step = (r.everyWeeks ?? 1) * 7;
+    const d = new Date(`${r.from && r.from > todayIso ? r.from : todayIso}T12:00:00Z`);
+    while (d.getUTCDay() !== r.weekday) d.setUTCDate(d.getUTCDate() + 1);
+    const end = new Date(`${todayIso}T12:00:00Z`); end.setUTCDate(end.getUTCDate() + 7 * (r.weeks ?? 12));
+    for (; d <= end; d.setUTCDate(d.getUTCDate() + step)) {
+      const date = d.toISOString().slice(0, 10);
+      if (r.until && date > r.until) break;
+      if ((r.skip ?? []).includes(date)) continue;
+      if (allShows.some((s) => s.promotion === r.promotion && s.date === date)) continue;
+      const c = cities.find((x) => x.id === r.city);
+      allShows.push({ promotion: r.promotion, name: r.name, date, time: r.time || 'TBA', city: r.city, venue: r.venue,
+        lat: r.lat ?? c.lat, lng: r.lng ?? c.lng, ...(r.lat ? {} : { approx: true }), ...(r.ticketUrl ? { ticketUrl: r.ticketUrl } : {}),
+        recurring: true, source: r.source });
+      addedRecurring++;
+    }
+  }
+}
 const pastFile = src('past.json');
 const pastRaw = fs.existsSync(pastFile) ? JSON.parse(fs.readFileSync(pastFile, 'utf8')) : [];
 // A promotion marked `dormant` in promotions.json (stopped running) gets no upcoming shows, even if a listing site still repeats them.
@@ -214,8 +243,8 @@ if (moved.length) {
     if (have.has(id)) continue;
     pastRaw.push({ id, promotion: s.promotion, name: s.name, date: s.date, time: s.time || 'TBA', city: s.city, venue: s.venue, lat: s.lat, lng: s.lng, featuring: s.featuring ?? [] });
   }
-  fs.writeFileSync(src('shows.json'), JSON.stringify(rawShows, null, 1) + '\n');
 }
+if (moved.length || addedRecurring) fs.writeFileSync(src('shows.json'), JSON.stringify(rawShows, null, 1) + '\n');
 const yearAgo = new Date(Date.now() - 365 * 864e5).toISOString().slice(0, 10);
 const past = pastRaw.filter((s) => s.date >= yearAgo && PROMO.has(s.promotion) && CITY.has(s.city)).sort((a, b) => a.date.localeCompare(b.date));
 fs.writeFileSync(pastFile, JSON.stringify(past, null, 1) + '\n');
@@ -249,7 +278,7 @@ const shows = rawShows.map((s, i) => {
   if (s.card) err(`${where}: "card" is no longer used; list advertised names in "featuring"`);
   const id = showId(s, i, rawShows);
   const out = { id, promotion: s.promotion, name: s.name, date: s.date, time: s.time || 'TBA', city: s.city, venue: s.venue, lat: s.lat, lng: s.lng };
-  for (const k of ['price', 'ticketUrl', 'promoted', 'approx', 'note', 'source']) if (s[k] !== undefined) out[k] = s[k];
+  for (const k of ['price', 'ticketUrl', 'promoted', 'approx', 'note', 'source', 'recurring']) if (s[k] !== undefined) out[k] = s[k];
   // Advertised names. Wrestlers we track link to their profiles; anyone else (legends, guests) shows as plain text.
   out.featuring = (s.featuring ?? []).map((n) => byName.get(n)?.id ?? n);
   return out;

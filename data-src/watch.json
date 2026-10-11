@@ -259,6 +259,244 @@
    "access": "ppv",
    "venue": "Target Center, Minneapolis",
    "source": "https://www.f4wonline.com/event-guides/aew-2026-ppv-schedule/"
+  },
+  {
+   "id": "iwtv-wopen-2026-10-12",
+   "promotion": "wopen",
+   "name": "Wrestling Open RI: Ep 71",
+   "date": "2026-10-12",
+   "time": "19:00",
+   "tz": "America/New_York",
+   "where": [
+    "IWTV"
+   ],
+   "access": "ppv",
+   "note": "Live on IWTV (listed as PPV on the IWTV schedule).",
+   "source": "https://independentwrestling.tv/schedule?lang=en"
+  },
+  {
+   "id": "iwtv-wopen-2026-10-15",
+   "promotion": "wopen",
+   "name": "Wrestling Open: Ep 250",
+   "date": "2026-10-15",
+   "time": "20:00",
+   "tz": "America/New_York",
+   "where": [
+    "IWTV"
+   ],
+   "access": "ppv",
+   "note": "Live on IWTV (listed as PPV on the IWTV schedule).",
+   "source": "https://independentwrestling.tv/schedule?lang=en"
+  },
+  {
+   "id": "iwtv-ntpw-2026-10-15",
+   "promotion": "ntpw",
+   "name": "New Texas Pro: Super Texas Contenders Series 13",
+   "date": "2026-10-15",
+   "time": "20:30",
+   "tz": "America/New_York",
+   "where": [
+    "IWTV"
+   ],
+   "access": "ppv",
+   "note": "Live on IWTV (listed as PPV on the IWTV schedule).",
+   "source": "https://independentwrestling.tv/schedule?lang=en"
+  },
+  {
+   "id": "iwtv-immortalcw-2026-10-17",
+   "promotion": "immortalcw",
+   "name": "Immortal CW: Halloween Havok 7",
+   "date": "2026-10-17",
+   "time": "18:45",
+   "tz": "America/New_York",
+   "where": [
+    "IWTV"
+   ],
+   "access": "ppv",
+   "note": "Live on IWTV (listed as PPV on the IWTV schedule).",
+   "source": "https://independentwrestling.tv/schedule?lang=en"
+  },
+  {
+   "id": "iwtv-focuspro-2026-10-24",
+   "promotion": "focuspro",
+   "name": "Focus Pro: The World In My Hands",
+   "date": "2026-10-24",
+   "time": "15:00",
+   "tz": "America/New_York",
+   "where": [
+    "IWTV"
+   ],
+   "access": "ppv",
+   "note": "Live on IWTV (listed as PPV on the IWTV schedule).",
+   "source": "https://independentwrestling.tv/schedule?lang=en"
+  },
+  {
+   "id": "iwtv-czw-2026-10-24",
+   "promotion": "czw",
+   "name": "CZW x Beyond: Double Burial",
+   "date": "2026-10-24",
+   "time": "20:00",
+   "tz": "America/New_York",
+   "where": [
+    "IWTV"
+   ],
+   "access": "ppv",
+   "note": "Live on IWTV (listed as PPV on the IWTV schedule).",
+   "source": "https://independentwrestling.tv/schedule?lang=en"
+  },
+  {
+   "id": "iwtv-nhb-2026-10-24",
+   "promotion": "nhb",
+   "name": "NHB - The Chains Vol. 102",
+   "date": "2026-10-24",
+   "time": "20:00",
+   "tz": "America/New_York",
+   "where": [
+    "IWTV"
+   ],
+   "access": "ppv",
+   "note": "Live on IWTV (listed as PPV on the IWTV schedule).",
+   "source": "https://independentwrestling.tv/schedule?lang=en"
+  },
+  {
+   "id": "iwtv-etu-2026-10-25",
+   "promotion": "etu",
+   "name": "ETU Wrestling: Show Me Vol. 1",
+   "date": "2026-10-25",
+   "time": "16:00",
+   "tz": "America/New_York",
+   "where": [
+    "IWTV"
+   ],
+   "access": "ppv",
+   "note": "Live on IWTV (listed as PPV on the IWTV schedule).",
+   "source": "https://independentwrestling.tv/schedule?lang=en"
+  },
+  {
+   "id": "iwtv-ntpw-2026-10-30",
+   "promotion": "ntpw",
+   "name": "New Texas Pro: 8 Year Anniversary",
+   "date": "2026-10-30",
+   "time": "20:30",
+   "tz": "America/New_York",
+   "where": [
+    "IWTV"
+   ],
+   "access": "ppv",
+   "note": "Live on IWTV (listed as PPV on the IWTV schedule).",
+   "source": "https://independentwrestling.tv/schedule?lang=en"
+  },
+  {
+   "id": "iwtv-nhb-2026-11-20",
+   "promotion": "nhb",
+   "name": "NHB - The Chains: Because The Night (A Tribute To Jeff Cannonball)",
+   "date": "2026-11-20",
+   "time": "20:00",
+   "tz": "America/New_York",
+   "where": [
+    "IWTV"
+   ],
+   "access": "ppv",
+   "note": "Live on IWTV (listed as PPV on the IWTV schedule).",
+   "source": "https://independentwrestling.tv/schedule?lang=en"
+  },
+  {
+   "id": "iwtv-chicagostyle-2026-11-20",
+   "promotion": "chicagostyle",
+   "name": "Chicago Style Wrestling: Second City Showdown VI",
+   "date": "2026-11-20",
+   "time": "20:30",
+   "tz": "America/New_York",
+   "where": [
+    "IWTV"
+   ],
+   "access": "ppv",
+   "note": "Live on IWTV (listed as PPV on the IWTV schedule).",
+   "source": "https://independentwrestling.tv/schedule?lang=en"
+  },
+  {
+   "id": "iwtv-beyond-2026-11-21",
+   "promotion": "beyond",
+   "name": "Beyond Wrestling: Rent Free",
+   "date": "2026-11-21",
+   "time": "19:00",
+   "tz": "America/New_York",
+   "where": [
+    "IWTV"
+   ],
+   "access": "ppv",
+   "note": "Live on IWTV (listed as PPV on the IWTV schedule).",
+   "source": "https://independentwrestling.tv/schedule?lang=en"
+  },
+  {
+   "id": "iwtv-pwjunkie-2026-11-22",
+   "promotion": "pwjunkie",
+   "name": "Pro Wrestling Junkie: Loyalty Over Everything",
+   "date": "2026-11-22",
+   "time": "17:00",
+   "tz": "America/New_York",
+   "where": [
+    "IWTV"
+   ],
+   "access": "ppv",
+   "note": "Live on IWTV (listed as PPV on the IWTV schedule).",
+   "source": "https://independentwrestling.tv/schedule?lang=en"
+  },
+  {
+   "id": "iwtv-powerprolucha-2026-11-22",
+   "promotion": "powerprolucha",
+   "name": "Power Pro Lucha: Neon Genesis Cibernetico",
+   "date": "2026-11-22",
+   "time": "18:00",
+   "tz": "America/New_York",
+   "where": [
+    "IWTV"
+   ],
+   "access": "ppv",
+   "note": "Live on IWTV (listed as PPV on the IWTV schedule).",
+   "source": "https://independentwrestling.tv/schedule?lang=en"
+  },
+  {
+   "id": "iwtv-nhb-2026-11-27",
+   "promotion": "nhb",
+   "name": "NHB - The Chains Vol. 104",
+   "date": "2026-11-27",
+   "time": "21:00",
+   "tz": "America/New_York",
+   "where": [
+    "IWTV"
+   ],
+   "access": "ppv",
+   "note": "Live on IWTV (listed as PPV on the IWTV schedule).",
+   "source": "https://independentwrestling.tv/schedule?lang=en"
+  },
+  {
+   "id": "iwtv-nhb-2026-11-28",
+   "promotion": "nhb",
+   "name": "NHB - The Chains Vol. 105",
+   "date": "2026-11-28",
+   "time": "20:00",
+   "tz": "America/New_York",
+   "where": [
+    "IWTV"
+   ],
+   "access": "ppv",
+   "note": "Live on IWTV (listed as PPV on the IWTV schedule).",
+   "source": "https://independentwrestling.tv/schedule?lang=en"
+  },
+  {
+   "id": "iwtv-freelance-2026-12-11",
+   "promotion": "freelance",
+   "name": "Freelance Wrestling: Thunderbrawl",
+   "date": "2026-12-11",
+   "time": "21:00",
+   "tz": "America/New_York",
+   "where": [
+    "IWTV"
+   ],
+   "access": "ppv",
+   "note": "Live on IWTV (listed as PPV on the IWTV schedule).",
+   "source": "https://independentwrestling.tv/schedule?lang=en"
   }
  ],
  "changes": [

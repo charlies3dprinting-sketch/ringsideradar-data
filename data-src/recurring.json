@@ -1,0 +1,4 @@
+{
+ "_help": "Weekly (or every-N-weeks) shows a promotion runs on a fixed schedule. build-data.mjs writes the next `weeks` (default 12) occurrences into shows.json, skipping dates already listed for that promotion. Fields: promotion (id), name, weekday (0=Sun..6=Sat), time (\"7:30 PM\"), venue, city (id from cities.json), optional lat/lng, everyWeeks (default 1), from / until (YYYY-MM-DD), skip (dates), ticketUrl, source (the promotion's own page stating the schedule; required). Only add a rule when the promotion itself states the regular schedule.",
+ "rules": []
+}

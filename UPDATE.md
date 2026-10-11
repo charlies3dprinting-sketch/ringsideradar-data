@@ -2,7 +2,7 @@
 
 This repo feeds the Ringside Radar app. The app downloads `data-bundle/ringsideradar-data.json`
 from GitHub whenever it opens. Each week: keep shows (nationwide), champions and results current, rebuild, push.
-Budget: **about 50 web fetches per run.** Skip anything that hasn't changed. Don't hand-edit `docs/`; the build
+Budget: **about 60 web fetches per run.** Skip anything that hasn't changed. Don't hand-edit `docs/`; the build
 regenerates `docs/p/` (share pages) itself, and those changes are committed with the data.
 
 Setup once per run: `npm install` (pulls the offline city list `scripts/add-shows.mjs` uses for map pins).
@@ -33,6 +33,8 @@ fetch it several times, asking each time only for the events in one group of sta
   5. NH NJ NM NY NC ND OH   6. OK OR PA RI SC SD   7. TN TX UT VT VA WA WV WI WY
 A promotion with a `dormant` note in promotions.json has stopped running: its shows are skipped. Only remove the
 note (and add shows) when the promotion itself announces a return.
+If a post can't be fetched because the site's robots.txt disallows it (the 10.9.26 post did on 2026-10-11), don't work
+around it: use the newest post that loads plus step 2b, and say so in the summary.
 Skip micro/little-person touring shows (Little Mania, MicroMania, Micro Wrestling Federation, Midgets with Attitude,
 Dwarfanators) and anything outside the US/Canada. Use the promotion's full name as it appears (the script matches it to
 our existing promotions; check `promotions.json` for spelling first so you don't create duplicates).
@@ -41,6 +43,21 @@ California has its own calendar with more shows: https://www.indydependent.com/f
 **Exact pins (optional, when budget allows):** for a new venue with a street address, geocode it with
 `https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=<street, city, ST>&benchmark=Public_AR_Current&format=json`
 and put the lat|lng as fields 11 and 12. Without them the pin is the town centre (marked approximate).
+
+## 2b. Coverage expansion (about 8 fetches; this is how we catch up with apps like Hot Tag)
+Listing sites only carry part of the indie scene. Each week, also:
+- **Weakest states first.** Count upcoming shows per state (`node -e` over shows.json + cities.json). Pick the two
+  most populous states with the fewest shows (e.g. TX, NY, MI, VA, NJ) and WebSearch "<state> pro wrestling tickets",
+  "<city> independent wrestling" and Eventbrite/TicketLeap/Tickeri/SimpleTix results for that state. For each promotion
+  found, open its own website or ticket page and add its upcoming dated shows through add-shows.mjs (source = that page).
+- **Weekly series.** When a promotion's own site or page states a regular schedule ("every Thursday at Pinballz"), add
+  a rule to `data-src/recurring.json` instead of single dates; the build keeps 12 weeks of dates filled in. Add `until`
+  or `skip` when they announce a break, and remove the rule if they stop.
+- **IWTV directory.** https://independentwrestling.tv/promotions lists promotions that stream; any US one we don't track
+  is a lead: add it (tier 1, `watch` ["IWTV"], `watchLinks`) and look for its upcoming shows.
+- Competitor apps and sites (Hot Tag etc.) are never a source: don't copy their listings or scrape them. A show goes in
+  only from the promotion's own page, a ticket page, or one of the listing sources above.
+- In the summary, report shows added per state from this step.
 
 ## 3. Majors: last week's results and title changes
 WWE (Raw, SmackDown, NXT, PLEs), AEW (Dynamite, Collision, PPVs), TNA, ROH, AAA, NJPW, CMLL.
@@ -86,7 +103,9 @@ come first.
   "follow our new page" post) or let it go dark; a dead page shows "This content isn't available right now". If a
   promotion has no working Facebook page, use its YouTube channel or website instead.
   A new platform goes into `platforms` with its access (free / sub) and link.
-- Indie events with a confirmed live stream time (IWTV live schedule https://www.iwtv.live/schedule, TrillerTV
+- Indie events with a confirmed live stream time (IWTV live schedule https://independentwrestling.tv/schedule?lang=en — one fetch lists every
+  upcoming live IWTV event with ET start time; add each as `iwtv-<promotion>-<date>` with where ["IWTV"] and the access
+  the schedule shows (it lists them as PPV), creating a tier-1 promotion with watch ["IWTV"] if we don't track it; TrillerTV
   event pages, or a big indie's own announcement) can be added as a hand-written special for that promotion and date
   with the exact start time; it replaces the automatic entry.
 - `changes`: date-specific moves or pre-emptions you see in news (e.g. "Dynamite moves to Tuesday this week"):

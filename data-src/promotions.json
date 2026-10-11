@@ -291,5 +291,14 @@
   {"id":"buffalo-championsh","name":"Buffalo Championship Wrestling","short":"Buffalo Championsh","tier":1,"country":"USA","area":"New York","cities":["north-tonawanda-ny"],"viewership":1,"attendance":3,"watch":[],"website":"https://www.facebook.com/BCWWNY"},
   {"id":"now","name":"Northwest Ohio Wrestling","short":"NOW","tier":1,"country":"USA","area":"Ohio","cities":["bowling-green-oh"],"viewership":1,"attendance":3,"watch":[],"website":"https://www.facebook.com/419wrestling"},
   {"id":"spcw","name":"Southern Pride Championship Wrestling","short":"SPCW","tier":1,"country":"USA","area":"Tennessee","cities":["jacksboro-tn"],"viewership":1,"attendance":3,"watch":[]},
+  {"id":"northshore","name":"North Shore Pro Wrestling","short":"North Shore Pro","tier":1,"country":"USA","area":"USA","cities":[],"viewership":1,"attendance":3,"watch":["IWTV"],"source":"https://independentwrestling.tv/schedule?lang=en"},
+  {"id":"immortalcw","name":"Immortal Championship Wrestling","short":"Immortal CW","tier":1,"country":"USA","area":"USA","cities":[],"viewership":1,"attendance":3,"watch":["IWTV"],"source":"https://independentwrestling.tv/schedule?lang=en"},
+  {"id":"czw","name":"Combat Zone Wrestling","short":"CZW","tier":1,"country":"USA","area":"New Jersey","cities":[],"viewership":1,"attendance":3,"watch":["IWTV"],"source":"https://independentwrestling.tv/schedule?lang=en"},
+  {"id":"etu","name":"ETU Wrestling","short":"ETU","tier":1,"country":"USA","area":"USA","cities":[],"viewership":1,"attendance":3,"watch":["IWTV"],"source":"https://independentwrestling.tv/schedule?lang=en"},
+  {"id":"chicagostyle","name":"Chicago Style Wrestling","short":"Chicago Style","tier":1,"country":"USA","area":"Illinois","cities":[],"viewership":1,"attendance":3,"watch":["IWTV"],"source":"https://independentwrestling.tv/schedule?lang=en"},
+  {"id":"beyond","name":"Beyond Wrestling","short":"Beyond","tier":1,"country":"USA","area":"Massachusetts","cities":[],"viewership":1,"attendance":3,"watch":["IWTV"],"source":"https://independentwrestling.tv/schedule?lang=en"},
+  {"id":"pwjunkie","name":"Pro Wrestling Junkie","short":"PW Junkie","tier":1,"country":"USA","area":"USA","cities":[],"viewership":1,"attendance":3,"watch":["IWTV"],"source":"https://independentwrestling.tv/schedule?lang=en"},
+  {"id":"powerprolucha","name":"Power Pro Lucha","short":"Power Pro Lucha","tier":1,"country":"USA","area":"USA","cities":[],"viewership":1,"attendance":3,"watch":["IWTV"],"source":"https://independentwrestling.tv/schedule?lang=en"},
+  {"id":"freelance","name":"Freelance Wrestling","short":"Freelance","tier":1,"country":"USA","area":"Illinois","cities":[],"viewership":1,"attendance":3,"watch":["IWTV"],"source":"https://independentwrestling.tv/schedule?lang=en"},
   {"id":"other","name":"Other promotions","short":"Other","tier":3,"country":"","area":"Worldwide","cities":[],"viewership":0,"attendance":0,"watch":[],"hidden":true}
 ]
