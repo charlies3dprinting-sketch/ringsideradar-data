@@ -1,0 +1,42 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": [
+          "Y5HFD7C3X5.com.ringsideradar.app"
+        ],
+        "components": [
+          {
+            "/": "/wrestler/*"
+          },
+          {
+            "/": "/promotion/*"
+          },
+          {
+            "/": "/show/*"
+          },
+          {
+            "/": "/title/*"
+          },
+          {
+            "/": "/team/*"
+          },
+          {
+            "/": "/fan/*"
+          },
+          {
+            "/": "/group/*"
+          },
+          {
+            "/": "/rankings"
+          }
+        ]
+      }
+    ]
+  },
+  "webcredentials": {
+    "apps": [
+      "Y5HFD7C3X5.com.ringsideradar.app"
+    ]
+  }
+}
