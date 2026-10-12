@@ -231,3 +231,45 @@
 2026-10-03|gcw|Anakin Murphy|Parrow|-
 2026-10-03|gcw|1 Called Manders|Nick Gage|-
 2026-10-03|gcw|Atticus Cogar|Vipress|-
+2026-10-05|wwe|Rey Fénix|Ethan Page|-
+2026-10-06|nxt|Zilla Fatu|Lexis King|-
+2026-10-06|aew|Bandido|Kofi|roh-world
+2026-10-06|aew|Samoa Joe|Jack Perry|-
+2026-10-06|aew|Darby Allin|Kyle Fletcher|aew-tnt
+2026-10-06|aew|Mercedes Moné|Queen Aminata|aew-women
+2026-10-06|aew|Will Ospreay|Kazuchika Okada|aew-world
+2026-10-10|aew|Nick Wayne|Chris Jericho|-
+2026-10-10|aew|Mike Bailey|Lee Moriarty|-
+2026-10-10|aew|Swerve Strickland|Carlie Bravo|-
+2026-10-10|aew|Andrade El Ídolo|Michael Oku|aew-natl
+2026-10-10|wwe|Roman Reigns|LA Knight|wwe-whc
+2026-10-10|wwe|Liv Morgan|Stephanie Vaquer, Becky Lynch|wwe-ww
+2026-10-10|wwe|Oba Femi|Bronson Reed|-
+2026-10-10|wwe|Penta|Bron Breakker, Je'Von Evans, Trick Williams, CM Punk, Kevin Owens|-
+2026-10-10|wwe|Tiffany Stratton|Sol Ruca, Lola Vice, Jacy Jayne, Roxanne Perez, Lash Legend|-
+2026-10-11|tna|Ricky Sosa|Eddie Edwards|-
+2026-10-11|tna|Amazing Red|Rich Swann, Ryan Nemeth, Cedric Alexander, Fabian Aichner, KC Navarro, BDE|tna-x
+2026-10-11|tna|Jason Hotch|Mustafa Ali, John Skyler, Special Agent 0|tna-intl
+2026-10-11|tna|Indi Hartwell|Xia Brookside|tna-ko
+2026-10-11|tna|Moose|Max Caster|-
+2026-10-11|tna|Leon Slater|Nic Nemeth|tna-world
+2026-10-12|njpw|Aaron Wolf|Kosei Fujita|njpw-never
+2026-10-12|njpw|Gabe Kidd|Shota Umino|-
+2026-10-12|njpw|Yoh|Robbie Eagles|njpw-jr
+2026-10-12|njpw|Yota Tsuji|Ryohei Oiwa|njpw-iwgp
+2026-10-02|revolver|Damian Chambers|Mance Warner|-
+2026-10-02|revolver|Alex Colon|Krule|-
+2026-10-02|revolver|BDE|Joe Alonzo|-
+2026-10-02|revolver|Zachary Wentz|Brent Oakley|-
+2026-10-04|wrestlepro|Yoscifer El|Nikos Rikos|-
+2026-10-04|wrestlepro|Action Andretti|Marcus Mathers|roh-tv
+2026-10-04|wrestlepro|LSG|Vargas|-
+2026-10-04|wrestlepro|Lady Frost|Rebecca J. Scott|-
+2026-10-04|wrestlepro|Killer Kross|Matt Riddle|-
+2026-10-09|hog|Amazing Red|Marcus Mathers|-
+2026-10-09|hog|Daron Richardson|Smiley|-
+2026-10-09|hog|Tommaso Ciampa|Charles Mason|-
+2026-10-10|gcw|Terry Yaki|Juni Underwood|-
+2026-10-10|gcw|Pitbull Gary Wolf|Jimmy Lloyd|-
+2026-10-10|gcw|Joey Janela|Tony Deppen|-
+2026-10-10|gcw|Nick Gage|Marcus Mathers|-

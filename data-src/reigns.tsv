@@ -8,7 +8,7 @@ wwe-whc	CM Punk	2025-11-01	2026-04-19
 wwe-whc	Roman Reigns	2026-04-19
 wwe-ww	Stephanie Vaquer	2025-09-20	2026-04-18
 wwe-ww	Liv Morgan	2026-04-18	2026-09-12
-wwe-ww	Stephanie Vaquer	2026-09-12
+wwe-ww	Stephanie Vaquer	2026-09-12	2026-10-10
 wwe-women	Jade Cargill	2025-11-01	2026-04-19
 wwe-women	Rhea Ripley	2026-04-19
 wwe-ic	Penta	2026-04-19	2026-08-02
@@ -56,11 +56,11 @@ roh-pure	Lee Moriarty	2024-07-26
 roh-wtv	Red Velvet	2025-12-05
 roh-wpure	Deonna Purrazzo	2025-12-05
 tna-world	Mike Santana	2025-10-12	2026-06-28	asof
-tna-world	Nic Nemeth	2026-06-28
-tna-ko	Xia Brookside	2026-06-28
+tna-world	Nic Nemeth	2026-06-28	2026-10-11
+tna-ko	Xia Brookside	2026-06-28	2026-10-11
 tna-x	Leon Slater	2026-04-11	2026-05-14
-tna-x	Cedric Alexander	2026-05-14
-tna-intl	Mustafa Ali	2026-04-11
+tna-x	Cedric Alexander	2026-05-14	2026-10-11
+tna-intl	Mustafa Ali	2026-04-11	2026-10-11
 aaa-mega	Dominik Mysterio	2025-09-12	2026-09-13
 aaa-mega	El Grande Americano	2026-09-13
 aaa-reina	La Catalina	2026-09-13
@@ -95,7 +95,7 @@ ncg-women	Tessa Blanchard	2026-09-30		asof
 wwe-tag-raw	The Vision: Bron Breakker + Austin Theory	2026-07-06
 wwe-tag-sd	The MFTs: Tama Tonga + Talla Tonga	2026-08-14
 wwe-wtag	Brie Bella & Paige: Brie Bella + Paige	2026-04-18	2026-07-18
-wwe-wtag	Fatal Influence: Fallon Henley + Lainey Reid	2026-07-18
+wwe-wtag	Fatal Influence: Fallon Henley + Lainey Reid	2026-07-18	2026-10-09
 nxt-tag	The Vanity Project: Brad Baylor + Ricky Smokes	2026-08-30
 aew-tag	Cage and Cope: Christian Cage + Adam Copeland	2026-05-24	2026-09-26
 aew-tag	The Young Bucks: Matt Jackson + Nick Jackson	2026-09-26
@@ -106,7 +106,7 @@ aew-trios	Swerve Strickland & The New Level: Swerve Strickland + Kofi + Austin C
 roh-tag	El Sky Team: Místico + Máscara Dorada	2026-06-26
 roh-6man	The Lethal Twist: Jay Lethal + Blake Christian + Lee Johnson	2026-08-21
 tna-tag	The Broken Hardys: Matt Hardy + Jeff Hardy	2026-06-28
-tna-kotag	DemonXBunny: Rosemary + Allie	2026-06-28
+tna-kotag	DemonXBunny: Rosemary + Allie	2026-06-28	2026-10-11
 aaa-tag	The Wagner Brothers: El Hijo de Dr. Wagner Jr. + Galeno	2026-09-13
 aaa-trios	Los Perros del Mal: Daga + Angel + Berto	2026-09-11
 njpw-tag	United Empire: Great-O-Khan + Henare	2026-06-14
@@ -115,3 +115,10 @@ mlw-tag	The Good Brothers: Doc Gallows + Karl Anderson	2026-05-09
 gcw-tag	KJ Orso & Sam Stackhouse: KJ Orso + Sam Stackhouse	2026-08-15
 aiw-tag	Swoggle & The Duke: Swoggle + The Duke	2026-07-10
 ncg-tag	The Headbangers: Mosh + Thrasher	2026-09-30		asof
+wwe-ww	Liv Morgan	2026-10-10
+wwe-wtag	Alexa Bliss & Tatum Paxley: Alexa Bliss + Tatum Paxley	2026-10-09
+tna-world	Leon Slater	2026-10-11
+tna-ko	Indi Hartwell	2026-10-11
+tna-x	Amazing Red	2026-10-11
+tna-intl	Jason Hotch	2026-10-11
+tna-kotag	Shayna Baszler & Zoey Serrano: Shayna Baszler + Zoey Serrano	2026-10-11

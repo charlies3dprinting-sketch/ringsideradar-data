@@ -320,5 +320,12 @@
   {"id":"jacksboro-tn","name":"Jacksboro","state":"TN","lat":36.3301,"lng":-84.1838},
   {"id":"paris-france","name":"Paris","state":"France","lat":48.8534,"lng":2.3488},
   {"id":"liverpool-uk","name":"Liverpool","state":"UK","lat":53.4106,"lng":-2.9779},
-  {"id":"santa-ana-ca","name":"Santa Ana","state":"CA","lat":33.7456,"lng":-117.8678}
+  {"id":"santa-ana-ca","name":"Santa Ana","state":"CA","lat":33.7456,"lng":-117.8678},
+  {"id":"laredo-tx","name":"Laredo","state":"TX","lat":27.5064,"lng":-99.5075},
+  {"id":"monterrey-mexico","name":"Monterrey","state":"Mexico","lat":25.6866,"lng":-100.3161},
+  {"id":"melbourne-australia","name":"Melbourne","state":"Australia","lat":-37.814,"lng":144.9633},
+  {"id":"brisbane-australia","name":"Brisbane","state":"Australia","lat":-27.4679,"lng":153.0281},
+  {"id":"pacheco-ca","name":"Pacheco","state":"CA","lat":37.9835,"lng":-122.0752},
+  {"id":"elk-grove-ca","name":"Elk Grove","state":"CA","lat":38.4088,"lng":-121.3716},
+  {"id":"auckland-new-zealand","name":"Auckland","state":"New Zealand","lat":-36.8485,"lng":174.7633}
 ]
