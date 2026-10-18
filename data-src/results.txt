@@ -273,3 +273,27 @@
 2026-10-10|gcw|Pitbull Gary Wolf|Jimmy Lloyd|-
 2026-10-10|gcw|Joey Janela|Tony Deppen|-
 2026-10-10|gcw|Nick Gage|Marcus Mathers|-
+2026-10-12|wwe|Rey Mysterio|Big Cass|-
+2026-10-12|wwe|Roxanne Perez|Chelsea Green|-
+2026-10-12|wwe|Chad Gable|Rey Fénix|wwe-ic
+2026-10-13|nxt|Tristan Angels|Saquon Shugars|-
+2026-10-13|nxt|La Catalina|Kali Armstrong|aaa-reina
+2026-10-13|nxt|Tony D'Angelo|Myles Borne|-
+2026-10-14|aew|Adam Copeland|Josh Alexander|-
+2026-10-14|aew|Konosuke Takeshita|Brian Cage|-
+2026-10-14|aew|Kazuchika Okada|Myron Reed|aew-intl
+2026-10-14|aew|Ricochet|Ace Austin|-
+2026-10-14|aew|Darby Allin|Hechicero|aew-tnt
+2026-10-15|tna|Nic Nemeth|Ryan Nemeth|-
+2026-10-15|tna|Trey Miguel|Elijah, Jason Hotch, Ricky Sosa, Moose|-
+2026-10-16|wwe|Trick Williams|Johnny Gargano|-
+2026-10-16|wwe|Paige|Nikki Bella|-
+2026-10-16|wwe|Damian Priest|R-Truth|-
+2026-10-16|wwe|Rey Fénix|Ricky Saints|-
+2026-10-16|wwe|Cody Rhodes|Baron Corbin|-
+2026-10-17|aew|Mercedes Moné|Thekla|aew-women
+2026-10-17|aew|Nick Wayne|Chris Jericho|-
+2026-10-17|aew|Persephone|Hyan, Dani Luna, Queen Aminata|aew-tbs
+2026-10-17|aew|Andrade El Ídolo|Tommaso Ciampa|aew-natl
+2026-10-17|aew|Jon Moxley|Mark Davis|aew-cont
+2026-10-17|aew|Will Ospreay|Adam Copeland, Samoa Joe, Darby Allin, Konosuke Takeshita, Kazuchika Okada, Ricochet, Mike Bailey|aew-world

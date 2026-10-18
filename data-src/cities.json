@@ -327,5 +327,7 @@
   {"id":"brisbane-australia","name":"Brisbane","state":"Australia","lat":-27.4679,"lng":153.0281},
   {"id":"pacheco-ca","name":"Pacheco","state":"CA","lat":37.9835,"lng":-122.0752},
   {"id":"elk-grove-ca","name":"Elk Grove","state":"CA","lat":38.4088,"lng":-121.3716},
-  {"id":"auckland-new-zealand","name":"Auckland","state":"New Zealand","lat":-36.8485,"lng":174.7633}
+  {"id":"auckland-new-zealand","name":"Auckland","state":"New Zealand","lat":-36.8485,"lng":174.7633},
+  {"id":"oxford-ms","name":"Oxford","state":"MS","lat":34.3665,"lng":-89.5192},
+  {"id":"boise-id","name":"Boise","state":"ID","lat":43.6135,"lng":-116.2035}
 ]
