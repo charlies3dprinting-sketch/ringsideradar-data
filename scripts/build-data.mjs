@@ -319,6 +319,23 @@ if (new Set(shows.map((s) => s.id)).size !== shows.length) err('two shows share 
       tier: p.tier, auto: true, show: s.id, ...(s.source ? { source: s.source } : {}),
     });
   }
+  // Every platform chip on the Watch tab is a button, so every listing (hand-written specials and weekly series too)
+  // gets one link per platform it names: the promotion's own page there (watchLinks), else the service's page
+  // (watch.json `platformLinks`), else the promotion's website. Labels with no link at all (e.g. "PPV") are skipped.
+  const HOME = watch.platformLinks ?? {};
+  const bare = (u) => !u || /^https?:\/\/[^/]+\/?$/.test(u) && /youtube|facebook/.test(u);
+  for (const x of [...watch.specials, ...watch.series]) {
+    const p = PROMOS.get(x.promotion);
+    const have = new Map((x.links ?? []).filter((l) => !bare(l.url)).map((l) => [l.label, l.url]));
+    const links = (x.where ?? []).map((k) => {
+      const lk = Object.keys(p?.watchLinks ?? {}).find((n) => n.toLowerCase() === k.toLowerCase());
+      const generic = /youtube|facebook/i.test(k);
+      const url = have.get(k) ?? (lk && p.watchLinks[lk]) ?? (generic ? p?.website : HOME[k]) ?? HOME[k] ?? p?.website;
+      return url ? { label: k, url } : null;
+    }).filter(Boolean);
+    if (links.length) { x.links = links; if (!x.url || bare(x.url)) x.url = links[0].url; }
+  }
+  delete watch.platformLinks;
   // Order: by date, then majors before indies (tier high → low), hand-written before automatic, then by time.
   for (const x of watch.specials) if (x.tier === undefined) x.tier = PROMOS.get(x.promotion)?.tier ?? 1;
   watch.specials.sort((a, b) => a.date.localeCompare(b.date) || b.tier - a.tier || (a.auto ? 1 : 0) - (b.auto ? 1 : 0) || (a.time || '99').localeCompare(b.time || '99'));

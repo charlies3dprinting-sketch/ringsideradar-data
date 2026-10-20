@@ -120,6 +120,11 @@ come first.
   https://independentwrestling.tv/promotions), YouTube → the channel (`https://www.youtube.com/@handle`, taken from the
   promotion's own website), Facebook → its page. The app's "Watch on …" buttons use these links; without one it falls
   back to the promotion's website.
+  YouTube links: copy the channel link from the promotion's OWN website footer/social icons (fan and archive
+  channels with similar names exist — e.g. AAA's official channel is @luchalibreaaatv, not @luchalibreaaa), then open
+  it and confirm the channel's About page calls itself the official channel. The `watchLinks` key must match the
+  label in `watch` exactly (e.g. "OVW Rise (YouTube)"). Networks/services without a promotion page (Netflix, ESPN,
+  TNA+ …) go in watch.json `platformLinks`; every platform chip in the app is a button and uses these links.
   Facebook links: always write `https://www.facebook.com/...` (never `fb.com`), and only add one after opening it and
   seeing the promotion's page with recent posts. Indie promotions often abandon a page and start a new one (look for a
   "follow our new page" post) or let it go dark; a dead page shows "This content isn't available right now". If a

@@ -32,6 +32,28 @@
   },
   "Instagram": null
  },
+ "platformLinks": {
+  "_help": "Where a tap on a platform chip goes when the promotion has no watchLinks entry for it. Networks/services only; YouTube/Facebook/IWTV fall back to the promotion's own page or website.",
+  "Netflix": "https://www.netflix.com/",
+  "The CW": "https://www.cwtv.com/shows/wwe-nxt/",
+  "TBS": "https://www.tbs.com/",
+  "TNT": "https://www.tntdrama.com/",
+  "HBO Max": "https://www.hbomax.com/",
+  "AMC": "https://www.amc.com/",
+  "AMC+": "https://www.amcplus.com/",
+  "USA Network": "https://www.usanetwork.com/wwe-smackdown",
+  "ESPN app (ESPN Unlimited)": "https://www.espn.com/watch/",
+  "PPV.com": "https://www.ppv.com/",
+  "Amazon Prime": "https://www.amazon.com/primevideo",
+  "NJPW World": "https://njpwworld.com/",
+  "TNA+": "https://watch.tnawrestling.com/",
+  "beIN Sports": "https://www.beinsports.com/us/",
+  "IWTV": "https://www.iwtv.live/",
+  "TrillerTV+": "https://www.trillertv.com/",
+  "TrillerTV": "https://www.trillertv.com/",
+  "Roku Channel": "https://therokuchannel.roku.com/",
+  "MyAEW": "https://myaew.com/"
+ },
  "indieDays": 60,
  "series": [
   {
@@ -142,7 +164,7 @@
    ],
    "access": "free",
    "note": "Full episodes posted free on YouTube.",
-   "url": "https://www.youtube.com/@luchalibreaaa",
+   "url": "https://www.youtube.com/@luchalibreaaatv",
    "source": "https://www.fightful.com/wrestling-news/watch-full-episode-lucha-libre-aaa-oct-3-2026"
   }
  ],
