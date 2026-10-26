@@ -305,3 +305,39 @@
 2026-10-18|limitless|Maggie Lee|Dreya Mitchell|-
 2026-10-18|limitless|Donovan Dijak|Joseph Sawyer|-
 2026-10-18|limitless|Kris Statlander|Anthony Greene|-
+2026-10-19|wwe|Penta|Bron Breakker|-
+2026-10-19|wwe|JD McDonagh|Joe Hendry|-
+2026-10-19|wwe|Lola Vice|Lyra Valkyria|-
+2026-10-19|wwe|Chad Gable|Dragon Lee, Rey Mysterio|wwe-ic
+2026-10-20|nxt|Izzi Dame|Layla Diggs|-
+2026-10-21|aew|Swerve Strickland|Tome Filip|-
+2026-10-21|aew|Jon Moxley|Roderick Strong|-
+2026-10-21|aew|Queen Aminata|Maya World|-
+2026-10-21|aew|Ilja Dragunov|Mike Bailey|-
+2026-10-22|tna|Indi Hartwell|Xia Brookside|tna-ko
+2026-10-22|tna|Avery Styles|Joe Alonzo|-
+2026-10-22|tna|Jason Hotch|Mustafa Ali|tna-intl
+2026-10-23|wwe|Chelsea Green|Roxanne Perez|wwe-women
+2026-10-23|wwe|Blake Monroe|Giulia|-
+2026-10-24|aaa|El Grande Americano|Dominik Mysterio|aaa-mega
+2026-10-24|aaa|La Catalina|La Hiedra, Flammer|aaa-reina
+2026-10-25|gcw|Juni Underwood|Leon King|-
+2026-10-25|gcw|Vipress|Dani Mo|-
+2026-10-25|gcw|Ryan O'Neill|Sal Mistretta|-
+2026-10-25|gcw|SLADE|Priscilla Kelly|-
+2026-10-25|gcw|Conor Claxton|Jimmy Lloyd|-
+2026-10-24|revolver|Damian Chambers|Jake Painter|-
+2026-10-24|revolver|Zachary Wentz|Cole Radrick|-
+2026-10-24|revolver|Trey Miguel|Steve Maclin|-
+2026-10-24|czw|Kylon King|Desean Pratt|-
+2026-10-24|czw|Allie Katch|Liviyah|-
+2026-10-24|czw|Ryan O'Neill|Joseph Alexander|-
+2026-10-24|czw|Mickie Knuckles|Nixon Newell|-
+2026-10-24|czw|SHLAK|Matt Mako|-
+2026-10-24|czw|Akira|Eric Dillinger|-
+2026-10-24|nhb|Gabriel Skye|Lucky 13|-
+2026-10-24|nhb|Casanova Valentine|1 Called Manders|-
+2026-10-24|nhb|SLADE|Anakin Murphy|-
+2026-10-24|nhb|Angel Metro|Gary Jay|-
+2026-10-24|nhb|Danny Demanto|JB Anderson|-
+2026-10-24|nhb|Dr. Redacted|Bear Bronson|-
