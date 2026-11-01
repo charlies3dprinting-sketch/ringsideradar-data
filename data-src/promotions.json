@@ -386,6 +386,7 @@
   {"id":"lucha-libro","name":"Lucha Libro","short":"Lucha Libro","tier":1,"country":"USA","area":"California","cities":["benicia-ca"],"viewership":1,"attendance":3,"watch":[]},
   {"id":"kaos","name":"KAOS","short":"KAOS","tier":1,"country":"USA","area":"Michigan","cities":["port-huron-mi"],"viewership":1,"attendance":3,"watch":[]},
   {"id":"superior-champions","name":"Superior Championship Wrestling","short":"Superior Champions","tier":1,"country":"USA","area":"Michigan","cities":["roy"],"viewership":1,"attendance":3,"watch":[]},
+  {"id":"sarnia-wrestling-f","name":"Sarnia Wrestling Federation","short":"Sarnia Wrestling F","tier":1,"country":"ON","area":"ON","cities":[],"viewership":1,"attendance":3,"watch":[]},
   {"id":"other","name":"Other promotions","short":"Other","tier":3,"country":"","area":"Worldwide","cities":[],"viewership":0,"attendance":0,"watch":[],"hidden":true},
   {"id":"awesome-cw","name":"Awesome Championship Wrestling","short":"ACW","tier":1,"country":"USA","area":"USA","cities":[],"viewership":1,"attendance":3,"watch":["TrillerTV+"],"source":"https://www.trillertv.com/live/wrestling/"},
   {"id":"uprising","name":"Uprising: Women Athletes","short":"Uprising","tier":1,"country":"USA","area":"USA","cities":["la-salle-il"],"viewership":1,"attendance":3,"watch":["IWTV"],"watchLinks":{"IWTV":"https://independentwrestling.tv/promotions/uprising"},"source":"https://independentwrestling.tv/schedule?lang=en"}

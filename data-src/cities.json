@@ -427,5 +427,6 @@
   {"id":"missoula-mt","name":"Missoula","state":"MT","lat":46.8721,"lng":-113.994},
   {"id":"millington-mi","name":"Millington","state":"MI","lat":43.2814,"lng":-83.5297},
   {"id":"saginaw-mi","name":"Saginaw","state":"MI","lat":43.4195,"lng":-83.9508},
-  {"id":"port-huron-mi","name":"Port Huron","state":"MI","lat":42.9709,"lng":-82.4249}
+  {"id":"port-huron-mi","name":"Port Huron","state":"MI","lat":42.9709,"lng":-82.4249},
+  {"id":"sarnia-on","name":"Sarnia","state":"ON","lat":42.9787,"lng":-82.4041}
 ]
