@@ -63,6 +63,15 @@ California has its own calendar with more shows: https://www.indydependent.com/f
 `https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=<street, city, ST>&benchmark=Public_AR_Current&format=json`
 and put the lat|lng as fields 11 and 12. Without them the pin is the town centre (marked approximate).
 
+## 2a. Remove duplicates → `node scripts/dedupe.mjs --fix` (every run, after add-shows.mjs)
+Listing sites spell promotions differently ("Gen Next" / "Generation Next", "Crypt" / "Crypt Wrestling"), so
+add-shows.mjs sometimes creates a second promotion for one company. `dedupe.mjs` merges promotions with the same
+website or Facebook page, the same name in the same area, or the same show (date + city) under near-identical names,
+moving their shows, results, wrestlers, Watch specials and removed.txt lines to the keeper, and drops repeated shows.
+Run it again without `--fix` afterwards: it should report 0. Its "same name, different area" list is usually different
+companies; only merge one by hand when a source shows it's the same promotion. Before writing incoming.txt, still
+check promotions.json and use an existing id where the name is a variant spelling.
+
 ## 2b. Coverage expansion (about 8 fetches; this is how we catch up with apps like Hot Tag)
 Listing sites only carry part of the indie scene. Each week, also:
 - **Weakest states first.** Count upcoming shows per state (`node -e` over shows.json + cities.json). Pick the two
@@ -162,6 +171,7 @@ not display them.
 
 ## Finish
 ```bash
+node scripts/dedupe.mjs --fix   # merge duplicate promotions / shows (see 2a)
 node scripts/build-data.mjs     # must print ✓ — fix every listed problem first
 git add -A        # includes data-src/past.json and docs/p/
 git commit -m "Weekly data update YYYY-MM-DD: <one line on what changed>"
