@@ -1,0 +1,3 @@
+{
+  "_note": "Affiliate tags by site. The app adds them to Get tickets, Merch and Watch links on that site (and its subdomains). Use a tracking-link template with {url} (Impact deep links) or a param + value. Add \"off\": true to pause one. See DATA.md → Affiliate links."
+}

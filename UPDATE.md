@@ -169,6 +169,15 @@ not display them.
 - Tag titles in `reigns.tsv` are written `Team Name: Member + Member`.
 - Don't fetch cagematch.net (it rate-limits automated reads).
 
+## Ticket links and affiliate tags (monetization, added 2026-11-02)
+- **Ticket links earn money and tell fans where to buy.** Only ~6% of upcoming shows had a `ticketUrl` on 11/2. Whenever
+  you add or touch a show, fill its ticket link (the promotion's own ticket page, Eventbrite, Ticketmaster, AXS, etc.) when
+  the source has one; never invent one. If a promotion sells every show on one page, set the promotion's `ticketUrl`.
+  Shows with no ticket link fall back to the promotion's website in the app.
+- `data-src/affiliates.json` holds affiliate tags by site (e.g. `"ticketmaster.com": {"template": "https://…/c/1/2/3?u={url}"}`
+  for an Impact deep link, or `"vividseats.com": {"param": "wsUser", "value": "…"}`). The app applies them to Get tickets,
+  Merch and Watch links on that site. Don't edit it in the weekly run unless Charlie asks; build-data.mjs validates it.
+
 ## Finish
 ```bash
 node scripts/dedupe.mjs --fix   # merge duplicate promotions / shows (see 2a)

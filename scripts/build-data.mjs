@@ -342,6 +342,14 @@ if (new Set(shows.map((s) => s.id)).size !== shows.length) err('two shows share 
   delete watch.platforms; delete watch.indieDays;
 }
 
+// Affiliate tags by site (see DATA.md → Affiliate links). Applied by the app to ticket, merch and watch links.
+const affiliates = fs.existsSync(src('affiliates.json')) ? readJson('affiliates.json') : {};
+for (const [site, r] of Object.entries(affiliates)) {
+  if (site.startsWith('_')) { delete affiliates[site]; continue; } // _note and other comments
+  if (!/^[a-z0-9.-]+\.[a-z]{2,}$/.test(site)) errors.push(`affiliates.json: "${site}" should be a bare site like ticketmaster.com`);
+  else if (r.template ? !/^https:\/\/.+\{url\}/.test(r.template) : !(r.param && r.value)) errors.push(`affiliates.json: ${site} needs an https template containing {url}, or a param and value`);
+}
+
 if (errors.length) {
   console.error(`\n✗ ${errors.length} problem(s) in data-src/:\n  - ` + errors.join('\n  - '));
   process.exit(1);
@@ -353,6 +361,7 @@ const meta = {
   generatedAt: today,
   builtAt: new Date().toISOString(), // lets phones tell apart two builds from the same day
   note: 'Real promotions, champions, results and shows researched from public sources (promotion sites, ticket pages, Wikipedia, news). Rankings start from the latest PWI 500 / Women\'s 250. Follower counts and viewership/attendance scores are rough estimates.',
+  affiliates,
 };
 const pwi = pwiLists.map(({ id, gender, cutoff, source, names }) => ({ id, gender, cutoff, source, size: names.length }));
 const files = { cities, promotions, wrestlers, titles, reigns, results, shows, meta, watch, past };
