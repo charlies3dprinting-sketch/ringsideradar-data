@@ -16,6 +16,8 @@ Write every new show you find as one line in a scratch file `incoming.txt` (form
 `scripts/add-shows.mjs`: `promotion|state|website|date|time|show name|venue and street|city|ticket link|source`).
 The script skips shows already listed, creates missing cities from an offline list, and adds unknown promotions as
 tier 1 (Local). Delete `incoming.txt` afterwards; never commit it.
+It also never re-adds a show listed in `data-src/removed.txt` (shows a promoter told us aren't real); add a line
+there whenever a promoter says a listed show is wrong, instead of only deleting it from shows.json.
 
 **Majors** (use the promotion id: wwe, nxt, aew, roh, tna, aaa, cmll, njpw). Raw is Monday, SmackDown Friday,
 NXT Tuesday, Dynamite Wednesday, Collision Saturday; TNA tapes several TV episodes on one date, so TNA has fewer dates.

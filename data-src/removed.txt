@@ -1,0 +1,4 @@
+# Shows a promoter told us are wrong. scripts/add-shows.mjs never adds these back, whatever source lists them.
+# promotion|date|city id|who said so
+sicw|2026-12-06|east-carondelet-il|promoter@sicw.org 2026-11-01: no show that date (next shows 11/7 Belleville, TV 11/8)
+kentucky-cw|2026-12-12|virgie-ky|jon@kycwrestling.com 2026-11-01: the Dec 12 show is not in Virgie

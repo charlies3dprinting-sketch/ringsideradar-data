@@ -11,7 +11,8 @@
 // - date YYYY-MM-DD; time like "7:30 PM" or TBA. Ticket link and website may be empty.
 // - optional 11th and 12th fields: lat|lng of the venue (e.g. from the Census geocoder). Without them the pin
 //   goes on the town centre and the show is marked approximate (wider check-in radius).
-// Skips shows already listed (same promotion, date and city) and shows before today.
+// Skips shows already listed (same promotion, date and city), shows before today, and shows a promoter told us
+// are wrong (data-src/removed.txt).
 import fs from 'node:fs';
 import path from 'node:path';
 import { createRequire } from 'node:module';
@@ -29,6 +30,9 @@ const promotions = JSON.parse(fs.readFileSync(path.join(D, 'promotions.json'), '
 const cities = JSON.parse(fs.readFileSync(path.join(D, 'cities.json'), 'utf8'));
 const shows = JSON.parse(fs.readFileSync(path.join(D, 'shows.json'), 'utf8'));
 const today = new Date().toISOString().slice(0, 10);
+// promotion|date|city id lines from data-src/removed.txt: shows a promoter said aren't real. Never re-add them.
+const REMOVED = new Set((fs.existsSync(path.join(D, 'removed.txt')) ? fs.readFileSync(path.join(D, 'removed.txt'), 'utf8') : '')
+  .split('\n').map((l) => l.trim()).filter((l) => l && !l.startsWith('#')).map((l) => l.split('|').slice(0, 3).map((x) => x.trim()).join('|')));
 const slug = (s) => s.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase().replace(/&/g, 'and').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
 const norm = (s) => s.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase().replace(/^(st\.?|saint) /, 'saint ').replace(/^(ft\.?|fort) /, 'fort ').replace(/^(mt\.?|mount) /, 'mount ').replace(/[^a-z ]/g, '').trim();
 const STATES = { AL:'Alabama',AK:'Alaska',AZ:'Arizona',AR:'Arkansas',CA:'California',CO:'Colorado',CT:'Connecticut',DE:'Delaware',DC:'Washington DC',FL:'Florida',GA:'Georgia',HI:'Hawaii',ID:'Idaho',IL:'Illinois',IN:'Indiana',IA:'Iowa',KS:'Kansas',KY:'Kentucky',LA:'Louisiana',ME:'Maine',MD:'Maryland',MA:'Massachusetts',MI:'Michigan',MN:'Minnesota',MS:'Mississippi',MO:'Missouri',MT:'Montana',NE:'Nebraska',NV:'Nevada',NH:'New Hampshire',NJ:'New Jersey',NM:'New Mexico',NY:'New York',NC:'North Carolina',ND:'North Dakota',OH:'Ohio',OK:'Oklahoma',OR:'Oregon',PA:'Pennsylvania',RI:'Rhode Island',SC:'South Carolina',SD:'South Dakota',TN:'Tennessee',TX:'Texas',UT:'Utah',VT:'Vermont',VA:'Virginia',WA:'Washington',WV:'West Virginia',WI:'Wisconsin',WY:'Wyoming' };
@@ -80,6 +84,7 @@ for (const line of fs.readFileSync(file, 'utf8').split('\n').map((l) => l.trim()
   const p = promotionFor(promo, state, website);
   if (p.dormant) { skipped++; continue; } // stopped running; see promotions.json `dormant`
   if (shows.some((s) => s.promotion === p.id && s.date === date && s.city === c.id)) { skipped++; continue; }
+  if (REMOVED.has(`${p.id}|${date}|${c.id}`)) { skipped++; console.log(`  - skipped ${p.id} ${date} ${c.id} (promoter said it's wrong: data-src/removed.txt)`); continue; }
   const s = { promotion: p.id, name: name || p.name, date, time: time || 'TBA', city: c.id, venue: venue || 'Venue on ticket page' };
   if (lat && lng) Object.assign(s, { lat: +lat, lng: +lng }); else Object.assign(s, { lat: c.lat, lng: c.lng, approx: true });
   if (ticketUrl) s.ticketUrl = ticketUrl;
