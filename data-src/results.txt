@@ -341,3 +341,38 @@
 2026-10-24|nhb|Angel Metro|Gary Jay|-
 2026-10-24|nhb|Danny Demanto|JB Anderson|-
 2026-10-24|nhb|Dr. Redacted|Bear Bronson|-
+2026-10-24|aew|Swerve Strickland|Myron Reed|-
+2026-10-24|aew|Jay White|Kyle O'Reilly|-
+2026-10-26|wwe|Sami Zayn|Je'Von Evans|wwe-wwe
+2026-10-26|wwe|Bayley|Lyra Valkyria|-
+2026-10-26|wwe|Iyo Sky|Raquel Rodriguez|-
+2026-10-26|wwe|Becky Lynch|Liv Morgan|-
+2026-10-27|nxt|Chantel Monroe|Lizzy Rain|-
+2026-10-27|nxt|Sean Legacy|Saquon Shugars|-
+2026-10-27|nxt|Jackson Drake|EK Prosper|nxt-na
+2026-10-28|aew|Kyle Fletcher|Jack Perry|-
+2026-10-28|aew|Marina Shafir|Rachel Armstrong|-
+2026-10-28|aew|Darby Allin|Josh Alexander|aew-tnt
+2026-10-28|aew|Queen Aminata|Persephone|aew-tbs
+2026-10-29|tna|Amazing Red|Cedric Alexander|tna-x
+2026-10-29|tna|AJ Francis|John Skyler|-
+2026-10-29|tna|Elijah|Ryan Nemeth|-
+2026-10-30|wwe|Chelsea Green|Nikki Bella|wwe-women
+2026-10-30|wwe|Rey Fénix|Ricky Saints|aaa-cruiser
+2026-10-30|wwe|Jade Cargill|Tatum Paxley|-
+2026-10-30|wwe|Sami Zayn|Trick Williams|wwe-wwe
+2026-10-31|nxt|Myles Borne|Tavion Heights|-
+2026-10-31|nxt|Izzi Dame|Zaria|-
+2026-10-31|nxt|Zilla Fatu|Charlie Dempsey|-
+2026-10-31|nxt|Kelani Jordan|Wren Sinclair|nxt-women
+2026-10-31|nxt|Shiloh Hill|Naraku|-
+2026-10-31|nxt|Grayson Waller|Tony D'Angelo|nxt-nxt
+2026-10-26|wopen|Richard Adonis|Josh Guzman|-
+2026-10-26|wopen|=Aaron Rourke|Anthony Vecchio|-
+2026-10-26|wopen|Dustin Waller|All Go Nelli|-
+2026-10-26|wopen|Bobby Casale|Rain Conway|-
+2026-10-26|wopen|Oxx Adams|Dutch|-
+2026-10-26|wopen|Bear Bronson|Devin Reno|-
+2026-10-29|roh|Brandon Cutler|Soleil|-
+2026-10-29|roh|Lacey Lane|Cassie Lee|-
+2026-10-29|roh|Lio Rush|Charles Crowley|-

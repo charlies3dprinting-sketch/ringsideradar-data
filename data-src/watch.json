@@ -1,6 +1,6 @@
 {
  "_help": "Watch tab. series = weekly shows (day 0=Sun..6=Sat, time in tz, access free|sub|ppv). specials = one-off PLEs/PPVs/streaming specials. changes = date-specific moves or pre-emptions for a series (off: true, or to: new date / time). Only list what a source confirms. Times are local to tz. platforms = streaming services indie promotions use (from promotions.json `watch`): access free|sub, null = not a stream. Every upcoming indie show (tier 1-3) whose promotion lists one of these is added to specials automatically for the next indieDays days, sorted by date, majors first.",
- "updated": "2026-10-26",
+ "updated": "2026-11-02",
  "platforms": {
   "IWTV": {
    "access": "sub",
@@ -707,7 +707,7 @@
    "promotion": "tna",
    "name": "TNA Destination X",
    "date": "2026-11-15",
-   "time": "",
+   "time": "18:00",
    "tz": "America/New_York",
    "where": [
     "TNA+",
@@ -715,7 +715,8 @@
    ],
    "access": "ppv",
    "venue": "Edmonton Expo Centre, Edmonton",
-   "source": "https://react.f4wonline.com/tag/tna-ppv-schedule/"
+   "source": "https://react.f4wonline.com/tag/tna-ppv-schedule/",
+   "note": "Bell time 4:00 PM local (Mountain) in Edmonton, per tnawrestling.com/events."
   },
   {
    "id": "triller-primos-2026-10-25",
@@ -838,6 +839,77 @@
    ],
    "access": "sub",
    "source": "https://www.trillertv.com/watch/gcw-for-all-the-dogs-2026/2pkom/"
+  },
+  {
+   "id": "iwtv-wopen-2026-11-02",
+   "promotion": "wopen",
+   "name": "Wrestling Open RI: Ep 74",
+   "date": "2026-11-02",
+   "time": "19:00",
+   "tz": "America/New_York",
+   "where": [
+    "IWTV"
+   ],
+   "access": "ppv",
+   "note": "Live on IWTV (listed as PPV on the IWTV schedule).",
+   "source": "https://independentwrestling.tv/schedule"
+  },
+  {
+   "id": "iwtv-wopen-2026-11-05",
+   "promotion": "wopen",
+   "name": "Wrestling Open: Ep 253",
+   "date": "2026-11-05",
+   "time": "20:00",
+   "tz": "America/New_York",
+   "where": [
+    "IWTV"
+   ],
+   "access": "ppv",
+   "note": "Live on IWTV (listed as PPV on the IWTV schedule).",
+   "source": "https://independentwrestling.tv/schedule"
+  },
+  {
+   "id": "iwtv-nhb-2026-11-06",
+   "promotion": "nhb",
+   "name": "NHB - The Chains: Vol. 103",
+   "date": "2026-11-06",
+   "time": "15:00",
+   "tz": "America/New_York",
+   "where": [
+    "IWTV"
+   ],
+   "access": "ppv",
+   "note": "Live on IWTV (listed as PPV on the IWTV schedule).",
+   "source": "https://independentwrestling.tv/schedule"
+  },
+  {
+   "id": "iwtv-wopen-2026-11-09",
+   "promotion": "wopen",
+   "name": "Wrestling Open RI: Ep 75",
+   "date": "2026-11-09",
+   "time": "19:00",
+   "tz": "America/New_York",
+   "where": [
+    "IWTV"
+   ],
+   "access": "ppv",
+   "note": "Live on IWTV (listed as PPV on the IWTV schedule).",
+   "source": "https://independentwrestling.tv/schedule"
+  },
+  {
+   "id": "aew-blood-and-guts-2026",
+   "promotion": "aew",
+   "name": "AEW Dynamite: Blood & Guts",
+   "date": "2026-11-04",
+   "time": "",
+   "tz": "America/New_York",
+   "where": [
+    "TBS",
+    "MyAEW"
+   ],
+   "access": "sub",
+   "venue": "VyStar Veterans Memorial Arena, Jacksonville",
+   "source": "https://www.thesmackdownhotel.com/events-results/ppv-special/aew-dynamite-blood-guts-2026"
   }
  ],
  "changes": [
