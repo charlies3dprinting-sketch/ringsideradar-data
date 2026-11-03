@@ -1,4 +1,16 @@
 {
  "_help": "Weekly (or every-N-weeks) shows a promotion runs on a fixed schedule. build-data.mjs writes the next `weeks` (default 12) occurrences into shows.json, skipping dates already listed for that promotion. Fields: promotion (id), name, weekday (0=Sun..6=Sat), time (\"7:30 PM\"), venue, city (id from cities.json), optional lat/lng, everyWeeks (default 1), from / until (YYYY-MM-DD), skip (dates), ticketUrl, source (the promotion's own page stating the schedule; required). Only add a rule when the promotion itself states the regular schedule.",
- "rules": []
+ "rules": [
+  {
+   "promotion": "american-pro",
+   "name": "American Pro Wrestling",
+   "weekday": 0,
+   "time": "7:00 PM",
+   "venue": "Bradley-Prosperity Volunteer Fire Department, 5950 Robert C Byrd Dr",
+   "city": "mount-hope-wv",
+   "lat": 37.86108,
+   "lng": -81.19595,
+   "source": "https://www.facebook.com/groups/supportindywrestling/posts/30121441440778982/ (comment by Jonathan Darwin, APW announcer/PR director, 2026-11-02)"
+  }
+ ]
 }
