@@ -19,6 +19,11 @@ tier 1 (Local). Delete `incoming.txt` afterwards; never commit it.
 It also never re-adds a show listed in `data-src/removed.txt` (shows a promoter told us aren't real); add a line
 there whenever a promoter says a listed show is wrong, instead of only deleting it from shows.json.
 
+**Promoter and fan tips (step 2c, every week).** `data-src/community.txt` lists sources promoters and fans pointed us to
+(their own events pages, Instagram or Facebook). Check each "check" source for new dates and add them; when one disagrees with
+an aggregator list, the promoter's source wins. Promotions marked claimed post their own shows in the app (the app hides a
+scraped show when the promoter posted one for the same date), so only fill gaps for them. Don't remove or edit lines here.
+
 **Majors** (use the promotion id: wwe, nxt, aew, roh, tna, aaa, cmll, njpw). Raw is Monday, SmackDown Friday,
 NXT Tuesday, Dynamite Wednesday, Collision Saturday; TNA tapes several TV episodes on one date, so TNA has fewer dates.
 - https://www.wweschedule.com/wwe-schedule/2026 (current year): Raw, SmackDown, NXT, PLEs, house shows, AAA.

@@ -405,6 +405,7 @@
   {"id":"pro-wrestling-now","name":"Pro Wrestling Now","short":"Pro Wrestling Now","tier":1,"country":"USA","area":"Illinois","cities":["greenview-il"],"viewership":1,"attendance":3,"watch":[],"website":"https://bit.ly/NOWIL"},
   {"id":"sos-pro-wrestling","name":"SOS Pro Wrestling","short":"SOS Pro Wrestling","tier":1,"country":"USA","area":"Washington","cities":["tacoma-wa"],"viewership":1,"attendance":3,"watch":[]},
   {"id":"rpw-2","name":"RPW","short":"RPW","tier":1,"country":"USA","area":"Washington","cities":["richland-wa"],"viewership":1,"attendance":3,"watch":[]},
+  {"id":"wtw","name":"Wow That's Wrestling","short":"WTW","tier":1,"country":"USA","area":"Pennsylvania","cities":["summit-hill-pa"],"viewership":1,"attendance":3,"watch":[],"website":"https://www.instagram.com/wtwwowthatswrestling"},
   {"id":"other","name":"Other promotions","short":"Other","tier":3,"country":"","area":"Worldwide","cities":[],"viewership":0,"attendance":0,"watch":[],"hidden":true},
   {"id":"awesome-cw","name":"Awesome Championship Wrestling","short":"ACW","tier":1,"country":"USA","area":"USA","cities":[],"viewership":1,"attendance":3,"watch":["TrillerTV+"],"source":"https://www.trillertv.com/live/wrestling/"},
   {"id":"uprising","name":"Uprising: Women Athletes","short":"Uprising","tier":1,"country":"USA","area":"USA","cities":["la-salle-il"],"viewership":1,"attendance":3,"watch":["IWTV"],"watchLinks":{"IWTV":"https://independentwrestling.tv/promotions/uprising"},"source":"https://independentwrestling.tv/schedule?lang=en"},

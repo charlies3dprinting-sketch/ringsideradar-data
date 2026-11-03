@@ -5464,5 +5464,53 @@
   "lat": 29.906,
   "lng": -90.1423,
   "featuring": []
+ },
+ {
+  "id": "twe-2026-11-02",
+  "promotion": "twe",
+  "name": "TWE Chattanooga",
+  "date": "2026-11-02",
+  "time": "8:00 PM",
+  "city": "red-bank-tn",
+  "venue": "4825 Dayton Blvd",
+  "lat": 35.1123,
+  "lng": -85.2941,
+  "featuring": []
+ },
+ {
+  "id": "wopen-2026-11-02",
+  "promotion": "wopen",
+  "name": "Wrestling Open",
+  "date": "2026-11-02",
+  "time": "7:00 PM",
+  "city": "cranston-ri",
+  "venue": "Rhodes on the Pawtuxet, 60 Rhodes PL",
+  "lat": 41.76775,
+  "lng": -71.39364,
+  "featuring": []
+ },
+ {
+  "id": "wwe-2026-11-02",
+  "promotion": "wwe",
+  "name": "Monday Night Raw",
+  "date": "2026-11-02",
+  "time": "7:45 PM",
+  "city": "brooklyn-ny",
+  "venue": "Barclays Center",
+  "lat": 40.6501,
+  "lng": -73.9496,
+  "featuring": []
+ },
+ {
+  "id": "wwn-2026-11-02",
+  "promotion": "wwn",
+  "name": "World Wrestling Network",
+  "date": "2026-11-02",
+  "time": "7:00 PM",
+  "city": "clearwater-fl",
+  "venue": "OCC Road House, 10575 49th ST N",
+  "lat": 27.8684,
+  "lng": -82.7002,
+  "featuring": []
  }
 ]

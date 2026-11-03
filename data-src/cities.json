@@ -453,5 +453,6 @@
   {"id":"cedar-park-tx","name":"Cedar Park","state":"TX","lat":30.5052,"lng":-97.8203},
   {"id":"greenview-il","name":"Greenview","state":"IL","lat":40.142,"lng":-89.7393},
   {"id":"richland-wa","name":"Richland","state":"WA","lat":46.2857,"lng":-119.2845},
-  {"id":"whitesburg-ky","name":"Whitesburg","state":"KY","lat":37.1184,"lng":-82.8268}
+  {"id":"whitesburg-ky","name":"Whitesburg","state":"KY","lat":37.1184,"lng":-82.8268},
+  {"id":"summit-hill-pa","name":"Summit Hill","state":"PA","lat":40.8248,"lng":-75.871}
 ]

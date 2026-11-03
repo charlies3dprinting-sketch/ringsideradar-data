@@ -1,0 +1,17 @@
+# Promoter and fan tips: where a promotion told us (by email, a Facebook comment or the app) to find its shows.
+# The weekly update (UPDATE.md step 2c) re-checks every "check" source here for new dates, and trusts these over
+# aggregator lists when they disagree. Add a line whenever a promoter or fan sends show info or a source.
+# Promotions marked "claimed" post their own shows in the app; the app hides a scraped show when the promoter
+# has posted one for the same date, so adding their shows here is still fine (it only fills gaps).
+#
+# promotion id | check (where new dates appear) | contact | notes
+wtw | https://www.instagram.com/wtwwowthatswrestling | wowthatswrestling@gmail.com (Tyler) | Asked to be added 2026-11-03. Usual venue Hill Top Community Center, 114 W Ludlow St, Summit Hill PA; doors 5, bell 6; $10, kids 5 and under free.
+kentucky-cw | https://www.kycwrestling.com/events | jon@kycwrestling.com (Jon Hampton) | Their events page is the source of truth (Wrestle Reality had the 12/12 venue wrong).
+sicw | email only | promoter@sicw.org (Herb Simmons) | Venues: Belleville IL; East Carondelet Community Center, 823 State St (TV tapings, noon bell). No 12/6 show (removed.txt).
+signal-ten | https://www.facebook.com/signaltenwrestling | kyle@signaltenwrestling.com | claimed 2026-11-02. 12/12 venue FBC Church Campground, 525 E CR 1200 N, Brazil IN.
+efw | (posts its own) | extremefightworld@gmail.com | claimed 2026-11-02; adding 2027 dates once set.
+ascend | (posts its own) | apwtickets@gmail.com | claimed 2026-11-01.
+901-wrestling | (posts its own) | 901wrestling@gmail.com | claimed 2026-11-02.
+aiw | (posts its own) | jthorne@aiwrestling.com | claimed 2026-11-02.
+pvw | (posts its own) | refnickmitchell@gmail.com (Nick Mitchell) | claimed 2026-11-02.
+ncg | (posts its own) | noblechampionsgroup@gmail.com | claimed 2026-11-02 (Charlie handles NCG personally).

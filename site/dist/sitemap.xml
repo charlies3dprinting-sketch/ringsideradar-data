@@ -1406,10 +1406,6 @@
   <url><loc>https://ringsideradar.com/title/gcw-tag</loc></url>
   <url><loc>https://ringsideradar.com/title/aiw-tag</loc></url>
   <url><loc>https://ringsideradar.com/title/ncg-tag</loc></url>
-  <url><loc>https://ringsideradar.com/show/twe-2026-11-02</loc></url>
-  <url><loc>https://ringsideradar.com/show/wopen-2026-11-02</loc></url>
-  <url><loc>https://ringsideradar.com/show/wwe-2026-11-02</loc></url>
-  <url><loc>https://ringsideradar.com/show/wwn-2026-11-02</loc></url>
   <url><loc>https://ringsideradar.com/show/iwa-unlimited-2026-11-03</loc></url>
   <url><loc>https://ringsideradar.com/show/njpw-2026-11-03</loc></url>
   <url><loc>https://ringsideradar.com/show/nxt-2026-11-03</loc></url>
@@ -1506,6 +1502,7 @@
   <url><loc>https://ringsideradar.com/show/mlw-2026-11-08-97</loc></url>
   <url><loc>https://ringsideradar.com/show/pro-championship-wrestli-2026-11-08</loc></url>
   <url><loc>https://ringsideradar.com/show/rhodes-wrestling-a-2026-11-08</loc></url>
+  <url><loc>https://ringsideradar.com/show/sicw-2026-11-08</loc></url>
   <url><loc>https://ringsideradar.com/show/xicw-2026-11-08</loc></url>
   <url><loc>https://ringsideradar.com/show/generation-next-pr-2026-11-09</loc></url>
   <url><loc>https://ringsideradar.com/show/ppw-2026-11-09</loc></url>
@@ -1627,8 +1624,8 @@
   <url><loc>https://ringsideradar.com/show/prosouth-wrestling-2026-11-20</loc></url>
   <url><loc>https://ringsideradar.com/show/southern-f-2026-11-20</loc></url>
   <url><loc>https://ringsideradar.com/show/squared-circle-act-2026-11-20</loc></url>
-  <url><loc>https://ringsideradar.com/show/wwe-2026-11-20-221</loc></url>
   <url><loc>https://ringsideradar.com/show/wwe-2026-11-20-222</loc></url>
+  <url><loc>https://ringsideradar.com/show/wwe-2026-11-20-223</loc></url>
   <url><loc>https://ringsideradar.com/show/wwn-2026-11-20</loc></url>
   <url><loc>https://ringsideradar.com/show/3lw-2026-11-21</loc></url>
   <url><loc>https://ringsideradar.com/show/4ww-2026-11-21</loc></url>
@@ -1645,8 +1642,8 @@
   <url><loc>https://ringsideradar.com/show/lariato-pro-guild-2026-11-21</loc></url>
   <url><loc>https://ringsideradar.com/show/league-of-lions-2026-11-21</loc></url>
   <url><loc>https://ringsideradar.com/show/lucky-pro-2026-11-21</loc></url>
-  <url><loc>https://ringsideradar.com/show/ncg-2026-11-21-239</loc></url>
   <url><loc>https://ringsideradar.com/show/ncg-2026-11-21-240</loc></url>
+  <url><loc>https://ringsideradar.com/show/ncg-2026-11-21-241</loc></url>
   <url><loc>https://ringsideradar.com/show/new-south-2026-11-21</loc></url>
   <url><loc>https://ringsideradar.com/show/outta-control-2026-11-21</loc></url>
   <url><loc>https://ringsideradar.com/show/phoenix-cw-2026-11-21</loc></url>
@@ -1800,9 +1797,10 @@
   <url><loc>https://ringsideradar.com/show/wwe-2026-12-11</loc></url>
   <url><loc>https://ringsideradar.com/show/wwn-2026-12-11</loc></url>
   <url><loc>https://ringsideradar.com/show/coastalcw-2026-12-12</loc></url>
-  <url><loc>https://ringsideradar.com/show/dcw-2026-12-12-394</loc></url>
   <url><loc>https://ringsideradar.com/show/dcw-2026-12-12-395</loc></url>
+  <url><loc>https://ringsideradar.com/show/dcw-2026-12-12-396</loc></url>
   <url><loc>https://ringsideradar.com/show/insurgence-pro-2026-12-12</loc></url>
+  <url><loc>https://ringsideradar.com/show/kentucky-cw-2026-12-12</loc></url>
   <url><loc>https://ringsideradar.com/show/outta-control-2026-12-12</loc></url>
   <url><loc>https://ringsideradar.com/show/premier-pro-2026-12-12</loc></url>
   <url><loc>https://ringsideradar.com/show/rwe-2026-12-12</loc></url>
@@ -1886,23 +1884,23 @@
   <url><loc>https://ringsideradar.com/show/supreme-wrestling-2026-12-26</loc></url>
   <url><loc>https://ringsideradar.com/show/tennessee-all-pro-2026-12-26</loc></url>
   <url><loc>https://ringsideradar.com/show/wrestlepro-2026-12-26</loc></url>
-  <url><loc>https://ringsideradar.com/show/wwe-2026-12-26-480</loc></url>
-  <url><loc>https://ringsideradar.com/show/wwe-2026-12-26-481</loc></url>
+  <url><loc>https://ringsideradar.com/show/wwe-2026-12-26-482</loc></url>
+  <url><loc>https://ringsideradar.com/show/wwe-2026-12-26-483</loc></url>
   <url><loc>https://ringsideradar.com/show/american-pro-2026-12-27</loc></url>
   <url><loc>https://ringsideradar.com/show/pro-championship-wrestli-2026-12-27</loc></url>
   <url><loc>https://ringsideradar.com/show/sarnia-wrestling-f-2026-12-27</loc></url>
-  <url><loc>https://ringsideradar.com/show/wwe-2026-12-27-485</loc></url>
-  <url><loc>https://ringsideradar.com/show/wwe-2026-12-27-486</loc></url>
+  <url><loc>https://ringsideradar.com/show/wwe-2026-12-27-487</loc></url>
+  <url><loc>https://ringsideradar.com/show/wwe-2026-12-27-488</loc></url>
   <url><loc>https://ringsideradar.com/show/wopen-2026-12-28</loc></url>
   <url><loc>https://ringsideradar.com/show/wwe-2026-12-28</loc></url>
   <url><loc>https://ringsideradar.com/show/wwn-2026-12-28</loc></url>
   <url><loc>https://ringsideradar.com/show/iwa-unlimited-2026-12-29</loc></url>
   <url><loc>https://ringsideradar.com/show/nxt-2026-12-29</loc></url>
   <url><loc>https://ringsideradar.com/show/spartan-pro-2026-12-29</loc></url>
-  <url><loc>https://ringsideradar.com/show/wwe-2026-12-29-493</loc></url>
-  <url><loc>https://ringsideradar.com/show/wwe-2026-12-29-494</loc></url>
-  <url><loc>https://ringsideradar.com/show/wwe-2026-12-30-495</loc></url>
-  <url><loc>https://ringsideradar.com/show/wwe-2026-12-30-496</loc></url>
+  <url><loc>https://ringsideradar.com/show/wwe-2026-12-29-495</loc></url>
+  <url><loc>https://ringsideradar.com/show/wwe-2026-12-29-496</loc></url>
+  <url><loc>https://ringsideradar.com/show/wwe-2026-12-30-497</loc></url>
+  <url><loc>https://ringsideradar.com/show/wwe-2026-12-30-498</loc></url>
   <url><loc>https://ringsideradar.com/show/880-wrestling-2026-12-31</loc></url>
   <url><loc>https://ringsideradar.com/show/ovw-2026-12-31</loc></url>
   <url><loc>https://ringsideradar.com/show/rmp-2026-12-31</loc></url>
