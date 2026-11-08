@@ -457,5 +457,6 @@
   {"id":"summit-hill-pa","name":"Summit Hill","state":"PA","lat":40.8248,"lng":-75.871},
   {"id":"yorktown-va","name":"Yorktown","state":"VA","lat":37.2386,"lng":-76.5089},
   {"id":"omaha-ne","name":"Omaha","state":"NE","lat":41.2563,"lng":-95.9404},
-  {"id":"gloucester-va","name":"Gloucester","state":"VA","lat":37.4093,"lng":-76.5266}
+  {"id":"gloucester-va","name":"Gloucester","state":"VA","lat":37.4093,"lng":-76.5266},
+  {"id":"somerset-ky","name":"Somerset","state":"KY","lat":37.092,"lng":-84.6041}
 ]

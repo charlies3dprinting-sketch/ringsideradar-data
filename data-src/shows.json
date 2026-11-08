@@ -3349,6 +3349,18 @@
   "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-0b0"
  },
  {
+  "promotion": "tcw-2",
+  "name": "TCW: Christmas in a Cage",
+  "date": "2026-12-06",
+  "time": "4:05 PM",
+  "city": "ferguson-ky",
+  "venue": "Old Ferguson Gym, 540 Hwy 3057",
+  "lat": 37.0673,
+  "lng": -84.5958,
+  "approx": true,
+  "source": "https://www.facebook.com/events/1006259685097725/"
+ },
+ {
   "promotion": "wopen",
   "name": "Wrestling Open",
   "date": "2026-12-07",
@@ -4296,6 +4308,18 @@
   "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-0b0"
  },
  {
+  "promotion": "tcw-2",
+  "name": "TCW: Books, Brews & BBQ - The Sequel",
+  "date": "2026-12-19",
+  "time": "7:05 PM",
+  "city": "somerset-ky",
+  "venue": "Books, Brews & BBQ, 472 S Highway 27",
+  "lat": 37.092,
+  "lng": -84.6041,
+  "approx": true,
+  "source": "https://www.facebook.com/events/1734939048154384/"
+ },
+ {
   "promotion": "tennessee-all-pro",
   "name": "Tennessee All-Pro Wrestling",
   "date": "2026-12-19",
@@ -5040,6 +5064,18 @@
   "source": "https://www.facebook.com/groups/supportindywrestling/posts/30121441440778982/ (comment by Jonathan Darwin, APW announcer/PR director, 2026-11-02)"
  },
  {
+  "promotion": "american-pro",
+  "name": "American Pro Wrestling",
+  "date": "2027-01-31",
+  "time": "7:00 PM",
+  "city": "mount-hope-wv",
+  "venue": "Bradley-Prosperity Volunteer Fire Department, 5950 Robert C Byrd Dr",
+  "lat": 37.86108,
+  "lng": -81.19595,
+  "recurring": true,
+  "source": "https://www.facebook.com/groups/supportindywrestling/posts/30121441440778982/ (comment by Jonathan Darwin, APW announcer/PR director, 2026-11-02)"
+ },
+ {
   "promotion": "aew",
   "name": "Dynasty",
   "date": "2027-02-07",
@@ -5062,17 +5098,5 @@
   "lng": -0.1276,
   "approx": true,
   "source": "https://www.allelitewrestling.com/aew-events"
- },
- {
-  "promotion": "american-pro",
-  "name": "American Pro Wrestling",
-  "date": "2027-01-31",
-  "time": "7:00 PM",
-  "city": "mount-hope-wv",
-  "venue": "Bradley-Prosperity Volunteer Fire Department, 5950 Robert C Byrd Dr",
-  "lat": 37.86108,
-  "lng": -81.19595,
-  "recurring": true,
-  "source": "https://www.facebook.com/groups/supportindywrestling/posts/30121441440778982/ (comment by Jonathan Darwin, APW announcer/PR director, 2026-11-02)"
  }
 ]
