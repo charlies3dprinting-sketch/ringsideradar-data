@@ -454,5 +454,8 @@
   {"id":"greenview-il","name":"Greenview","state":"IL","lat":40.142,"lng":-89.7393},
   {"id":"richland-wa","name":"Richland","state":"WA","lat":46.2857,"lng":-119.2845},
   {"id":"whitesburg-ky","name":"Whitesburg","state":"KY","lat":37.1184,"lng":-82.8268},
-  {"id":"summit-hill-pa","name":"Summit Hill","state":"PA","lat":40.8248,"lng":-75.871}
+  {"id":"summit-hill-pa","name":"Summit Hill","state":"PA","lat":40.8248,"lng":-75.871},
+  {"id":"yorktown-va","name":"Yorktown","state":"VA","lat":37.2386,"lng":-76.5089},
+  {"id":"omaha-ne","name":"Omaha","state":"NE","lat":41.2563,"lng":-95.9404},
+  {"id":"gloucester-va","name":"Gloucester","state":"VA","lat":37.4093,"lng":-76.5266}
 ]
