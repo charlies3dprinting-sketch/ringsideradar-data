@@ -52,7 +52,8 @@
   "TrillerTV+": "https://www.trillertv.com/",
   "TrillerTV": "https://www.trillertv.com/",
   "Roku Channel": "https://therokuchannel.roku.com/",
-  "MyAEW": "https://myaew.com/"
+  "MyAEW": "https://myaew.com/",
+  "HonorClub": "https://www.watchroh.com/"
  },
  "indieDays": 60,
  "series": [
@@ -253,16 +254,16 @@
    "id": "wwe-wrestlepalooza-2026",
    "promotion": "wwe",
    "name": "WWE Wrestlepalooza",
-   "date": "2026-12-13",
+   "date": "2026-12-12",
    "time": "06:00",
    "tz": "America/New_York",
    "where": [
     "ESPN app (ESPN Unlimited)"
    ],
    "access": "sub",
-   "venue": "Australia",
-   "note": "Early-morning start in the US.",
-   "source": "https://www.pwmania.com/wwe-premium-live-event-start-times-for-remainder-of-2026-revealed"
+   "venue": "RAC Arena, Perth, Western Australia",
+   "note": "Early-morning start in the US. Streams on Netflix outside the US.",
+   "source": "https://www.wwe.com/shows/wrestlepalooza/2026 ; time: https://www.pwmania.com/wwe-premium-live-event-start-times-for-remainder-of-2026-revealed"
   },
   {
    "id": "aew-worlds-end-2026",
@@ -910,6 +911,91 @@
    "access": "sub",
    "venue": "VyStar Veterans Memorial Arena, Jacksonville",
    "source": "https://www.thesmackdownhotel.com/events-results/ppv-special/aew-dynamite-blood-guts-2026"
+  },
+  {
+   "id": "roh-final-battle-2026",
+   "promotion": "roh",
+   "name": "ROH Final Battle",
+   "date": "2026-12-04",
+   "time": "19:00",
+   "tz": "America/New_York",
+   "where": [
+    "HonorClub",
+    "TrillerTV"
+   ],
+   "access": "ppv",
+   "venue": "Boeing Center at Tech Port, San Antonio",
+   "source": "https://www.thesmackdownhotel.com/events-results/ppv-special/roh-final-battle-2026"
+  },
+  {
+   "id": "njpw-wrestle-kingdom-21",
+   "promotion": "njpw",
+   "name": "NJPW Wrestle Kingdom 21",
+   "date": "2027-01-04",
+   "time": "",
+   "tz": "America/New_York",
+   "where": [
+    "NJPW World"
+   ],
+   "access": "sub",
+   "venue": "Tokyo Dome, Tokyo",
+   "source": "https://www.thesmackdownhotel.com/events-results/ppv-special/njpw-wrestle-kingdom-21"
+  },
+  {
+   "id": "iwtv-wopen-2026-11-12",
+   "promotion": "wopen",
+   "name": "Wrestling Open: Ep 255",
+   "date": "2026-11-12",
+   "time": "20:00",
+   "tz": "America/New_York",
+   "where": [
+    "IWTV"
+   ],
+   "access": "ppv",
+   "note": "Live on IWTV (listed as PPV on the IWTV schedule).",
+   "source": "https://independentwrestling.tv/schedule"
+  },
+  {
+   "id": "iwtv-czw-2026-11-21",
+   "promotion": "czw",
+   "name": "CZW: Blacklight 7",
+   "date": "2026-11-21",
+   "time": "19:00",
+   "tz": "America/New_York",
+   "where": [
+    "IWTV"
+   ],
+   "access": "ppv",
+   "note": "Live on IWTV (listed as PPV on the IWTV schedule).",
+   "source": "https://independentwrestling.tv/schedule"
+  },
+  {
+   "id": "iwtv-pwf-nc-2026-11-22",
+   "promotion": "pwf-nc",
+   "name": "PWF (NC): Legacy Cup XIII",
+   "date": "2026-11-22",
+   "time": "16:00",
+   "tz": "America/New_York",
+   "where": [
+    "IWTV"
+   ],
+   "access": "ppv",
+   "note": "Live on IWTV (listed as PPV on the IWTV schedule).",
+   "source": "https://independentwrestling.tv/schedule"
+  },
+  {
+   "id": "iwtv-ntpw-2026-11-27",
+   "promotion": "ntpw",
+   "name": "New Texas Pro: Run The Jewels",
+   "date": "2026-11-27",
+   "time": "21:00",
+   "tz": "America/New_York",
+   "where": [
+    "IWTV"
+   ],
+   "access": "ppv",
+   "note": "Live on IWTV (listed as PPV on the IWTV schedule).",
+   "source": "https://independentwrestling.tv/schedule"
   }
  ],
  "changes": [

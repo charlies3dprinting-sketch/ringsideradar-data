@@ -12,7 +12,7 @@ wwe-ww	Stephanie Vaquer	2026-09-12	2026-10-10
 wwe-women	Jade Cargill	2025-11-01	2026-04-19
 wwe-women	Rhea Ripley	2026-04-19	2026-10-23	asof
 wwe-ic	Penta	2026-04-19	2026-08-02
-wwe-ic	Chad Gable	2026-08-02
+wwe-ic	Chad Gable	2026-08-02	2026-11-02
 wwe-us	Trick Williams	2026-04-19	2026-08-02
 wwe-us	Baron Corbin	2026-08-02	2026-09-06
 wwe-us	Trick Williams	2026-09-06
@@ -48,7 +48,7 @@ aew-tbs	Maya World	2026-07-26	2026-08-30
 aew-tbs	Persephone	2026-08-30	2026-10-28
 aew-cont	Jon Moxley	2025-12-27
 aew-natl	Mark Davis	2026-05-15	2026-07-26	asof
-aew-natl	Andrade El Ídolo	2026-07-26
+aew-natl	Andrade El Ídolo	2026-07-26	2026-11-07
 roh-world	Bandido	2025-04-06
 roh-women	Athena	2022-12-10
 roh-tv	Action Andretti	2026-08-21
@@ -77,8 +77,8 @@ cmll-hw	Hechicero	2026-03-20
 cmll-lhw	Místico	2025-09-19
 cmll-women	Persephone	2026-03-06
 gcw-world	Atticus Cogar	2025-11-23	2026-08-15
-gcw-world	Joseph Sawyer	2026-08-15
-mlw-world	Killer Kross	2026-01-29
+gcw-world	Joseph Sawyer	2026-08-15	2026-11-07
+mlw-world	Killer Kross	2026-01-29	2026-11-07
 mlw-natl	Austin Aries	2026-02-07
 aiw-absolute	Wes Barkley	2026-07-10
 aiw-intense	Kaplan	2026-07-10
@@ -92,7 +92,7 @@ ipw-women	Stella Buho	2026-09-30		asof
 ncg-sovereign	Killer Kross	2026-09-30		asof
 ncg-na	Jason Hotch	2026-09-30		asof
 ncg-women	Tessa Blanchard	2026-09-30		asof
-wwe-tag-raw	The Vision: Bron Breakker + Austin Theory	2026-07-06
+wwe-tag-raw	The Vision: Bron Breakker + Austin Theory	2026-07-06	2026-11-07
 wwe-tag-sd	The MFTs: Tama Tonga + Talla Tonga	2026-08-14
 wwe-wtag	Brie Bella & Paige: Brie Bella + Paige	2026-04-18	2026-07-18
 wwe-wtag	Fatal Influence: Fallon Henley + Lainey Reid	2026-07-18	2026-10-09
@@ -123,6 +123,12 @@ tna-x	Amazing Red	2026-10-11
 tna-intl	Jason Hotch	2026-10-11
 tna-kotag	Shayna Baszler & Zoey Serrano: Shayna Baszler + Zoey Serrano	2026-10-11
 aew-trios	Hangman & Brodido: Hangman Adam Page + Bandido + Brody King	2026-10-17
-wwe-women	Chelsea Green	2026-10-23		asof
+wwe-women	Chelsea Green	2026-10-23	2026-11-07	asof
 wwe-wtag	Michin & B-Fab: Michin + B-Fab	2026-10-23
 aew-tbs	Queen Aminata	2026-10-28
+wwe-ic	Ethan Page	2026-11-02
+wwe-tag-raw	Penta & Je'Von Evans: Penta + Je'Von Evans	2026-11-07
+wwe-women	Tiffany Stratton	2026-11-07
+aew-natl	Tommaso Ciampa	2026-11-07
+gcw-world	Atticus Cogar	2026-11-07
+mlw-world	Josh Bishop	2026-11-07

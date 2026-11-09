@@ -1,169 +1,5 @@
 [
  {
-  "promotion": "901-wrestling",
-  "name": "901 Wrestling",
-  "date": "2026-11-08",
-  "time": "5 PM",
-  "city": "memphis-tn",
-  "venue": "Minglewood Mall, 1555 Madison Ave",
-  "lat": 35.1495,
-  "lng": -90.049,
-  "approx": true,
-  "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-08d"
- },
- {
-  "promotion": "american-pro",
-  "name": "American Pro Wrestling",
-  "date": "2026-11-08",
-  "time": "7:00 PM",
-  "city": "mount-hope-wv",
-  "venue": "Bradley-Prosperity Volunteer Fire Department, 5950 Robert C Byrd Dr",
-  "lat": 37.86108,
-  "lng": -81.19595,
-  "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-0b0"
- },
- {
-  "promotion": "appalachian-mounta",
-  "name": "Appalachian Mountain Wrestling",
-  "date": "2026-11-08",
-  "time": "6:00 PM",
-  "city": "corbin-ky",
-  "venue": "Corbin Civic Ctr, 129 Civic Center DR",
-  "lat": 36.9487,
-  "lng": -84.0969,
-  "approx": true,
-  "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-164"
- },
- {
-  "promotion": "atlanta-e",
-  "name": "Atlanta Wrestling Entertainment",
-  "date": "2026-11-08",
-  "time": "6:00 PM",
-  "city": "marietta-ga",
-  "venue": "El Palenque Event Ctr, 1477 Roswell RD, Ste 150",
-  "lat": 33.9526,
-  "lng": -84.5499,
-  "approx": true,
-  "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-164"
- },
- {
-  "promotion": "ciw",
-  "name": "Championship International Wrestling",
-  "date": "2026-11-08",
-  "time": "5:00 PM",
-  "city": "tol",
-  "venue": "Gonzalez Comm Ctr, 1205 Broadway ST",
-  "lat": 41.6528,
-  "lng": -83.5379,
-  "approx": true,
-  "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-164"
- },
- {
-  "promotion": "deep-south",
-  "name": "Deep South Wrestling",
-  "date": "2026-11-08",
-  "time": "2:00 PM",
-  "city": "atlanta-ga",
-  "venue": "(Free Event), Monday Night Garage, Chandelier Room, 933 Lee ST SW",
-  "lat": 33.72916,
-  "lng": -84.41606,
-  "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-0b0"
- },
- {
-  "promotion": "from-burbank",
-  "name": "Reckoning Day",
-  "date": "2026-11-08",
-  "time": "5:00 PM",
-  "city": "burbank-ca",
-  "venue": "1101 W Isabel St",
-  "lat": 34.18249,
-  "lng": -118.32325,
-  "source": "https://www.indydependent.com/full-list-of-events"
- },
- {
-  "promotion": "kraken-pro-wrestli",
-  "name": "Kraken Pro Wrestling",
-  "date": "2026-11-08",
-  "time": "4:00 PM",
-  "city": "tifton-ga",
-  "venue": "Chino & Letty's Place, 102 W 3rd ST",
-  "lat": 31.4505,
-  "lng": -83.5085,
-  "approx": true,
-  "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-164"
- },
- {
-  "promotion": "mlw",
-  "name": "Azteca Lucha (with CMLL)",
-  "date": "2026-11-08",
-  "time": "TBA",
-  "city": "chi",
-  "venue": "Cicero Stadium, Cicero IL",
-  "lat": 41.8467,
-  "lng": -87.7614,
-  "approx": true,
-  "source": "https://en.wikipedia.org/wiki/2026_in_professional_wrestling"
- },
- {
-  "promotion": "mlw",
-  "name": "Major League Wrestling",
-  "date": "2026-11-08",
-  "time": "TBA",
-  "city": "cicero-il",
-  "venue": "Cicero Stadium, 1909 S Laramie Ave",
-  "lat": 41.8456,
-  "lng": -87.7539,
-  "approx": true,
-  "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-08d"
- },
- {
-  "promotion": "pro-championship-wrestli",
-  "name": "Pro Championship Wrestling",
-  "date": "2026-11-08",
-  "time": "4:00 PM",
-  "city": "yuba-city-ca",
-  "venue": "1282 Hassett Ave",
-  "lat": 39.10933,
-  "lng": -121.61395,
-  "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-0b0"
- },
- {
-  "promotion": "rhodes-wrestling-a",
-  "name": "Rhodes Wrestling Association",
-  "date": "2026-11-08",
-  "time": "4:00 PM",
-  "city": "cedar-park-tx",
-  "venue": "Wild West Cedar Park, 401 E Whitestone Blvd",
-  "lat": 30.5052,
-  "lng": -97.8203,
-  "approx": true,
-  "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-164"
- },
- {
-  "promotion": "sicw",
-  "name": "SICW TV Tapings",
-  "date": "2026-11-08",
-  "time": "12:00 PM",
-  "city": "east-carondelet-il",
-  "venue": "East Carondelet Community Center, 823 State St",
-  "lat": 38.542,
-  "lng": -90.2329,
-  "approx": true,
-  "source": "promoter email (promoter@sicw.org, 2026-11-02/03)"
- },
- {
-  "promotion": "xicw",
-  "name": "Heart and Soul",
-  "date": "2026-11-08",
-  "time": "TBA",
-  "city": "shelby",
-  "venue": "One Eyed Jacks Bar",
-  "lat": 42.6709,
-  "lng": -83.033,
-  "approx": true,
-  "source": "https://www.facebook.com/DetroitXICW"
- },
- {
   "promotion": "generation-next-pr",
   "name": "Gen Next Pro Wrestling",
   "date": "2026-11-09",
@@ -284,6 +120,30 @@
   "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-0b0"
  },
  {
+  "promotion": "ascend",
+  "name": "Ascend Pro Wrestling",
+  "date": "2026-11-12",
+  "time": "7:00 PM",
+  "city": "cin",
+  "venue": "Hamilton Co Fair, 7700 Vine ST",
+  "lat": 39.1031,
+  "lng": -84.512,
+  "approx": true,
+  "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-639"
+ },
+ {
+  "promotion": "iwr",
+  "name": "Insane Wrestling Revolution",
+  "date": "2026-11-12",
+  "time": "7:00 PM",
+  "city": "wyandotte-mi",
+  "venue": "Grizzly's Bar and Grill, 1519 Oak ST",
+  "lat": 42.2142,
+  "lng": -83.1499,
+  "approx": true,
+  "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-639"
+ },
+ {
   "promotion": "ovw",
   "name": "Ohio Valley Wrestling",
   "date": "2026-11-12",
@@ -388,6 +248,18 @@
   "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-0b0"
  },
  {
+  "promotion": "chaotic-wrestling",
+  "name": "Chaotic Wrestling",
+  "date": "2026-11-13",
+  "time": "7:30 PM",
+  "city": "lowell-ma",
+  "venue": "Gametime Sports & Fitness, 1703 Middlesex ST",
+  "lat": 42.6334,
+  "lng": -71.3162,
+  "approx": true,
+  "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-639"
+ },
+ {
   "promotion": "explosive-pro",
   "name": "Explosive Pro Wrestling",
   "date": "2026-11-13",
@@ -397,6 +269,18 @@
   "lat": 35.03543,
   "lng": -81.98086,
   "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-0b0"
+ },
+ {
+  "promotion": "live-pro-wrestling",
+  "name": "JTHS Athletic Benefit",
+  "date": "2026-11-13",
+  "time": "7:00 PM",
+  "city": "oak-ridge-nj",
+  "venue": "Jefferson Twp HS, 1010 Weldon RD",
+  "lat": 41.0398,
+  "lng": -74.4993,
+  "approx": true,
+  "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-639"
  },
  {
   "promotion": "mcw",
@@ -513,6 +397,30 @@
   "lng": -84.4908,
   "approx": true,
   "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-08d"
+ },
+ {
+  "promotion": "spo",
+  "name": "Super Powers of Wrestling",
+  "date": "2026-11-13",
+  "time": "7:30 PM",
+  "city": "mount-holly-nj",
+  "venue": "22 King ST",
+  "lat": 39.9929,
+  "lng": -74.7877,
+  "approx": true,
+  "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-639"
+ },
+ {
+  "promotion": "spw",
+  "name": "Showcase Pro Wrestling",
+  "date": "2026-11-13",
+  "time": "7:47 PM",
+  "city": "woonsocket-ri",
+  "venue": "126 Main ST",
+  "lat": 42.0029,
+  "lng": -71.5148,
+  "approx": true,
+  "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-639"
  },
  {
   "promotion": "squared-circle-act",
@@ -691,6 +599,18 @@
   "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-164"
  },
  {
+  "promotion": "epw",
+  "name": "EPW",
+  "date": "2026-11-14",
+  "time": "7:00 PM",
+  "city": "pontotoc-ms",
+  "venue": "Pontotoc Co Agri-Center, 430 CJ Hardin Jr DR",
+  "lat": 34.2479,
+  "lng": -88.9987,
+  "approx": true,
+  "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-639"
+ },
+ {
   "promotion": "ewa",
   "name": "Elite Wrestling Alliance",
   "date": "2026-11-14",
@@ -727,6 +647,18 @@
   "source": "https://www.trillertv.com/watch/gcw-massacre-in-missoula-2026/2pkop/"
  },
  {
+  "promotion": "gulf-coast-wrestli",
+  "name": "Gulf Coast Wrestling",
+  "date": "2026-11-14",
+  "time": "7:00 PM",
+  "city": "kiln-ms",
+  "venue": "Natl Guard, 4264 Kiln Delisle RD",
+  "lat": 30.4091,
+  "lng": -89.4351,
+  "approx": true,
+  "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-639"
+ },
+ {
   "promotion": "hog",
   "name": "House of Glory",
   "date": "2026-11-14",
@@ -748,6 +680,30 @@
   "lat": 35.62147,
   "lng": -88.12174,
   "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-0b0"
+ },
+ {
+  "promotion": "infinity-pro-wrest",
+  "name": "Infinity Pro Wrestling",
+  "date": "2026-11-14",
+  "time": "7:00 PM",
+  "city": "cookeville-tn",
+  "venue": "Dept of Veterans Affairs, 90 E Spring ST",
+  "lat": 36.1628,
+  "lng": -85.5016,
+  "approx": true,
+  "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-639"
+ },
+ {
+  "promotion": "innovate-wrestling",
+  "name": "Innovate Wrestling",
+  "date": "2026-11-14",
+  "time": "7:00 PM",
+  "city": "kingsport-tn",
+  "venue": "Netpro Studios, 100 Emory LN",
+  "lat": 36.5484,
+  "lng": -82.5618,
+  "approx": true,
+  "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-639"
  },
  {
   "promotion": "insurgence-pro",
@@ -786,6 +742,18 @@
   "source": "https://www.eventbrite.com/e/kaos-theory-3-tickets-2002912281551"
  },
  {
+  "promotion": "live-pro-wrestling",
+  "name": "Live Pro Wrestling",
+  "date": "2026-11-14",
+  "time": "6:00 PM",
+  "city": "allentown-pa",
+  "venue": "RE 360, 829 Industry ST",
+  "lat": 40.6084,
+  "lng": -75.4902,
+  "approx": true,
+  "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-639"
+ },
+ {
   "promotion": "matw",
   "name": "MATW Live TV Taping",
   "date": "2026-11-14",
@@ -810,6 +778,18 @@
   "lng": -76.5683,
   "approx": true,
   "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-08d"
+ },
+ {
+  "promotion": "metro-pro",
+  "name": "Metro Pro",
+  "date": "2026-11-14",
+  "time": "7:00 PM",
+  "city": "wyandotte-mi",
+  "venue": "Copeland Ctr, 2306 4th ST",
+  "lat": 42.2142,
+  "lng": -83.1499,
+  "approx": true,
+  "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-639"
  },
  {
   "promotion": "mmwa",
@@ -849,6 +829,18 @@
   "source": "https://www.313presents.com/news/detail/wwe-nxt-makes-its-fox-theatre-debut-november-14"
  },
  {
+  "promotion": "omega-championship",
+  "name": "Omega Championship Wrestling",
+  "date": "2026-11-14",
+  "time": "6:30 PM",
+  "city": "cleveland-ms",
+  "venue": "700 N Chrisman Ave",
+  "lat": 33.744,
+  "lng": -90.7248,
+  "approx": true,
+  "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-639"
+ },
+ {
   "promotion": "omw",
   "name": "Ozark Mountain Wrestling",
   "date": "2026-11-14",
@@ -872,6 +864,18 @@
   "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-0b0"
  },
  {
+  "promotion": "pcw",
+  "name": "Paradise City Wrestling",
+  "date": "2026-11-14",
+  "time": "7:00 PM",
+  "city": "new-prague-mn",
+  "venue": "New Prague Ballroom, 300 Lexington Ave S",
+  "lat": 44.5433,
+  "lng": -93.5761,
+  "approx": true,
+  "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-639"
+ },
+ {
   "promotion": "phoenix-cw",
   "name": "Phoenix Championship Wrestling",
   "date": "2026-11-14",
@@ -881,6 +885,30 @@
   "lat": 33.40791,
   "lng": -111.81282,
   "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-0b0"
+ },
+ {
+  "promotion": "pioneer-valley-pro",
+  "name": "Pioneer Valley Pro Wrestling",
+  "date": "2026-11-14",
+  "time": "6:00 PM",
+  "city": "florence-ma",
+  "venue": "Elks, 17 Spring ST",
+  "lat": 42.3337,
+  "lng": -72.6651,
+  "approx": true,
+  "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-639"
+ },
+ {
+  "promotion": "planet-pro-wrestli",
+  "name": "Planet Pro Wrestling",
+  "date": "2026-11-14",
+  "time": "6:00 PM",
+  "city": "webster-ma",
+  "venue": "Webster MS Gym, 75 Poland ST",
+  "lat": 42.0501,
+  "lng": -71.8801,
+  "approx": true,
+  "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-639"
  },
  {
   "promotion": "ppw",
@@ -917,6 +945,18 @@
   "lat": 42.25259,
   "lng": -89.03434,
   "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-0b0"
+ },
+ {
+  "promotion": "pros-of-wrestling",
+  "name": "Knoch Wrestling Benefit",
+  "date": "2026-11-14",
+  "time": "7:30 PM",
+  "city": "valencia-pa",
+  "venue": "434 Overbrook RD",
+  "lat": 40.6759,
+  "lng": -79.9917,
+  "approx": true,
+  "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-639"
  },
  {
   "promotion": "pwd",
@@ -964,6 +1004,18 @@
   "lat": 35.65112,
   "lng": -91.07282,
   "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-0b0"
+ },
+ {
+  "promotion": "snw",
+  "name": "Super Nova Wrestling",
+  "date": "2026-11-14",
+  "time": "7:30 PM",
+  "city": "lynn-ma",
+  "venue": "Neal Rantoul Vault Blackbox Theater, 25 Exchange ST",
+  "lat": 42.4668,
+  "lng": -70.9495,
+  "approx": true,
+  "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-639"
  },
  {
   "promotion": "spcw",
@@ -1061,6 +1113,18 @@
   "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-08d"
  },
  {
+  "promotion": "upstate-pro-wrestl",
+  "name": "Upstate Pro Wrestling",
+  "date": "2026-11-14",
+  "time": "6:05 PM",
+  "city": "gates-ny",
+  "venue": "880 Elmgrove RD",
+  "lat": 43.1542,
+  "lng": -77.7008,
+  "approx": true,
+  "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-639"
+ },
+ {
   "promotion": "12-gauge-pro-wrest",
   "name": "12 Gauge Pro Wrestling",
   "date": "2026-11-15",
@@ -1082,6 +1146,18 @@
   "lat": 37.86108,
   "lng": -81.19595,
   "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-0b0"
+ },
+ {
+  "promotion": "capital-pro-wrestl",
+  "name": "Capital Pro Wrestling",
+  "date": "2026-11-15",
+  "time": "3:00 PM",
+  "city": "lan",
+  "venue": "The Fledge, 1300 Eureka ST",
+  "lat": 42.7325,
+  "lng": -84.5555,
+  "approx": true,
+  "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-639"
  },
  {
   "promotion": "fwa",
@@ -1153,6 +1229,18 @@
   "lat": 39.10933,
   "lng": -121.61395,
   "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-0b0"
+ },
+ {
+  "promotion": "resolute-wrestling",
+  "name": "Resolute Wrestling",
+  "date": "2026-11-15",
+  "time": "6:00 PM",
+  "city": "crossville-tn",
+  "venue": "Club 1660, 1660 N Main ST, Ste A",
+  "lat": 35.949,
+  "lng": -85.0269,
+  "approx": true,
+  "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-639"
  },
  {
   "promotion": "tna",
@@ -1439,6 +1527,18 @@
   "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-0b0"
  },
  {
+  "promotion": "chaotic-wrestling",
+  "name": "Chaotic Wrestling",
+  "date": "2026-11-20",
+  "time": "7:30 PM",
+  "city": "lawrence-ma",
+  "venue": "652 Andover ST",
+  "lat": 42.707,
+  "lng": -71.1631,
+  "approx": true,
+  "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-639"
+ },
+ {
   "promotion": "chicagostyle",
   "name": "Second City Showdown VI",
   "date": "2026-11-20",
@@ -1486,6 +1586,18 @@
   "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-0b0"
  },
  {
+  "promotion": "f1rst",
+  "name": "F1RST Wrestling",
+  "date": "2026-11-20",
+  "time": "7:00 PM",
+  "city": "msp",
+  "venue": "Minneapolis Conv Ctr, 1301 2nd Ave S",
+  "lat": 44.9778,
+  "lng": -93.265,
+  "approx": true,
+  "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-639"
+ },
+ {
   "promotion": "horror-slam",
   "name": "Horror Slam",
   "date": "2026-11-20",
@@ -1496,6 +1608,18 @@
   "lng": -83.3527,
   "approx": true,
   "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-164"
+ },
+ {
+  "promotion": "hybrid",
+  "name": "Hybrid",
+  "date": "2026-11-20",
+  "time": "7:30 PM",
+  "city": "mount-holly-nj",
+  "venue": "22 King ST",
+  "lat": 39.9929,
+  "lng": -74.7877,
+  "approx": true,
+  "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-639"
  },
  {
   "promotion": "icwmke",
@@ -1530,6 +1654,18 @@
   "lat": 34.23559,
   "lng": -118.56453,
   "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-0b0"
+ },
+ {
+  "promotion": "ncw",
+  "name": "Northeast Championship Wrestling",
+  "date": "2026-11-20",
+  "time": "7:00 PM",
+  "city": "providence-ri",
+  "venue": "Buttonwoods Brewery, 50 Sims Ave",
+  "lat": 41.824,
+  "lng": -71.4128,
+  "approx": true,
+  "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-639"
  },
  {
   "promotion": "nhb",
@@ -1731,6 +1867,30 @@
   "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-de0"
  },
  {
+  "promotion": "beyond",
+  "name": "Beyond Wrestling",
+  "date": "2026-11-21",
+  "time": "TBA",
+  "city": "cranston-ri",
+  "venue": "Rhodes on the Pawtuxet, 60 Rhodes PL",
+  "lat": 41.7798,
+  "lng": -71.4373,
+  "approx": true,
+  "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-639"
+ },
+ {
+  "promotion": "f1rst",
+  "name": "F1RST Wrestling",
+  "date": "2026-11-21",
+  "time": "7:00 PM",
+  "city": "msp",
+  "venue": "Minneapolis Conv Ctr, 1301 2nd Ave S",
+  "lat": 44.9778,
+  "lng": -93.265,
+  "approx": true,
+  "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-639"
+ },
+ {
   "promotion": "focuspro",
   "name": "Focus Pro Wrestling",
   "date": "2026-11-21",
@@ -1741,6 +1901,18 @@
   "lng": -71.0022,
   "approx": true,
   "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-08d"
+ },
+ {
+  "promotion": "house-of-heat",
+  "name": "House of Heat",
+  "date": "2026-11-21",
+  "time": "2:00 PM",
+  "city": "lafayette-in",
+  "venue": "Northend Comm Ctr, 200 Elmwood Ave",
+  "lat": 40.4167,
+  "lng": -86.8753,
+  "approx": true,
+  "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-639"
  },
  {
   "promotion": "indiana-powerhouse-wrest",
@@ -1764,6 +1936,18 @@
   "lng": -111.888,
   "approx": true,
   "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-08d"
+ },
+ {
+  "promotion": "iron-heart-pro",
+  "name": "Iron Heart Pro",
+  "date": "2026-11-21",
+  "time": "7:00 PM",
+  "city": "hudson-wi",
+  "venue": "St. Croix Business Center Condominium, 2017 O'Neil RD",
+  "lat": 44.9747,
+  "lng": -92.7569,
+  "approx": true,
+  "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-639"
  },
  {
   "promotion": "lariato-pro-guild",
@@ -1810,6 +1994,30 @@
   "lng": -76.5266,
   "approx": true,
   "source": "https://www.matwonline.com"
+ },
+ {
+  "promotion": "maw",
+  "name": "Midwest All-Star Wrestling",
+  "date": "2026-11-21",
+  "time": "7:00 PM",
+  "city": "rosemount-mn",
+  "venue": "Truplayerz, 15641 Canada Cir",
+  "lat": 44.7394,
+  "lng": -93.1258,
+  "approx": true,
+  "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-639"
+ },
+ {
+  "promotion": "minnesota-independ",
+  "name": "Minnesota Independent Wrestling",
+  "date": "2026-11-21",
+  "time": "7:00 PM",
+  "city": "chanhassen-mn",
+  "venue": "Am Legion, 290 Lake DR E",
+  "lat": 44.8622,
+  "lng": -93.5308,
+  "approx": true,
+  "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-639"
  },
  {
   "promotion": "ncg",
@@ -1875,6 +2083,18 @@
   "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-de0"
  },
  {
+  "promotion": "pod",
+  "name": "POD",
+  "date": "2026-11-21",
+  "time": "7:05 PM",
+  "city": "windber-pa",
+  "venue": "Windber Comm Bldg, 1605 Graham Ave",
+  "lat": 40.2398,
+  "lng": -78.835,
+  "approx": true,
+  "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-639"
+ },
+ {
   "promotion": "premier-pro",
   "name": "Premier Pro Wrestling",
   "date": "2026-11-21",
@@ -1884,6 +2104,30 @@
   "lat": 42.25259,
   "lng": -89.03434,
   "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-0b0"
+ },
+ {
+  "promotion": "pro-wrestling-grin",
+  "name": "Pro Wrestling Grind",
+  "date": "2026-11-21",
+  "time": "7:30 PM",
+  "city": "florence-ma",
+  "venue": "VFW, 18 Meadow ST",
+  "lat": 42.3337,
+  "lng": -72.6651,
+  "approx": true,
+  "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-639"
+ },
+ {
+  "promotion": "pro-wrestling-unpl",
+  "name": "Pro Wrestling Unplugged",
+  "date": "2026-11-21",
+  "time": "7:30 PM",
+  "city": "mount-holly-nj",
+  "venue": "22 King ST",
+  "lat": 39.9929,
+  "lng": -74.7877,
+  "approx": true,
+  "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-639"
  },
  {
   "promotion": "pwr",
@@ -1966,6 +2210,18 @@
   "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-0b0"
  },
  {
+  "promotion": "show-me-state-wres",
+  "name": "Show Me State Wrestling",
+  "date": "2026-11-21",
+  "time": "6:00 PM",
+  "city": "marshall-mo",
+  "venue": "Martin Comm Ctr, 1985 S Odell Ave",
+  "lat": 39.1231,
+  "lng": -93.1969,
+  "approx": true,
+  "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-639"
+ },
+ {
   "promotion": "southbay-championship-wr",
   "name": "Southbay Championship Wrestling",
   "date": "2026-11-21",
@@ -1976,6 +2232,18 @@
   "lng": -121.9552,
   "approx": true,
   "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-0b0"
+ },
+ {
+  "promotion": "spw",
+  "name": "Quincy Lions Club Benefit",
+  "date": "2026-11-21",
+  "time": "7:07 PM",
+  "city": "quincy-ma",
+  "venue": "South West MS, 444 Granite ST",
+  "lat": 42.2529,
+  "lng": -71.0023,
+  "approx": true,
+  "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-639"
  },
  {
   "promotion": "supreme-wrestling",
@@ -2036,6 +2304,18 @@
   "source": "https://www.indydependent.com/full-list-of-events"
  },
  {
+  "promotion": "workers-pro",
+  "name": "Workers Pro Wrestling",
+  "date": "2026-11-21",
+  "time": "5:00 PM",
+  "city": "pottstown-pa",
+  "venue": "Ringing Rocks Roller Rink, 815 White Pine LN",
+  "lat": 40.2454,
+  "lng": -75.6496,
+  "approx": true,
+  "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-639"
+ },
+ {
   "promotion": "wtw",
   "name": "Wow That's Wrestling",
   "date": "2026-11-21",
@@ -2070,6 +2350,18 @@
   "lng": -79.7667,
   "approx": true,
   "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-de0"
+ },
+ {
+  "promotion": "live-pro-wrestling",
+  "name": "Live Pro Wrestling",
+  "date": "2026-11-22",
+  "time": "4:00 PM",
+  "city": "new-bedford-ma",
+  "venue": "The Vault P.A. Ctr, 791 Purchase ST",
+  "lat": 41.6353,
+  "lng": -70.927,
+  "approx": true,
+  "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-639"
  },
  {
   "promotion": "olde-wrestling",
@@ -2343,6 +2635,30 @@
   "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-0b0"
  },
  {
+  "promotion": "attitude-pro-wrest",
+  "name": "Attitude Pro Wrestling",
+  "date": "2026-11-27",
+  "time": "6:00 PM",
+  "city": "yuma-az",
+  "venue": "2 Fun Factory, 4446 E County 10th ST",
+  "lat": 32.7253,
+  "lng": -114.6244,
+  "approx": true,
+  "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-639"
+ },
+ {
+  "promotion": "chaotic-wrestling",
+  "name": "Chaotic Wrestling",
+  "date": "2026-11-27",
+  "time": "7:30 PM",
+  "city": "watertown-ma",
+  "venue": "520 Pleasant ST",
+  "lat": 42.3709,
+  "lng": -71.1828,
+  "approx": true,
+  "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-639"
+ },
+ {
   "promotion": "explosive-pro",
   "name": "Explosive Pro Wrestling",
   "date": "2026-11-27",
@@ -2444,6 +2760,18 @@
   "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-0b0"
  },
  {
+  "promotion": "spo",
+  "name": "Super Powers of Wrestling",
+  "date": "2026-11-27",
+  "time": "7:30 PM",
+  "city": "mount-holly-nj",
+  "venue": "22 King ST",
+  "lat": 39.9929,
+  "lng": -74.7877,
+  "approx": true,
+  "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-639"
+ },
+ {
   "promotion": "squared-circle-act",
   "name": "Squared Circle Action",
   "date": "2026-11-27",
@@ -2477,6 +2805,18 @@
   "lng": -78.2247,
   "approx": true,
   "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-08d"
+ },
+ {
+  "promotion": "emerge",
+  "name": "Emerge",
+  "date": "2026-11-28",
+  "time": "7:00 PM",
+  "city": "columbus-in",
+  "venue": "Fairgrounds, 750 W 200 S",
+  "lat": 39.2014,
+  "lng": -85.9214,
+  "approx": true,
+  "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-639"
  },
  {
   "promotion": "ewa",
@@ -2549,6 +2889,18 @@
   "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-0b0"
  },
  {
+  "promotion": "reserve-championsh",
+  "name": "Reserve Championship Wrestling",
+  "date": "2026-11-28",
+  "time": "TBA",
+  "city": "galesburg-il",
+  "venue": "185 S Kellogg",
+  "lat": 40.9478,
+  "lng": -90.3712,
+  "approx": true,
+  "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-639"
+ },
+ {
   "promotion": "rwe",
   "name": "Revolutionary Wrestling Entertainment",
   "date": "2026-11-28",
@@ -2570,6 +2922,18 @@
   "lng": -93.1732,
   "approx": true,
   "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-0b0"
+ },
+ {
+  "promotion": "seek-pro-wrestling",
+  "name": "SEEK Pro Wrestling",
+  "date": "2026-11-28",
+  "time": "7:00 PM",
+  "city": "dunmore-pa",
+  "venue": "Holy Cross HS, 501 E Drinker ST",
+  "lat": 41.4198,
+  "lng": -75.6324,
+  "approx": true,
+  "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-639"
  },
  {
   "promotion": "supreme-wrestling",
@@ -2894,6 +3258,18 @@
   "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-0b0"
  },
  {
+  "promotion": "new-edge-pro-wrest",
+  "name": "New Edge Pro Wrestling",
+  "date": "2026-12-04",
+  "time": "7:00 PM",
+  "city": "hazel-park-mi",
+  "venue": "620 W Woodward Heights",
+  "lat": 42.4625,
+  "lng": -83.1041,
+  "approx": true,
+  "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-639"
+ },
+ {
   "promotion": "nxt",
   "name": "NXT Holiday Live Tour",
   "date": "2026-12-04",
@@ -2963,6 +3339,18 @@
   "lat": 35.34965,
   "lng": -86.20132,
   "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-0b0"
+ },
+ {
+  "promotion": "spw",
+  "name": "Showcase Pro Wrestling",
+  "date": "2026-12-04",
+  "time": "7:47 PM",
+  "city": "taunton-ma",
+  "venue": "VFW, 92 Ingells ST",
+  "lat": 41.9001,
+  "lng": -71.0898,
+  "approx": true,
+  "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-639"
  },
  {
   "promotion": "squared-circle-act",
@@ -3060,6 +3448,18 @@
   "source": "https://www.allelitewrestling.com/aew-events"
  },
  {
+  "promotion": "destination-pro",
+  "name": "Destination Pro",
+  "date": "2026-12-05",
+  "time": "7:00 PM",
+  "city": "thief-river-falls-mn",
+  "venue": "Thief River Falls Armory, 250 Emil ST",
+  "lat": 48.1191,
+  "lng": -96.1812,
+  "approx": true,
+  "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-639"
+ },
+ {
   "promotion": "dreamwave",
   "name": "Good As Gold 2026",
   "date": "2026-12-05",
@@ -3070,6 +3470,30 @@
   "lng": -89.0918,
   "approx": true,
   "source": "https://independentwrestling.tv/schedule?lang=en"
+ },
+ {
+  "promotion": "epw",
+  "name": "EPW",
+  "date": "2026-12-05",
+  "time": "7:00 PM",
+  "city": "booneville-ms",
+  "venue": "Burchell Sports Arena, 2nd ST",
+  "lat": 34.6581,
+  "lng": -88.5667,
+  "approx": true,
+  "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-639"
+ },
+ {
+  "promotion": "higher-ground-wres",
+  "name": "Higher Ground Wrestling",
+  "date": "2026-12-05",
+  "time": "7:00 PM",
+  "city": "eau-claire-wi",
+  "venue": "The Plus, 208 S Barstow ST",
+  "lat": 44.8113,
+  "lng": -91.4985,
+  "approx": true,
+  "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-639"
  },
  {
   "promotion": "icw",
@@ -3107,6 +3531,18 @@
   "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-0b0"
  },
  {
+  "promotion": "iwe",
+  "name": "Imperial Wrestling Entertainment",
+  "date": "2026-12-05",
+  "time": "5:30 PM",
+  "city": "houghton-lake-mi",
+  "venue": "Artesia Youth Park & Comm Ctr, 1800 S Loxley RD",
+  "lat": 44.3147,
+  "lng": -84.7648,
+  "approx": true,
+  "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-639"
+ },
+ {
   "promotion": "lwa",
   "name": "Louisiana Wrestling Alliance",
   "date": "2026-12-05",
@@ -3116,6 +3552,18 @@
   "lat": 30.2497,
   "lng": -92.06622,
   "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-0b0"
+ },
+ {
+  "promotion": "mrchainsaw",
+  "name": "Mr. Chainsaw Pro Wrestling",
+  "date": "2026-12-05",
+  "time": "2:00 PM",
+  "city": "kalkaska-mi",
+  "venue": "Kaliseum, 1900 Fairgrounds RD NW",
+  "lat": 44.7342,
+  "lng": -85.1759,
+  "approx": true,
+  "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-639"
  },
  {
   "promotion": "nxt",
@@ -3313,6 +3761,18 @@
   "lat": 37.86108,
   "lng": -81.19595,
   "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-0b0"
+ },
+ {
+  "promotion": "battlefront-pro-wr",
+  "name": "Battlefront Pro Wrestling Xtreme",
+  "date": "2026-12-06",
+  "time": "5:00 PM",
+  "city": "chicopee-ma",
+  "venue": "43 Exchange ST",
+  "lat": 42.1487,
+  "lng": -72.6079,
+  "approx": true,
+  "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-639"
  },
  {
   "promotion": "nxt",
@@ -3548,6 +4008,18 @@
   "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-0b0"
  },
  {
+  "promotion": "chaotic-wrestling",
+  "name": "Chaotic Wrestling",
+  "date": "2026-12-11",
+  "time": "7:30 PM",
+  "city": "tewksbury-ma",
+  "venue": "777 South ST",
+  "lat": 42.6106,
+  "lng": -71.2342,
+  "approx": true,
+  "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-639"
+ },
+ {
   "promotion": "explosive-pro",
   "name": "Explosive Pro Wrestling",
   "date": "2026-12-11",
@@ -3557,6 +4029,30 @@
   "lat": 35.03543,
   "lng": -81.98086,
   "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-0b0"
+ },
+ {
+  "promotion": "lost-art-of-wrestl",
+  "name": "Lost Art of Wrestling",
+  "date": "2026-12-11",
+  "time": "7:00 PM",
+  "city": "magee-ms",
+  "venue": "Overflow Church, 222 Railroad DR E",
+  "lat": 31.8738,
+  "lng": -89.7337,
+  "approx": true,
+  "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-639"
+ },
+ {
+  "promotion": "lucha-boom",
+  "name": "Lucha Boom!",
+  "date": "2026-12-11",
+  "time": "7:00 PM",
+  "city": "det",
+  "venue": "Sanctuary Detroit Music & Art Center, 15701 James Couzens Fwy",
+  "lat": 42.3314,
+  "lng": -83.0458,
+  "approx": true,
+  "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-639"
  },
  {
   "promotion": "mpw",
@@ -3707,6 +4203,18 @@
   "approx": true,
   "ticketUrl": "https://www.kycwrestling.com/events/kentucky-championship-wrestling-presents-champions-for-charity-ii",
   "source": "promoter email (jon@kycwrestling.com, 2026-11-02)"
+ },
+ {
+  "promotion": "magnolia-champions",
+  "name": "Magnolia Championship Wrestling",
+  "date": "2026-12-12",
+  "time": "TBA",
+  "city": "hurley-ms",
+  "venue": "Venue on ticket page",
+  "lat": 30.661,
+  "lng": -88.4942,
+  "approx": true,
+  "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-639"
  },
  {
   "promotion": "matw",
@@ -3869,6 +4377,18 @@
   "lat": 33.72916,
   "lng": -84.41606,
   "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-0b0"
+ },
+ {
+  "promotion": "discover-pro-wrest",
+  "name": "Discover Pro Wrestling",
+  "date": "2026-12-13",
+  "time": "6:00 PM",
+  "city": "duluth-mn",
+  "venue": "Clyde Iron Works, 2920 W. Michigan ST",
+  "lat": 46.7833,
+  "lng": -92.1066,
+  "approx": true,
+  "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-639"
  },
  {
   "promotion": "pro-championship-wrestli",
@@ -4045,6 +4565,19 @@
   "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-0b0"
  },
  {
+  "promotion": "tna",
+  "name": "Thursday Night iMPACT! taping",
+  "date": "2026-12-17",
+  "time": "TBA",
+  "city": "elp",
+  "venue": "El Paso County Coliseum",
+  "lat": 31.7619,
+  "lng": -106.485,
+  "approx": true,
+  "ticketUrl": "https://www.tickpick.com/buy-tna-wrestling-tickets-el-paso-county-coliseum-12-17-26-9pm/7894397/",
+  "source": "https://www.tickpick.com/buy-tna-wrestling-tickets-el-paso-county-coliseum-12-17-26-9pm/7894397/"
+ },
+ {
   "promotion": "wopen",
   "name": "Wrestling Open",
   "date": "2026-12-17",
@@ -4134,6 +4667,18 @@
   "lat": 34.23559,
   "lng": -118.56453,
   "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-0b0"
+ },
+ {
+  "promotion": "pro-wrestling-batt",
+  "name": "Pro Wrestling Battleground",
+  "date": "2026-12-18",
+  "time": "7:30 PM",
+  "city": "msp",
+  "venue": "The Cabooze, 913 Cedar Ave S",
+  "lat": 44.9778,
+  "lng": -93.265,
+  "approx": true,
+  "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-639"
  },
  {
   "promotion": "prosouth-wrestling",
@@ -4229,6 +4774,18 @@
   "source": "https://www.allelitewrestling.com/aew-events"
  },
  {
+  "promotion": "crusade-pro",
+  "name": "Crusade Pro",
+  "date": "2026-12-19",
+  "time": "7:00 PM",
+  "city": "hattiesburg-ms",
+  "venue": "The Bouie, 129 Ryner RD",
+  "lat": 31.3271,
+  "lng": -89.2903,
+  "approx": true,
+  "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-639"
+ },
+ {
   "promotion": "hub-city-wrestling",
   "name": "Hub City Wrestling",
   "date": "2026-12-19",
@@ -4261,6 +4818,18 @@
   "lat": 42.25259,
   "lng": -89.03434,
   "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-0b0"
+ },
+ {
+  "promotion": "pro-wrestling-grin",
+  "name": "Pro Wrestling Grind",
+  "date": "2026-12-19",
+  "time": "7:30 PM",
+  "city": "florence-ma",
+  "venue": "VFW, 18 Meadow ST",
+  "lat": 42.3337,
+  "lng": -72.6651,
+  "approx": true,
+  "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-639"
  },
  {
   "promotion": "rebel-spirit-pro",
@@ -4354,6 +4923,18 @@
   "lat": 37.86108,
   "lng": -81.19595,
   "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-0b0"
+ },
+ {
+  "promotion": "full-impact-pro",
+  "name": "Full Impact Pro",
+  "date": "2026-12-20",
+  "time": "TBA",
+  "city": "clearwater-fl",
+  "venue": "OCC Road House, 10575 49th ST N",
+  "lat": 27.9658,
+  "lng": -82.8001,
+  "approx": true,
+  "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-639"
  },
  {
   "promotion": "pro-championship-wrestli",
@@ -4615,6 +5196,19 @@
   "lat": 41.68415,
   "lng": -87.70441,
   "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-0b0"
+ },
+ {
+  "promotion": "flex-wrestling",
+  "name": "Boxing Day Brawl",
+  "date": "2026-12-26",
+  "time": "7:00 PM",
+  "city": "savona-ny",
+  "venue": "Mud Creek Bison Ranch",
+  "lat": 42.2854,
+  "lng": -77.2186,
+  "approx": true,
+  "ticketUrl": "https://www.eventbrite.com/e/dmac-promotions-presents-flex-wrestling-boxing-day-brawl-tickets-2003546750264",
+  "source": "https://www.eventbrite.com/e/dmac-promotions-presents-flex-wrestling-boxing-day-brawl-tickets-2003546750264"
  },
  {
   "promotion": "outta-control",
@@ -5052,6 +5646,17 @@
   "source": "https://www.facebook.com/groups/supportindywrestling/posts/30121441440778982/ (comment by Jonathan Darwin, APW announcer/PR director, 2026-11-02)"
  },
  {
+  "promotion": "nxt",
+  "name": "NXT (weekly TV)",
+  "date": "2027-01-19",
+  "time": "8:00 PM",
+  "city": "orl",
+  "venue": "WWE Performance Center",
+  "lat": 28.5383,
+  "lng": -81.3792,
+  "approx": true
+ },
+ {
   "promotion": "american-pro",
   "name": "American Pro Wrestling",
   "date": "2027-01-24",
@@ -5062,6 +5667,17 @@
   "lng": -81.19595,
   "recurring": true,
   "source": "https://www.facebook.com/groups/supportindywrestling/posts/30121441440778982/ (comment by Jonathan Darwin, APW announcer/PR director, 2026-11-02)"
+ },
+ {
+  "promotion": "nxt",
+  "name": "NXT (weekly TV)",
+  "date": "2027-01-26",
+  "time": "8:00 PM",
+  "city": "orl",
+  "venue": "WWE Performance Center",
+  "lat": 28.5383,
+  "lng": -81.3792,
+  "approx": true
  },
  {
   "promotion": "american-pro",
