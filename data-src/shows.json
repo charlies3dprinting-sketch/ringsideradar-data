@@ -375,6 +375,18 @@
   "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-0b0"
  },
  {
+  "promotion": "upw-ky",
+  "name": "UPW Toys for Tots Tour: Scottsville",
+  "date": "2026-11-13",
+  "time": "7:00 PM",
+  "city": "scottsville-ky",
+  "venue": "James E. Bazzell Middle School",
+  "lat": 36.7534,
+  "lng": -86.1905,
+  "approx": true,
+  "source": "https://www.united-pro-wrestling.com"
+ },
+ {
   "promotion": "victorypro",
   "name": "Victory Pro Wrestling",
   "date": "2026-11-13",
@@ -1340,17 +1352,6 @@
   "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-0b0"
  },
  {
-  "promotion": "907-pro-wrestling",
-  "name": "907 Pro Wrestling",
-  "date": "2026-11-20",
-  "time": "8:30 PM",
-  "city": "anchorage-ak",
-  "venue": "Ship Creek Brewing Company, 5801 Arctic Blvd Ste C",
-  "lat": 61.1683,
-  "lng": -149.8975,
-  "source": "https://www.facebook.com/907prowrestlingacademy"
- },
- {
   "promotion": "coastalcw",
   "name": "Coastal Championship Wrestling",
   "date": "2026-11-19",
@@ -1443,6 +1444,17 @@
   "lng": -86.5859,
   "approx": true,
   "source": "https://www.wweschedule.com/wwe-schedule/2026"
+ },
+ {
+  "promotion": "907-pro-wrestling",
+  "name": "907 Pro Wrestling",
+  "date": "2026-11-20",
+  "time": "8:30 PM",
+  "city": "anchorage-ak",
+  "venue": "Ship Creek Brewing Company, 5801 Arctic Blvd Ste C",
+  "lat": 61.1683,
+  "lng": -149.8975,
+  "source": "https://www.facebook.com/907prowrestlingacademy"
  },
  {
   "promotion": "aaw",
@@ -4343,6 +4355,17 @@
   "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-0b0"
  },
  {
+  "promotion": "upw-ky",
+  "name": "UPW Toys for Tots Tour: Bowling Green",
+  "date": "2026-12-13",
+  "time": "6:00 PM",
+  "city": "bowling-green-ky",
+  "venue": "White Squirrel Brewery, 302 State St",
+  "lat": 36.99779,
+  "lng": -86.43277,
+  "source": "https://www.united-pro-wrestling.com"
+ },
+ {
   "promotion": "wopen",
   "name": "Wrestling Open",
   "date": "2026-12-14",
@@ -4461,17 +4484,6 @@
   "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-0b0"
  },
  {
-  "promotion": "907-pro-wrestling",
-  "name": "907 Pro Wrestling",
-  "date": "2026-12-18",
-  "time": "8:30 PM",
-  "city": "anchorage-ak",
-  "venue": "Ship Creek Brewing Company, 5801 Arctic Blvd Ste C",
-  "lat": 61.1683,
-  "lng": -149.8975,
-  "source": "https://www.facebook.com/907prowrestlingacademy"
- },
- {
   "promotion": "coastalcw",
   "name": "Coastal Championship Wrestling",
   "date": "2026-12-17",
@@ -4552,6 +4564,17 @@
   "lng": 174.7633,
   "approx": true,
   "source": "https://www.wweschedule.com/wwe-schedule/2026"
+ },
+ {
+  "promotion": "907-pro-wrestling",
+  "name": "907 Pro Wrestling",
+  "date": "2026-12-18",
+  "time": "8:30 PM",
+  "city": "anchorage-ak",
+  "venue": "Ship Creek Brewing Company, 5801 Arctic Blvd Ste C",
+  "lat": 61.1683,
+  "lng": -149.8975,
+  "source": "https://www.facebook.com/907prowrestlingacademy"
  },
  {
   "promotion": "apw",

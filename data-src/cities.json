@@ -495,5 +495,7 @@
   {"id":"oak-ridge-nj","name":"Oak Ridge","state":"NJ","lat":41.0398,"lng":-74.4993},
   {"id":"gates-ny","name":"Gates","state":"NY","lat":43.1542,"lng":-77.7008},
   {"id":"valencia-pa","name":"Valencia","state":"PA","lat":40.6759,"lng":-79.9917},
-  {"id":"savona-ny","name":"Savona","state":"NY","lat":42.2854,"lng":-77.2186}
+  {"id":"savona-ny","name":"Savona","state":"NY","lat":42.2854,"lng":-77.2186},
+  {"id":"scottsville-ky","name":"Scottsville","state":"KY","lat":36.7534,"lng":-86.1905},
+  {"id":"bowling-green-ky","name":"Bowling Green","state":"KY","lat":36.9903,"lng":-86.4436}
 ]
