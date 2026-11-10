@@ -1,64 +1,5 @@
 [
  {
-  "promotion": "generation-next-pr",
-  "name": "Gen Next Pro Wrestling",
-  "date": "2026-11-09",
-  "time": "7 PM",
-  "city": "georgetown-ky",
-  "venue": "Live Action Bar & Grill, 401 Outlet Center DR",
-  "lat": 38.2098,
-  "lng": -84.5588,
-  "approx": true,
-  "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-de0"
- },
- {
-  "promotion": "ppw",
-  "name": "Cardinal Clash",
-  "date": "2026-11-09",
-  "time": "7:00 PM",
-  "city": "millington-mi",
-  "venue": "Millington High School Gym, 8780 Dean Dr",
-  "lat": 43.2814,
-  "lng": -83.5297,
-  "approx": true,
-  "ticketUrl": "https://pureprowrestling.net/live-event-cardinal-clash-millington-high-school-gym-11-9-2026/",
-  "source": "https://pureprowrestling.net/"
- },
- {
-  "promotion": "wopen",
-  "name": "Wrestling Open",
-  "date": "2026-11-09",
-  "time": "7:00 PM",
-  "city": "cranston-ri",
-  "venue": "Rhodes on the Pawtuxet, 60 Rhodes PL",
-  "lat": 41.76775,
-  "lng": -71.39364,
-  "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-0b0"
- },
- {
-  "promotion": "wwe",
-  "name": "Monday Night Raw",
-  "date": "2026-11-09",
-  "time": "7:45 PM",
-  "city": "greenville-sc",
-  "venue": "Bon Secours Wellness Arena",
-  "lat": 34.8526,
-  "lng": -82.394,
-  "approx": true,
-  "source": "https://www.wweschedule.com/wwe-schedule/2026"
- },
- {
-  "promotion": "wwn",
-  "name": "World Wrestling Network",
-  "date": "2026-11-09",
-  "time": "7:00 PM",
-  "city": "clearwater-fl",
-  "venue": "OCC Road House, 10575 49th ST N",
-  "lat": 27.8684,
-  "lng": -82.7002,
-  "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-0b0"
- },
- {
   "promotion": "iwa-unlimited",
   "name": "IWA Unlimited-Wrestling",
   "date": "2026-11-10",
@@ -1401,13 +1342,13 @@
  {
   "promotion": "907-pro-wrestling",
   "name": "907 Pro Wrestling",
-  "date": "2026-11-19",
+  "date": "2026-11-20",
   "time": "8:30 PM",
   "city": "anchorage-ak",
-  "venue": "Williwaw Social, 609 F ST",
-  "lat": 61.21646,
-  "lng": -149.89336,
-  "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-0b0"
+  "venue": "Ship Creek Brewing Company, 5801 Arctic Blvd Ste C",
+  "lat": 61.1683,
+  "lng": -149.8975,
+  "source": "https://www.facebook.com/907prowrestlingacademy"
  },
  {
   "promotion": "coastalcw",
@@ -4522,13 +4463,13 @@
  {
   "promotion": "907-pro-wrestling",
   "name": "907 Pro Wrestling",
-  "date": "2026-12-17",
+  "date": "2026-12-18",
   "time": "8:30 PM",
   "city": "anchorage-ak",
-  "venue": "Williwaw Social, 609 F ST",
-  "lat": 61.21646,
-  "lng": -149.89336,
-  "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-0b0"
+  "venue": "Ship Creek Brewing Company, 5801 Arctic Blvd Ste C",
+  "lat": 61.1683,
+  "lng": -149.8975,
+  "source": "https://www.facebook.com/907prowrestlingacademy"
  },
  {
   "promotion": "coastalcw",
