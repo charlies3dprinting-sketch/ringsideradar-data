@@ -598,15 +598,17 @@
  },
  {
   "promotion": "innovate-wrestling",
-  "name": "Innovate Wrestling",
+  "name": "November Reign",
   "date": "2026-11-14",
   "time": "7:00 PM",
   "city": "kingsport-tn",
-  "venue": "Netpro Studios, 100 Emory LN",
+  "venue": "NetPro Studios (Beautiful Bobby Eaton Arena), 100 Emory Ln",
   "lat": 36.5484,
   "lng": -82.5618,
   "approx": true,
-  "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-639"
+  "source": "https://innovatewrestling.net/events/2026-11-14-november-reign",
+  "ticketUrl": "https://innovate-reign.eventbrite.com/",
+  "note": "Doors 6:00 PM, bell 7:00 PM ET"
  },
  {
   "promotion": "insurgence-pro",
