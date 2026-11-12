@@ -1528,14 +1528,15 @@
  },
  {
   "promotion": "icwmke",
-  "name": "Insane Championship Wrestling-Milwaukee",
+  "name": "Ring of Insanity",
   "date": "2026-11-20",
-  "time": "TBA",
+  "time": "7:30 PM",
   "city": "west-allis-wi",
   "venue": "Da Bar, 1900 S 60th ST",
   "lat": 43.01012,
   "lng": -87.9873,
-  "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-0b0"
+  "source": "email from ICW Milwaukee (poster) 2026-11-12",
+  "note": "Doors 6:45 PM, bell 7:30 PM. Admission $20, ringside $25."
  },
  {
   "promotion": "legacy-pro",
