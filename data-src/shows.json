@@ -3724,6 +3724,18 @@
   "source": "https://www.facebook.com/events/1006259685097725/"
  },
  {
+  "promotion": "tos",
+  "name": "Training Day 64",
+  "date": "2026-12-06",
+  "time": "2:00 PM",
+  "city": "east-hartford-ct",
+  "venue": "TOS Dojo, 87 Church St Unit 317",
+  "lat": 41.77678,
+  "lng": -72.60886,
+  "ticketUrl": "https://www.toswrestling1.com/events/training-day-64",
+  "source": "https://www.toswrestling1.com/events/training-day-64"
+ },
+ {
   "promotion": "wopen",
   "name": "Wrestling Open",
   "date": "2026-12-07",
