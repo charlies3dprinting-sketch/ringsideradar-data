@@ -160,11 +160,19 @@ New wrestler: add a line to `wrestlers.tsv` (name, m/f, promotions home first, r
 Photos (`photos.tsv` + `docs/photos/`) and career championships (`career.json`, from Wikipedia) are refreshed in
 occasional manual sessions, not by this weekly run. Don't edit them here.
 
-## 6. PWI lists (once a year)
-`data-src/pwi.txt` holds the PWI 500 (published each September) and PWI Women's 250 (published each November)
-that anchor the rankings. When a new edition is out, add it as a new `##` section with its evaluation-period end
-date and remove the older edition of that list. PWI ranks are used inside the ranking formula only; the app does
-not display them.
+## 6. PWI lists (check every week; 1–2 searches)
+`data-src/pwi.txt` holds the PWI 500 (usually out around September) and PWI Women's 250 (usually November) that
+anchor the rankings. Every run, WebSearch "PWI 500 <year>" and "PWI Women's 250 <year>" (and any other PWI singles
+list) to see whether a newer edition than the one in pwi.txt is out.
+- New edition, only the top 10/top 50 public so far: add it ABOVE the older edition as its own `##` section with the
+  evaluation-period end date, the source and the published size as the 5th field (e.g. `| 250`). Keep the older edition:
+  the build ranks everyone on the newest list first (in its order), then the rest of the older list (order only, not
+  PWI's printed number).
+- Full new list available (a site printing all names): replace the partial section with the full list and delete the
+  older edition of that list.
+- PWI's tag team list isn't used (the rankings are for singles wrestlers).
+PWI ranks are used inside the ranking formula only; the app does not display them. Mention any new PWI list in the
+summary.
 
 ## Rules
 - Only record facts found in a source this run. Put the page in a show's `source` field.

@@ -1,55 +1,5 @@
 [
  {
-  "promotion": "iwa-unlimited",
-  "name": "IWA Unlimited-Wrestling",
-  "date": "2026-11-10",
-  "time": "7:00 PM",
-  "city": "noble-il",
-  "venue": "137 West South Ave",
-  "lat": 38.6975,
-  "lng": -88.2237,
-  "approx": true,
-  "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-0b0"
- },
- {
-  "promotion": "nxt",
-  "name": "NXT (weekly TV)",
-  "date": "2026-11-10",
-  "time": "8:00 PM",
-  "city": "orl",
-  "venue": "WWE Performance Center",
-  "lat": 28.5383,
-  "lng": -81.3792,
-  "approx": true,
-  "note": "Weekly Tuesday NXT on The CW. Usually at the Performance Center; NXT sometimes goes on the road, so check WWE.com.",
-  "source": "https://en.wikipedia.org/wiki/WWE_NXT"
- },
- {
-  "promotion": "spartan-pro",
-  "name": "Spartan Pro Wrestling",
-  "date": "2026-11-10",
-  "time": "8:00 PM",
-  "city": "rainbow-city-al",
-  "venue": "Gadsden Mall, 1001 Rainbow DR",
-  "lat": 33.9548,
-  "lng": -86.0419,
-  "approx": true,
-  "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-0b0"
- },
- {
-  "promotion": "aew",
-  "name": "Dynamite/Collision: West Valley City",
-  "date": "2026-11-11",
-  "time": "TBA",
-  "city": "west-valley-city-ut",
-  "venue": "Maverik Center",
-  "lat": 40.6916,
-  "lng": -112.0011,
-  "approx": true,
-  "ticketUrl": "https://www.ticketmaster.com/event/1E00652ADF2CCC23",
-  "source": "https://www.allelitewrestling.com/aew-events"
- },
- {
   "promotion": "880-wrestling",
   "name": "880 Wrestling",
   "date": "2026-11-12",

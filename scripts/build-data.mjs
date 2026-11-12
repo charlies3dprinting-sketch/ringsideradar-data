@@ -81,20 +81,31 @@ if (fs.existsSync(src('pwi.txt'))) {
   for (const line of fs.readFileSync(src('pwi.txt'), 'utf8').split('\n').map((l) => l.replace(/\r$/, '').trim())) {
     if (!line || (line.startsWith('#') && !line.startsWith('##'))) continue;
     if (line.startsWith('##')) {
-      const [id, gender, cutoff, source] = line.slice(2).split('|').map((x) => x.trim());
+      const [id, gender, cutoff, source, size] = line.slice(2).split('|').map((x) => x.trim());
       if (!isDate(cutoff)) err(`pwi.txt: bad cutoff date in "${line}"`);
-      cur = { id, gender, cutoff, source, names: [] };
+      if (size && !/^\d+$/.test(size)) err(`pwi.txt: bad list size in "${line}"`);
+      // size: the published list length, for a list we only have the top of so far (e.g. the top 10 of a new Women's 250)
+      cur = { id, gender, cutoff, source, declared: size ? Number(size) : 0, names: [] };
       pwiLists.push(cur);
     } else if (cur) cur.names.push(line);
   }
 }
 if (pwiLists.length && !PROMO.has('other')) err('pwi.txt needs a promotion with id "other" in promotions.json');
-for (const L of pwiLists) {
+// Newer lists win: per gender, the newest list's order comes first, then anyone only on an older list, in that
+// list's order. The merged position is used as the rank (order only, not PWI's printed number), so the top of a
+// new list always sits ahead of the top of the previous one, even when we only have part of the new list.
+for (const g of [...new Set(pwiLists.map((L) => L.gender))]) {
+  const lists = pwiLists.filter((L) => L.gender === g).sort((a, b) => b.cutoff.localeCompare(a.cutoff));
   const seen = new Set();
-  L.names.forEach((name, i) => {
+  const order = [];
+  for (const L of lists) for (const name of L.names) {
     const key = norm(name);
-    if (seen.has(key)) return;
+    if (seen.has(key)) continue;
     seen.add(key);
+    order.push({ name, key, L });
+  }
+  const of = Math.max(order.length, ...lists.map((L) => L.declared || L.names.length));
+  order.forEach(({ name, key, L }, i) => {
     let w = byNorm.get(key) ?? (ALIASES[key] ? byName.get(ALIASES[key]) : undefined);
     if (!w) {
       const gender = L.gender === 'f' || pwiLists.some((o) => o.gender === 'f' && o.names.some((n) => norm(n) === key)) ? 'f' : 'm';
@@ -102,7 +113,7 @@ for (const L of pwiLists) {
       if (wrestlers.some((x) => x.id === w.id)) { err(`pwi.txt: "${name}" clashes with an existing wrestler id; add an alias`); return; }
       wrestlers.push(w); byName.set(name, w); byNorm.set(key, w);
     }
-    const rank = i + 1, of = L.names.length;
+    const rank = i + 1;
     const score = 1 - (rank - 1) / of; // 1 = top of the list
     if (!w.pwi || score > 1 - (w.pwi.rank - 1) / w.pwi.of) w.pwi = { list: L.id, rank, of, cutoff: L.cutoff };
   });
@@ -363,7 +374,7 @@ const meta = {
   note: 'Real promotions, champions, results and shows researched from public sources (promotion sites, ticket pages, Wikipedia, news). Rankings start from the latest PWI 500 / Women\'s 250. Follower counts and viewership/attendance scores are rough estimates.',
   affiliates,
 };
-const pwi = pwiLists.map(({ id, gender, cutoff, source, names }) => ({ id, gender, cutoff, source, size: names.length }));
+const pwi = pwiLists.map(({ id, gender, cutoff, source, names, declared }) => ({ id, gender, cutoff, source, size: declared || names.length }));
 const files = { cities, promotions, wrestlers, titles, reigns, results, shows, meta, watch, past };
 // Inside the app project, refresh the bundled copy. In the standalone data repo there is no src/data.
 const out = path.join(root, 'src', 'data');
