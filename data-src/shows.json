@@ -1,133 +1,5 @@
 [
  {
-  "promotion": "880-wrestling",
-  "name": "880 Wrestling",
-  "date": "2026-11-12",
-  "time": "TBA",
-  "city": "pit",
-  "venue": "1010 Freyburg ST",
-  "lat": 40.42654,
-  "lng": -79.9883,
-  "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-0b0"
- },
- {
-  "promotion": "ascend",
-  "name": "Ascend Pro Wrestling",
-  "date": "2026-11-12",
-  "time": "7:00 PM",
-  "city": "cin",
-  "venue": "Hamilton Co Fair, 7700 Vine ST",
-  "lat": 39.1031,
-  "lng": -84.512,
-  "approx": true,
-  "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-639"
- },
- {
-  "promotion": "iwr",
-  "name": "Insane Wrestling Revolution",
-  "date": "2026-11-12",
-  "time": "7:00 PM",
-  "city": "wyandotte-mi",
-  "venue": "Grizzly's Bar and Grill, 1519 Oak ST",
-  "lat": 42.2142,
-  "lng": -83.1499,
-  "approx": true,
-  "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-639"
- },
- {
-  "promotion": "ovw",
-  "name": "Ohio Valley Wrestling",
-  "date": "2026-11-12",
-  "time": "6:30 PM",
-  "city": "louisville-ky",
-  "venue": "4400 Shepherdsville RD",
-  "lat": 38.18577,
-  "lng": -85.65972,
-  "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-0b0"
- },
- {
-  "promotion": "pwe",
-  "name": "Phoenix Wrestling Experience",
-  "date": "2026-11-12",
-  "time": "6:30 PM",
-  "city": "augusta-ga",
-  "venue": "Savannah River Brewing, 813 5th ST",
-  "lat": 33.46551,
-  "lng": -81.96276,
-  "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-0b0"
- },
- {
-  "promotion": "rmp",
-  "name": "Rocky Mountain Pro",
-  "date": "2026-11-12",
-  "time": "7:00 PM",
-  "city": "golden-co",
-  "venue": "15200 W 6th Ave",
-  "lat": 39.7555,
-  "lng": -105.2211,
-  "approx": true,
-  "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-0b0"
- },
- {
-  "promotion": "waterloo-wrestling",
-  "name": "Waterloo Wrestling Coalition",
-  "date": "2026-11-12",
-  "time": "7 PM",
-  "city": "austin-tx",
-  "venue": "Pinballz, 13729 Research Blvd",
-  "lat": 30.2672,
-  "lng": -97.7431,
-  "approx": true,
-  "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-de0"
- },
- {
-  "promotion": "wopen",
-  "name": "Wrestling Open",
-  "date": "2026-11-12",
-  "time": "8:00 PM",
-  "city": "worcester-ma",
-  "venue": "White Eagle, 116-120 Green ST",
-  "lat": 42.2626,
-  "lng": -71.8023,
-  "approx": true,
-  "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-0b0"
- },
- {
-  "promotion": "wrestlepro",
-  "name": "WrestlePro",
-  "date": "2026-11-12",
-  "time": "7:30 PM",
-  "city": "union-nj",
-  "venue": "Columbian Club, 1034 Jeanette Ave",
-  "lat": 40.6976,
-  "lng": -74.2632,
-  "approx": true,
-  "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-164"
- },
- {
-  "promotion": "wwa4",
-  "name": "WWA4",
-  "date": "2026-11-12",
-  "time": "8:00 PM",
-  "city": "atlanta-ga",
-  "venue": "152 Selig Dr SW C",
-  "lat": 33.75724,
-  "lng": -84.54058,
-  "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-0b0"
- },
- {
-  "promotion": "wwe",
-  "name": "Road to Survivor Series: WarGames",
-  "date": "2026-11-12",
-  "time": "TBA",
-  "city": "estero-fl",
-  "venue": "Hertz Arena",
-  "lat": 26.4381,
-  "lng": -81.8067,
-  "approx": true,
-  "source": "https://www.wweschedule.com/wwe-schedule/2026"
- },
- {
   "promotion": "apw",
   "name": "Action Packed Wrestling",
   "date": "2026-11-13",
@@ -2711,6 +2583,19 @@
   "lng": -78.2247,
   "approx": true,
   "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-08d"
+ },
+ {
+  "promotion": "delta-blues",
+  "name": "Delta Blues Wrestling: November 28th",
+  "date": "2026-11-28",
+  "time": "TBA",
+  "city": "ripley-ms",
+  "venue": "34 Smith Park Drive",
+  "lat": 34.7298,
+  "lng": -88.9506,
+  "approx": true,
+  "source": "https://www.facebook.com/profile.php?id=61574358855632",
+  "note": "Front row $12, general admission $10."
  },
  {
   "promotion": "emerge",
