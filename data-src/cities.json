@@ -498,5 +498,6 @@
   {"id":"savona-ny","name":"Savona","state":"NY","lat":42.2854,"lng":-77.2186},
   {"id":"scottsville-ky","name":"Scottsville","state":"KY","lat":36.7534,"lng":-86.1905},
   {"id":"bowling-green-ky","name":"Bowling Green","state":"KY","lat":36.9903,"lng":-86.4436},
-  {"id":"east-hartford-ct","name":"East Hartford","state":"CT","lat":41.7823,"lng":-72.612}
+  {"id":"east-hartford-ct","name":"East Hartford","state":"CT","lat":41.7823,"lng":-72.612},
+  {"id":"rocky-mount-nc","name":"Rocky Mount","state":"NC","lat":35.9382,"lng":-77.7905}
 ]
