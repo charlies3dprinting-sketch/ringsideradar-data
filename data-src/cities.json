@@ -499,5 +499,18 @@
   {"id":"scottsville-ky","name":"Scottsville","state":"KY","lat":36.7534,"lng":-86.1905},
   {"id":"bowling-green-ky","name":"Bowling Green","state":"KY","lat":36.9903,"lng":-86.4436},
   {"id":"east-hartford-ct","name":"East Hartford","state":"CT","lat":41.7823,"lng":-72.612},
-  {"id":"rocky-mount-nc","name":"Rocky Mount","state":"NC","lat":35.9382,"lng":-77.7905}
+  {"id":"rocky-mount-nc","name":"Rocky Mount","state":"NC","lat":35.9382,"lng":-77.7905},
+  {"id":"sauget-il","name":"Sauget","state":"IL","lat":38.5928,"lng":-90.1693},
+  {"id":"bluefield-wv","name":"Bluefield","state":"WV","lat":37.2698,"lng":-81.2223},
+  {"id":"cape-girardeau-mo","name":"Cape Girardeau","state":"MO","lat":37.3059,"lng":-89.5182},
+  {"id":"trenton-nj","name":"Trenton","state":"NJ","lat":40.2171,"lng":-74.7429},
+  {"id":"hartford-ct","name":"Hartford","state":"CT","lat":41.7637,"lng":-72.6851},
+  {"id":"washington-dc","name":"Washington","state":"DC","lat":38.8951,"lng":-77.0364},
+  {"id":"west-sacramento-ca","name":"West Sacramento","state":"CA","lat":38.5805,"lng":-121.5302},
+  {"id":"petaluma-ca","name":"Petaluma","state":"CA","lat":38.2324,"lng":-122.6367},
+  {"id":"berkeley-ca","name":"Berkeley","state":"CA","lat":37.8716,"lng":-122.2728},
+  {"id":"newark-ca","name":"Newark","state":"CA","lat":37.5297,"lng":-122.0402},
+  {"id":"indio-ca","name":"Indio","state":"CA","lat":33.7207,"lng":-116.2168},
+  {"id":"hobart-in","name":"Hobart","state":"IN","lat":41.5323,"lng":-87.255},
+  {"id":"milwaukee-wi","name":"Milwaukee","state":"WI","lat":43.0389,"lng":-87.9065}
 ]
