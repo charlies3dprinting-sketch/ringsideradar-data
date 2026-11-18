@@ -48,3 +48,4 @@ ewf | https://empirewrestlingfederation.com/events/ | EWF (own site, 2026-11-18)
 phoenix-cw | https://www.pcwaz.com/tickets | PCW Arizona (own site, 2026-11-18) | Tickets page -> promotion ticketUrl; 11/21 Dobson HS and 12/4 Maricopa event pages -> show ticket links. check
 pwe | https://pwetickets.eventbrite.com | Phoenix Wrestling Experience (pweevents site, 2026-11-18) | Eventbrite organizer page -> promotion ticketUrl. check
 matw | https://www.matwonline.com | MATW (own site, 2026-11-18) | Thanksgiving Thunder 11/21 Gloucester tickets on TicketSpice -> show ticket link. check
+ghe-wrestling | https://www.instagram.com/ghe_prowrestling/ | GHE Pro Wrestling (IG DM 2026-11-17) | Asked to rename the page "GHE- Guerrero Hybrid Entertainment" and set home location Rocky Mount, NC (done 11/18: name, short GHE, rocky-mount-nc first). Also sent a new logo picture: they can upload it themselves from Edit page (app 1.2.6). check
