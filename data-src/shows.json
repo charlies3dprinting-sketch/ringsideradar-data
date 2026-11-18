@@ -1,54 +1,5 @@
 [
  {
-  "promotion": "appalachian-mounta",
-  "name": "Appalachian Mountain Wrestling",
-  "date": "2026-11-17",
-  "time": "6:00 PM",
-  "city": "harlan-ky",
-  "venue": "Harlan Ctr, 201 S Main ST",
-  "lat": 36.8431,
-  "lng": -83.3218,
-  "approx": true,
-  "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-164"
- },
- {
-  "promotion": "iwa-unlimited",
-  "name": "IWA Unlimited-Wrestling",
-  "date": "2026-11-17",
-  "time": "7:00 PM",
-  "city": "noble-il",
-  "venue": "137 West South Ave",
-  "lat": 38.6975,
-  "lng": -88.2237,
-  "approx": true,
-  "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-0b0"
- },
- {
-  "promotion": "nxt",
-  "name": "NXT (weekly TV)",
-  "date": "2026-11-17",
-  "time": "8:00 PM",
-  "city": "orl",
-  "venue": "WWE Performance Center",
-  "lat": 28.5383,
-  "lng": -81.3792,
-  "approx": true,
-  "note": "Weekly Tuesday NXT on The CW. Usually at the Performance Center; NXT sometimes goes on the road, so check WWE.com.",
-  "source": "https://en.wikipedia.org/wiki/WWE_NXT"
- },
- {
-  "promotion": "spartan-pro",
-  "name": "Spartan Pro Wrestling",
-  "date": "2026-11-17",
-  "time": "8:00 PM",
-  "city": "rainbow-city-al",
-  "venue": "Gadsden Mall, 1001 Rainbow DR",
-  "lat": 33.9548,
-  "lng": -86.0419,
-  "approx": true,
-  "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-0b0"
- },
- {
   "promotion": "aew",
   "name": "Dynamite: Denver",
   "date": "2026-11-18",
@@ -731,7 +682,8 @@
   "lat": 37.4093,
   "lng": -76.5266,
   "approx": true,
-  "source": "https://www.matwonline.com"
+  "source": "https://www.matwonline.com",
+  "ticketUrl": "https://midatlanticterritorywrestling.ticketspice.com/mid-atlantic-territory-wrestling-thanksgiving-thunder-gloucester-va-nov-21"
  },
  {
   "promotion": "maw",
@@ -843,7 +795,8 @@
   "lat": 33.4223,
   "lng": -111.8226,
   "approx": true,
-  "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-de0"
+  "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-de0",
+  "ticketUrl": "https://www.pcwaz.com/events/pcw-live-11-21-2026-dobson-high-school"
  },
  {
   "promotion": "pod",
@@ -1327,7 +1280,8 @@
   "venue": "Marx’s Court, 95 Enterprise ST #100",
   "lat": 40.27939,
   "lng": -79.83849,
-  "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-0b0"
+  "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-0b0",
+  "ticketUrl": "https://www.etix.com/ticket/p/56726336/wheeling-nailers-vs-indy-fuel-wheeling-wesbanco-arena-wheeling-nailers"
  },
  {
   "promotion": "jwa",
@@ -2178,7 +2132,8 @@
   "lat": 33.0581,
   "lng": -112.0476,
   "approx": true,
-  "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-08d"
+  "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-08d",
+  "ticketUrl": "https://www.pcwaz.com/events/pcw-live-12-4-2026-maricopa-fieldhouse"
  },
  {
   "promotion": "ppw",
@@ -2427,7 +2382,8 @@
   "venue": "Marx’s Court, 95 Enterprise ST #100",
   "lat": 40.27939,
   "lng": -79.83849,
-  "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-0b0"
+  "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-0b0",
+  "ticketUrl": "https://events.ticketleap.com/tickets/iwcwrestling/9th-annual-pittsburgh-classic"
  },
  {
   "promotion": "iwe",

@@ -37,3 +37,14 @@ sfc | https://www.instagram.com/sanctuaryfightclub/ | Sanctuary Fight Club (IG D
 delta-blues | email from deltablueswrestling@gmail.com, 2026-11-16 | Delta Blues Wrestling | Venue number is 34 (not 24) Smith Park Drive, Ripley MS -> fixed Nov 7 past show. check
 awl | https://buytickets.at/awl (linked from IG @awl.wrestling bio) | American Wrestling League (verified claim 22, 2026-11-17) | All or Nothing / Shop With a Hero, Sat Dec 5 2026 7-10 PM, The Market At The Mill, Pickens SC 29671. check
 awl | promoter posted it in the app (ps-433114f0b5fd, 225 Pumpkintown Hwy) | American Wrestling League | Removed our duplicate Dec 5 entry; their own post is the live one. check
+wopen | https://beyondwrestlingonline.com/wrestlingopen | Wrestling Open (own site, 2026-11-18) | Tickets page for all Wrestling Open shows -> promotion ticketUrl. check
+ovw | https://ovwrestling.com/tix | OVW (own site, 2026-11-18) | Events & Tickets page -> promotion ticketUrl. check
+aaw | https://www.ticketleap.events/events/aawpro | AAW (aawpro.com Tickets link, 2026-11-18) | TicketLeap -> promotion ticketUrl. check
+coastalcw | https://www.coastalchampionshipwrestlingfl.com/events | Coastal Championship Wrestling (own site, 2026-11-18) | EVENTS/TICKETS page -> promotion ticketUrl. check
+chaotic-wrestling | https://www.chaoticwrestling.com/tickets-events | Chaotic Wrestling (own site, 2026-11-18) | Tickets/Events page -> promotion ticketUrl. check
+iwc | https://events.ticketleap.com/events/iwcwrestling | IWC (iwcwrestling.com Buy Tickets, 2026-11-18) | TicketLeap -> promotion ticketUrl; 11/25 Wheeling Nailers night on Etix and 12/5 Pittsburgh Classic on TicketLeap -> show ticket links. check
+ncw | https://thencw.com/tickets/ | NCW (own site, 2026-11-18) | Tickets page -> promotion ticketUrl. check
+ewf | https://empirewrestlingfederation.com/events/ | EWF (own site, 2026-11-18) | Events/tickets page -> promotion ticketUrl. check
+phoenix-cw | https://www.pcwaz.com/tickets | PCW Arizona (own site, 2026-11-18) | Tickets page -> promotion ticketUrl; 11/21 Dobson HS and 12/4 Maricopa event pages -> show ticket links. check
+pwe | https://pwetickets.eventbrite.com | Phoenix Wrestling Experience (pweevents site, 2026-11-18) | Eventbrite organizer page -> promotion ticketUrl. check
+matw | https://www.matwonline.com | MATW (own site, 2026-11-18) | Thanksgiving Thunder 11/21 Gloucester tickets on TicketSpice -> show ticket link. check

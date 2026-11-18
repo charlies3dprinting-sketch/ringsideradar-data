@@ -190,6 +190,11 @@ summary.
 - `data-src/affiliates.json` holds affiliate tags by site (e.g. `"ticketmaster.com": {"template": "https://…/c/1/2/3?u={url}"}`
   for an Impact deep link, or `"vividseats.com": {"param": "wsUser", "value": "…"}`). The app applies them to Get tickets,
   Merch and Watch links on that site. Don't edit it in the weekly run unless Charlie asks; build-data.mjs validates it.
+- Referral tags (app 1.2.6+, 2026-11-18): every Get tickets link without an affiliate deal is opened with
+  `utm_source=ringsideradar&utm_medium=referral` (Eventbrite: `aff=ringsideradar`) so promoters see the fans we send them in
+  their own sales/analytics reports. Never add those to `ticketUrl` values in the data; the app adds them.
+- Promoters can now set their own tickets page, website, socials and watch links from the app (Edit page, schema-1.8.sql).
+  Those live in Supabase and win over promotions.json in the app, so don't fight them in the data.
 
 ## Finish
 ```bash
