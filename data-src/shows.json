@@ -726,18 +726,6 @@
   "source": "https://ncgwrestling.com/events"
  },
  {
-  "promotion": "ncg",
-  "name": "Noble Champions Group",
-  "date": "2026-11-21",
-  "time": "7 PM",
-  "city": "wayne-mi",
-  "venue": "Hype Athletics, 4635 Howe RD",
-  "lat": 42.2814,
-  "lng": -83.3863,
-  "approx": true,
-  "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-08d"
- },
- {
   "promotion": "new-south",
   "name": "New South",
   "date": "2026-11-21",
@@ -3092,18 +3080,6 @@
   "lng": -78.7999,
   "approx": true,
   "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-0b0"
- },
- {
-  "promotion": "dcw",
-  "name": "Dominant Championship Wrestling",
-  "date": "2026-12-12",
-  "time": "7:00 PM",
-  "city": "fuquay-varina-nc-2",
-  "venue": "Shoofly Athletics, 620 Lakestone Commons Ave",
-  "lat": 35.5843,
-  "lng": -78.8,
-  "approx": true,
-  "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-164"
  },
  {
   "promotion": "insurgence-pro",

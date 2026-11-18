@@ -245,7 +245,23 @@ const pastRaw = fs.existsSync(pastFile) ? JSON.parse(fs.readFileSync(pastFile, '
 const DORMANT = new Set(promotions.filter((p) => p.dormant).map((p) => p.id));
 const rawShows = allShows.filter((s) => !(isDate(s.date) && s.date < todayIso) && !DORMANT.has(s.promotion));
 const moved = allShows.filter((s) => isDate(s.date) && s.date < todayIso);
-const showId = (s, i, list) => s.id ?? `${s.promotion}-${s.date}${list.filter((x) => x.promotion === s.promotion && x.date === s.date).length > 1 ? `-${i}` : ''}`;
+// Show ids must not change from week to week: fans' saved / going shows and share links point at them. A promotion's
+// only show that day is "<promotion>-<date>". When it has more than one that day (a double-header, two towns), each
+// gets its town (then its venue) added, e.g. "wwe-2026-11-20-toledo-oh", and only a true tie falls back to a number.
+// (Until 2026-11-18 the suffix was the show's position in the whole list, which moved every time a show was archived.)
+const slugPart = (v) => String(v ?? '').normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '').slice(0, 30);
+const showId = (s, i, list) => {
+  if (s.id) return s.id;
+  const base = `${s.promotion}-${s.date}`;
+  const same = list.filter((x) => x.promotion === s.promotion && x.date === s.date);
+  if (same.length < 2) return base;
+  const byCity = same.filter((x) => x.city === s.city);
+  if (byCity.length < 2) return `${base}-${slugPart(s.city)}`;
+  const venue = slugPart(String(s.venue ?? '').split(',')[0]);
+  const byVenue = byCity.filter((x) => slugPart(String(x.venue ?? '').split(',')[0]) === venue);
+  if (byVenue.length < 2) return `${base}-${slugPart(s.city)}-${venue}`;
+  return `${base}-${slugPart(s.city)}-${venue}-${byVenue.indexOf(s) + 1}`;
+};
 if (moved.length) {
   const have = new Set(pastRaw.map((s) => s.id));
   for (const [i, s] of allShows.entries()) {

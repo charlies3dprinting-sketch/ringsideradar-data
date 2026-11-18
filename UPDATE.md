@@ -193,6 +193,9 @@ summary.
 - Referral tags (app 1.2.6+, 2026-11-18): every Get tickets link without an affiliate deal is opened with
   `utm_source=ringsideradar&utm_medium=referral` (Eventbrite: `aff=ringsideradar`) so promoters see the fans we send them in
   their own sales/analytics reports. Never add those to `ticketUrl` values in the data; the app adds them.
+- Show ids are stable (2026-11-18): a promotion's only show on a date is `<promotion>-<date>`; same-day doubles add the
+  town (then venue). Fans' saved/going shows and share links use these ids, so never hand-set an `id` in shows.json and
+  remove true duplicates instead of keeping two copies of one show.
 - Promoters can now set their own tickets page, website, socials and watch links from the app (Edit page, schema-1.8.sql).
   Those live in Supabase and win over promotions.json in the app, so don't fight them in the data.
 
