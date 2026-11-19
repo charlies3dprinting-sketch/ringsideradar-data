@@ -1,31 +1,5 @@
 [
  {
-  "promotion": "aew",
-  "name": "Dynamite: Denver",
-  "date": "2026-11-18",
-  "time": "TBA",
-  "city": "denver-co",
-  "venue": "Mission Ballroom",
-  "lat": 39.7392,
-  "lng": -104.9847,
-  "approx": true,
-  "ticketUrl": "https://www.axs.com/events/1608376/aew-dynamite-tickets",
-  "source": "https://www.allelitewrestling.com/aew-events"
- },
- {
-  "promotion": "tna",
-  "name": "Thursday Night iMPACT! taping",
-  "date": "2026-11-18",
-  "time": "TBA",
-  "city": "calgary-ab",
-  "venue": "WinSport Event Centre",
-  "lat": 51.0501,
-  "lng": -114.0853,
-  "approx": true,
-  "ticketUrl": "https://www.ticketmaster.ca/tna-impact-on-amc-calgary-alberta-11-18-2026/event/11006528B56273B5",
-  "source": "https://tnawrestling.com/events/"
- },
- {
   "promotion": "880-wrestling",
   "name": "880 Wrestling",
   "date": "2026-11-19",
@@ -3770,14 +3744,14 @@
  {
   "promotion": "hub-city-wrestling",
   "name": "Hub City Wrestling",
-  "date": "2026-12-19",
+  "date": "2027-01-02",
   "time": "TBA",
-  "city": "jackson-tn",
-  "venue": "Christmas for Kids",
-  "lat": 35.6145,
-  "lng": -88.814,
+  "city": "huntingdon-tn",
+  "venue": "TBA",
+  "lat": 36.0006,
+  "lng": -88.4281,
   "approx": true,
-  "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-0b0"
+  "source": "email from hubcitywrestling@yahoo.com, 2026-11-18"
  },
  {
   "promotion": "outta-control",

@@ -8080,5 +8080,29 @@
   "lat": 33.9548,
   "lng": -86.0419,
   "featuring": []
+ },
+ {
+  "id": "aew-2026-11-18",
+  "promotion": "aew",
+  "name": "Dynamite: Denver",
+  "date": "2026-11-18",
+  "time": "TBA",
+  "city": "denver-co",
+  "venue": "Mission Ballroom",
+  "lat": 39.7392,
+  "lng": -104.9847,
+  "featuring": []
+ },
+ {
+  "id": "tna-2026-11-18",
+  "promotion": "tna",
+  "name": "Thursday Night iMPACT! taping",
+  "date": "2026-11-18",
+  "time": "TBA",
+  "city": "calgary-ab",
+  "venue": "WinSport Event Centre",
+  "lat": 51.0501,
+  "lng": -114.0853,
+  "featuring": []
  }
 ]
