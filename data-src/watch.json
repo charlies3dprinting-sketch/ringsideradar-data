@@ -1012,6 +1012,160 @@
    "venue": "ESPN Wide World of Sports Complex, near Orlando",
    "note": "Streams live on Netflix as a special edition of Monday Night Raw.",
    "source": "https://wwe.com/article/wwe-walt-disney-company-john-cena-classic-avenger-doomsday-worlds-collide"
+  },
+  {
+   "id": "iwtv-wopen-2026-11-26",
+   "promotion": "wopen",
+   "name": "Wrestling Open: Episode 257",
+   "date": "2026-11-26",
+   "time": "20:00",
+   "tz": "America/New_York",
+   "where": [
+    "IWTV"
+   ],
+   "access": "ppv",
+   "note": "Live on IWTV (listed as PPV on the IWTV schedule).",
+   "source": "https://independentwrestling.tv/schedule"
+  },
+  {
+   "id": "iwtv-nywc-2026-11-28",
+   "promotion": "nywc",
+   "name": "NYWC: No Thanks Given",
+   "date": "2026-11-28",
+   "time": "19:00",
+   "tz": "America/New_York",
+   "where": [
+    "IWTV"
+   ],
+   "access": "ppv",
+   "note": "Live on IWTV (listed as PPV on the IWTV schedule).",
+   "source": "https://independentwrestling.tv/schedule"
+  },
+  {
+   "id": "iwtv-twe-2026-11-28",
+   "promotion": "twe",
+   "name": "TWE: Turkey Bowl 2026",
+   "date": "2026-11-28",
+   "time": "20:00",
+   "tz": "America/New_York",
+   "where": [
+    "IWTV"
+   ],
+   "access": "ppv",
+   "note": "Live on IWTV (listed as PPV on the IWTV schedule).",
+   "source": "https://independentwrestling.tv/schedule"
+  },
+  {
+   "id": "iwtv-wopen-2026-11-30",
+   "promotion": "wopen",
+   "name": "Wrestling Open RI: Episode 77",
+   "date": "2026-11-30",
+   "time": "19:00",
+   "tz": "America/New_York",
+   "where": [
+    "IWTV"
+   ],
+   "access": "ppv",
+   "note": "Live on IWTV (listed as PPV on the IWTV schedule).",
+   "source": "https://independentwrestling.tv/schedule"
+  },
+  {
+   "id": "iwtv-action-wrestling-2026-12-04",
+   "promotion": "action-wrestling",
+   "name": "ACTION: Bangers Only 7",
+   "date": "2026-12-04",
+   "time": "19:30",
+   "tz": "America/New_York",
+   "where": [
+    "IWTV"
+   ],
+   "access": "ppv",
+   "note": "Live on IWTV (listed as PPV on the IWTV schedule).",
+   "source": "https://independentwrestling.tv/schedule"
+  },
+  {
+   "id": "iwtv-etu-2026-12-06",
+   "promotion": "etu",
+   "name": "ETU Wrestling: Enough Ain't Enough: Year 5 Celebration",
+   "date": "2026-12-06",
+   "time": "16:00",
+   "tz": "America/New_York",
+   "where": [
+    "IWTV"
+   ],
+   "access": "ppv",
+   "note": "Live on IWTV (listed as PPV on the IWTV schedule).",
+   "source": "https://independentwrestling.tv/schedule"
+  },
+  {
+   "id": "iwtv-northshore-2026-12-12",
+   "promotion": "northshore",
+   "name": "NSPW: Le Dernier Chapitre 2026",
+   "date": "2026-12-12",
+   "time": "20:00",
+   "tz": "America/New_York",
+   "where": [
+    "IWTV"
+   ],
+   "access": "ppv",
+   "note": "Live on IWTV (listed as PPV on the IWTV schedule).",
+   "source": "https://independentwrestling.tv/schedule"
+  },
+  {
+   "id": "iwtv-czw-2027-01-01",
+   "promotion": "czw",
+   "name": "CZW: Best of the Best 2027",
+   "date": "2027-01-01",
+   "time": "20:00",
+   "tz": "America/New_York",
+   "where": [
+    "IWTV"
+   ],
+   "access": "ppv",
+   "note": "Live on IWTV (listed as PPV on the IWTV schedule).",
+   "source": "https://independentwrestling.tv/schedule"
+  },
+  {
+   "id": "iwtv-beyond-2027-01-02",
+   "promotion": "beyond",
+   "name": "Beyond Wrestling: Cannonball Run",
+   "date": "2027-01-02",
+   "time": "16:00",
+   "tz": "America/New_York",
+   "where": [
+    "IWTV"
+   ],
+   "access": "ppv",
+   "note": "Live on IWTV (listed as PPV on the IWTV schedule).",
+   "source": "https://independentwrestling.tv/schedule"
+  },
+  {
+   "id": "iwtv-nhb-2027-01-02",
+   "promotion": "nhb",
+   "name": "ICW NHB: The Chains Vol. 106",
+   "date": "2027-01-02",
+   "time": "20:00",
+   "tz": "America/New_York",
+   "where": [
+    "IWTV"
+   ],
+   "access": "ppv",
+   "note": "Live on IWTV (listed as PPV on the IWTV schedule).",
+   "source": "https://independentwrestling.tv/schedule"
+  },
+  {
+   "id": "iwtv-powerprolucha-2027-01-16",
+   "promotion": "powerprolucha",
+   "name": "Power Pro Lucha: Powerquest",
+   "date": "2027-01-16",
+   "time": "18:00",
+   "tz": "America/New_York",
+   "where": [
+    "IWTV"
+   ],
+   "access": "ppv",
+   "note": "Live on IWTV (listed as PPV on the IWTV schedule).",
+   "source": "https://independentwrestling.tv/schedule"
   }
  ],
  "changes": [

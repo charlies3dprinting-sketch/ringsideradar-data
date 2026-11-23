@@ -512,5 +512,12 @@
   {"id":"newark-ca","name":"Newark","state":"CA","lat":37.5297,"lng":-122.0402},
   {"id":"indio-ca","name":"Indio","state":"CA","lat":33.7207,"lng":-116.2168},
   {"id":"hobart-in","name":"Hobart","state":"IN","lat":41.5323,"lng":-87.255},
-  {"id":"milwaukee-wi","name":"Milwaukee","state":"WI","lat":43.0389,"lng":-87.9065}
+  {"id":"milwaukee-wi","name":"Milwaukee","state":"WI","lat":43.0389,"lng":-87.9065},
+  {"id":"calhoun-ga","name":"Calhoun","state":"GA","lat":34.5026,"lng":-84.951},
+  {"id":"toledo-ia","name":"Toledo","state":"IA","lat":41.9956,"lng":-92.5769},
+  {"id":"shawnee-ks","name":"Shawnee","state":"KS","lat":39.0417,"lng":-94.7202},
+  {"id":"pikeville-ky","name":"Pikeville","state":"KY","lat":37.4793,"lng":-82.5188},
+  {"id":"kennebunkport-me","name":"Kennebunkport","state":"ME","lat":43.3618,"lng":-70.4767},
+  {"id":"keller-tx","name":"Keller","state":"TX","lat":32.9346,"lng":-97.2517},
+  {"id":"arlington-tx","name":"Arlington","state":"TX","lat":32.7357,"lng":-97.1081}
 ]
