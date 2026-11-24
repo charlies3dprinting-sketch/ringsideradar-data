@@ -9246,5 +9246,41 @@
   "lat": 46.2857,
   "lng": -119.2845,
   "featuring": []
+ },
+ {
+  "id": "wopen-2026-11-23",
+  "promotion": "wopen",
+  "name": "Wrestling Open",
+  "date": "2026-11-23",
+  "time": "7:00 PM",
+  "city": "cranston-ri",
+  "venue": "Rhodes on the Pawtuxet, 60 Rhodes PL",
+  "lat": 41.76775,
+  "lng": -71.39364,
+  "featuring": []
+ },
+ {
+  "id": "wwe-2026-11-23",
+  "promotion": "wwe",
+  "name": "Monday Night Raw",
+  "date": "2026-11-23",
+  "time": "7:45 PM",
+  "city": "wichita-ks",
+  "venue": "Intrust Bank Arena",
+  "lat": 37.6922,
+  "lng": -97.3375,
+  "featuring": []
+ },
+ {
+  "id": "wwn-2026-11-23",
+  "promotion": "wwn",
+  "name": "World Wrestling Network",
+  "date": "2026-11-23",
+  "time": "7:00 PM",
+  "city": "clearwater-fl",
+  "venue": "OCC Road House, 10575 49th ST N",
+  "lat": 27.8684,
+  "lng": -82.7002,
+  "featuring": []
  }
 ]

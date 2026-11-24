@@ -1,39 +1,5 @@
 [
  {
-  "promotion": "wopen",
-  "name": "Wrestling Open",
-  "date": "2026-11-23",
-  "time": "7:00 PM",
-  "city": "cranston-ri",
-  "venue": "Rhodes on the Pawtuxet, 60 Rhodes PL",
-  "lat": 41.76775,
-  "lng": -71.39364,
-  "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-0b0"
- },
- {
-  "promotion": "wwe",
-  "name": "Monday Night Raw",
-  "date": "2026-11-23",
-  "time": "7:45 PM",
-  "city": "wichita-ks",
-  "venue": "Intrust Bank Arena",
-  "lat": 37.6922,
-  "lng": -97.3375,
-  "approx": true,
-  "source": "https://www.wweschedule.com/wwe-schedule/2026"
- },
- {
-  "promotion": "wwn",
-  "name": "World Wrestling Network",
-  "date": "2026-11-23",
-  "time": "7:00 PM",
-  "city": "clearwater-fl",
-  "venue": "OCC Road House, 10575 49th ST N",
-  "lat": 27.8684,
-  "lng": -82.7002,
-  "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-0b0"
- },
- {
   "promotion": "iwa-unlimited",
   "name": "IWA Unlimited-Wrestling",
   "date": "2026-11-24",
@@ -402,6 +368,17 @@
   "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-0b0"
  },
  {
+  "promotion": "pwa",
+  "name": "Pro Wrestling Alliance",
+  "date": "2026-11-27",
+  "time": "8:00 PM",
+  "city": "mount-juliet-tn",
+  "venue": "Gladeville Comm Ctr, 95 Mcrary Rd",
+  "lat": 36.2,
+  "lng": -86.5186,
+  "source": "promoter email (pwawrestling21@gmail.com, Matthew Starr) 2026-11-24"
+ },
+ {
   "promotion": "pwe",
   "name": "Phoenix Wrestling Experience",
   "date": "2026-11-27",
@@ -554,6 +531,17 @@
   "lng": -85.9214,
   "approx": true,
   "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-639"
+ },
+ {
+  "promotion": "etcw",
+  "name": "East Tennessee Championship Wrestling",
+  "date": "2026-11-28",
+  "time": "7:00 PM",
+  "city": "alcoa-tn",
+  "venue": "Springbrook Rec Ctr, 1537 Dalton ST",
+  "lat": 35.79858,
+  "lng": -83.97721,
+  "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-0b0"
  },
  {
   "promotion": "ewa",
@@ -799,17 +787,6 @@
   "lng": -97.2517,
   "approx": true,
   "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-874"
- },
- {
-  "promotion": "etcw",
-  "name": "East Tennessee Championship Wrestling",
-  "date": "2026-11-28",
-  "time": "7:00 PM",
-  "city": "alcoa-tn",
-  "venue": "Springbrook Rec Ctr, 1537 Dalton ST",
-  "lat": 35.79858,
-  "lng": -83.97721,
-  "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-0b0"
  },
  {
   "promotion": "glory-pro",
@@ -1154,6 +1131,17 @@
   "lat": 33.91779,
   "lng": -85.63025,
   "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-0b0"
+ },
+ {
+  "promotion": "pwa",
+  "name": "Pro Wrestling Alliance",
+  "date": "2026-12-04",
+  "time": "8:00 PM",
+  "city": "mount-juliet-tn",
+  "venue": "Gladeville Comm Ctr, 95 Mcrary Rd",
+  "lat": 36.2,
+  "lng": -86.5186,
+  "source": "promoter email (pwawrestling21@gmail.com, Matthew Starr) 2026-11-24"
  },
  {
   "promotion": "roh",
@@ -1685,6 +1673,18 @@
   "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-248"
  },
  {
+  "promotion": "kentucky-f",
+  "name": "KWF Kids Christmas Bike Giveaway",
+  "date": "2026-12-06",
+  "time": "4:00 PM",
+  "city": "frankfort-ky",
+  "venue": "Monte Carlo, 260 Versailles Rd",
+  "lat": 38.2009,
+  "lng": -84.8733,
+  "approx": true,
+  "source": "promoter email (kwfbooking@gmail.com) 2026-11-24 + flyer"
+ },
+ {
   "promotion": "nxt",
   "name": "NXT Holiday Live Tour",
   "date": "2026-12-06",
@@ -2023,6 +2023,17 @@
   "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-0b0"
  },
  {
+  "promotion": "pwa",
+  "name": "Pro Wrestling Alliance",
+  "date": "2026-12-11",
+  "time": "8:00 PM",
+  "city": "mount-juliet-tn",
+  "venue": "Gladeville Comm Ctr, 95 Mcrary Rd",
+  "lat": 36.2,
+  "lng": -86.5186,
+  "source": "promoter email (pwawrestling21@gmail.com, Matthew Starr) 2026-11-24"
+ },
+ {
   "promotion": "resolute-wrestling",
   "name": "Resolute Wrestling",
   "date": "2026-12-11",
@@ -2078,6 +2089,17 @@
   "lng": -82.7195,
   "approx": true,
   "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-0b0"
+ },
+ {
+  "promotion": "aiwf-mid-atlantic",
+  "name": "AIWF Mid-Atlantic",
+  "date": "2026-12-12",
+  "time": "TBA",
+  "city": "mount-airy-nc",
+  "venue": "Mount Airy Armory, 691 W Lebanon St",
+  "lat": 36.51706,
+  "lng": -80.61667,
+  "source": "promoter email (aiwf20@hotmail.com) 2026-11-24"
  },
  {
   "promotion": "coastalcw",
@@ -2723,6 +2745,17 @@
   "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-0b0"
  },
  {
+  "promotion": "pwa",
+  "name": "Pro Wrestling Alliance",
+  "date": "2026-12-18",
+  "time": "8:00 PM",
+  "city": "mount-juliet-tn",
+  "venue": "Gladeville Comm Ctr, 95 Mcrary Rd",
+  "lat": 36.2,
+  "lng": -86.5186,
+  "source": "promoter email (pwawrestling21@gmail.com, Matthew Starr) 2026-11-24"
+ },
+ {
   "promotion": "southern-f",
   "name": "Southern Wrestling Federation",
   "date": "2026-12-18",
@@ -3337,6 +3370,19 @@
   "approx": true,
   "ticketUrl": "https://www.eventbrite.com/e/dmac-promotions-presents-flex-wrestling-boxing-day-brawl-tickets-2003546750264",
   "source": "https://www.eventbrite.com/e/dmac-promotions-presents-flex-wrestling-boxing-day-brawl-tickets-2003546750264"
+ },
+ {
+  "promotion": "iwr",
+  "name": "IWR Seasons Beatings Fest",
+  "date": "2026-12-26",
+  "time": "7:00 PM",
+  "city": "monroe",
+  "venue": "Frenchtown Township Community and Event Center, 2621 N Dixie Hwy",
+  "lat": 41.9164,
+  "lng": -83.3977,
+  "approx": true,
+  "ticketUrl": "https://www.purplepass.com/iwr49",
+  "source": "promoter email (theiwrllc@gmail.com) 2026-11-24 + flyer"
  },
  {
   "promotion": "outta-control",
@@ -4664,6 +4710,17 @@
   "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-248"
  },
  {
+  "promotion": "aiwf-mid-atlantic",
+  "name": "AIWF Mid-Atlantic",
+  "date": "2027-01-23",
+  "time": "TBA",
+  "city": "mount-airy-nc",
+  "venue": "Mount Airy Armory, 691 W Lebanon St",
+  "lat": 36.51706,
+  "lng": -80.61667,
+  "source": "promoter email (aiwf20@hotmail.com) 2026-11-24"
+ },
+ {
   "promotion": "outta-control",
   "name": "Outta Control Wrestling",
   "date": "2027-01-23",
@@ -5586,6 +5643,17 @@
   "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-874"
  },
  {
+  "promotion": "aiwf-mid-atlantic",
+  "name": "AIWF Mid-Atlantic",
+  "date": "2027-02-20",
+  "time": "TBA",
+  "city": "mount-airy-nc",
+  "venue": "Mount Airy Armory, 691 W Lebanon St",
+  "lat": 36.51706,
+  "lng": -80.61667,
+  "source": "promoter email (aiwf20@hotmail.com) 2026-11-24"
+ },
+ {
   "promotion": "outta-control",
   "name": "Outta Control Wrestling",
   "date": "2027-02-20",
@@ -5959,6 +6027,17 @@
   "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-874"
  },
  {
+  "promotion": "aiwf-mid-atlantic",
+  "name": "AIWF Mid-Atlantic",
+  "date": "2027-03-20",
+  "time": "TBA",
+  "city": "mount-airy-nc",
+  "venue": "Veterans Park, 691 W Lebanon St",
+  "lat": 36.51706,
+  "lng": -80.61667,
+  "source": "promoter email (aiwf20@hotmail.com) 2026-11-24"
+ },
+ {
   "promotion": "outta-control",
   "name": "Outta Control Wrestling",
   "date": "2027-03-20",
@@ -5981,6 +6060,17 @@
   "lng": -84.7699,
   "approx": true,
   "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-874"
+ },
+ {
+  "promotion": "aiwf-mid-atlantic",
+  "name": "AIWF Mid-Atlantic",
+  "date": "2027-03-21",
+  "time": "TBA",
+  "city": "mount-airy-nc",
+  "venue": "Veterans Park, 691 W Lebanon St",
+  "lat": 36.51706,
+  "lng": -80.61667,
+  "source": "promoter email (aiwf20@hotmail.com) 2026-11-24"
  },
  {
   "promotion": "american-pro",
