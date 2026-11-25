@@ -9282,5 +9282,53 @@
   "lat": 27.8684,
   "lng": -82.7002,
   "featuring": []
+ },
+ {
+  "id": "iwa-unlimited-2026-11-24",
+  "promotion": "iwa-unlimited",
+  "name": "IWA Unlimited-Wrestling",
+  "date": "2026-11-24",
+  "time": "7:00 PM",
+  "city": "noble-il",
+  "venue": "137 West South Ave",
+  "lat": 38.6975,
+  "lng": -88.2237,
+  "featuring": []
+ },
+ {
+  "id": "nxt-2026-11-24",
+  "promotion": "nxt",
+  "name": "NXT (weekly TV)",
+  "date": "2026-11-24",
+  "time": "8:00 PM",
+  "city": "orl",
+  "venue": "WWE Performance Center",
+  "lat": 28.5383,
+  "lng": -81.3792,
+  "featuring": []
+ },
+ {
+  "id": "pwp-live-2026-11-24",
+  "promotion": "pwp-live",
+  "name": "PWP",
+  "date": "2026-11-24",
+  "time": "8:00 PM",
+  "city": "omaha-ne",
+  "venue": "Waiting Room Lounge, 6212 Maple ST",
+  "lat": 41.2563,
+  "lng": -95.9404,
+  "featuring": []
+ },
+ {
+  "id": "spartan-pro-2026-11-24",
+  "promotion": "spartan-pro",
+  "name": "Spartan Pro Wrestling",
+  "date": "2026-11-24",
+  "time": "8:00 PM",
+  "city": "rainbow-city-al",
+  "venue": "Gadsden Mall, 1001 Rainbow DR",
+  "lat": 33.9548,
+  "lng": -86.0419,
+  "featuring": []
  }
 ]

@@ -1,54 +1,5 @@
 [
  {
-  "promotion": "iwa-unlimited",
-  "name": "IWA Unlimited-Wrestling",
-  "date": "2026-11-24",
-  "time": "7:00 PM",
-  "city": "noble-il",
-  "venue": "137 West South Ave",
-  "lat": 38.6975,
-  "lng": -88.2237,
-  "approx": true,
-  "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-0b0"
- },
- {
-  "promotion": "nxt",
-  "name": "NXT (weekly TV)",
-  "date": "2026-11-24",
-  "time": "8:00 PM",
-  "city": "orl",
-  "venue": "WWE Performance Center",
-  "lat": 28.5383,
-  "lng": -81.3792,
-  "approx": true,
-  "note": "Weekly Tuesday NXT on The CW. Usually at the Performance Center; NXT sometimes goes on the road, so check WWE.com.",
-  "source": "https://en.wikipedia.org/wiki/WWE_NXT"
- },
- {
-  "promotion": "pwp-live",
-  "name": "PWP",
-  "date": "2026-11-24",
-  "time": "8:00 PM",
-  "city": "omaha-ne",
-  "venue": "Waiting Room Lounge, 6212 Maple ST",
-  "lat": 41.2563,
-  "lng": -95.9404,
-  "approx": true,
-  "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-874"
- },
- {
-  "promotion": "spartan-pro",
-  "name": "Spartan Pro Wrestling",
-  "date": "2026-11-24",
-  "time": "8:00 PM",
-  "city": "rainbow-city-al",
-  "venue": "Gadsden Mall, 1001 Rainbow DR",
-  "lat": 33.9548,
-  "lng": -86.0419,
-  "approx": true,
-  "source": "https://wrestlereality.substack.com/p/upcoming-independent-wrestling-events-0b0"
- },
- {
   "promotion": "aew",
   "name": "Dynamite/Collision: Omaha",
   "date": "2026-11-25",
@@ -1073,7 +1024,7 @@
  },
  {
   "promotion": "new-edge-pro-wrest",
-  "name": "New Edge Pro Wrestling",
+  "name": "New Edge Light It Up",
   "date": "2026-12-04",
   "time": "7:00 PM",
   "city": "hazel-park-mi",
@@ -2383,6 +2334,18 @@
   "approx": true,
   "ticketUrl": "https://www.eventbrite.com/e/desert-duel-tickets-2003836192995",
   "source": "https://www.indydependent.com/full-list-of-events"
+ },
+ {
+  "promotion": "new-edge-pro-wrest",
+  "name": "New Edge That's Our Uncle: A Benefit for Uncle Chase",
+  "date": "2026-12-13",
+  "time": "TBA",
+  "city": "hazel-park-mi",
+  "venue": "Venue TBA",
+  "lat": 42.4625,
+  "lng": -83.1041,
+  "approx": true,
+  "source": "promoter email (newedgeprowrestling@gmail.com) 2026-11-24"
  },
  {
   "promotion": "pro-championship-wrestli",
